@@ -1,0 +1,25 @@
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+
+
+# Investigaciones Cientificas sobre Ciencias de la Computación
+SELECT ?titulo ?descripcion ?autor ?tema ?idioma ?revista ?fechaPublicacion ?URL # Si colocamos ?obra podemos ver las propiedades que tiene 
+WHERE
+{  
+  ?obra wdt:P921 wd:Q21198. # Buscamos obras que tengan como tema principal la Ciencias de la Computación
+  # ?obra wdt:P31 wd:Q13442814. # Podriamos instanciar a que solo devuelva articulos cientificos
+  ?obra wdt:P921 ?temaCod; # Buscamos obras que tengan temas
+        wdt:P1476 ?titulo. # Buscamos obras con su titulo
+  OPTIONAL {?obra wdt:P2093 ?autor.} # Buscamos obras con autores
+  OPTIONAL {?obra wdt:P407 ?idiomaCod. } # Buscamos obras con su idioma  
+  OPTIONAL {?obra wdt:P1433 ?revistaCod.} # Buscamos obras con su revista de publicación
+  OPTIONAL{?obra wdt:P577 ?fechaPublicacion.} # Buscamos obras con su fecha de  publicación
+  OPTIONAL {?obra wdt:P953 ?URL.} # Buscamos la página que contienen toda la obra
+  OPTIONAL {?obra wdt:P856 ?URL2.} # Buscamos la página oficial que contiene la obra
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". 
+                         ?idiomaCod rdfs:label ?idioma.
+                         ?temaCod rdfs:label ?tema.
+                         ?revistaCod rdfs:label ?revista.
+                         ?obra schema:description ?descripcion.}
+  BIND(CONCAT(?URL,?URL2) AS ?URL).
+}
