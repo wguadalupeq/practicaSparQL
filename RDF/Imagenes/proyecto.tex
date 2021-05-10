@@ -136,7 +136,7 @@ SparQL debe tener en cuenta las características distintivas de RDF:
 
 \vspace{0.2cm}
 
-\section{¿Que es la web Semántica?}
+\subsection{¿Que es la web Semántica?}
 
 La Web Semántica vendría a ser una extensión de la Web actual dotada de significado, esto es, un espacio donde la información tendría un significado bien definido, de manera que pudiera ser interpretada tanto por agentes humanos como por agentes computarizados.
 
@@ -149,15 +149,15 @@ La web Semántica ha sido impulsada, entre otros, por el creador de la web, Tim 
 	\includegraphics[scale=0.40]{imagenes/imagen1.jpeg} 
 	\caption{Web semántica \cite{b4}}
 \end{figure}
-\section{URLs, URIs, IRIs}
-\subsection{URLs}
-El LRU es una cadena de caracteres con la que se asigna una dirección única a cada uno de los recursos de información disponibles en Internet. Existe un URL único para cada página de cada uno de los documentos de la WWW
+\subsection{URLs, URIs, IRIs}
+\subsubsection{URLs}
+El LRU es una cadena de caracteres con la que se asigna una dirección única a cada uno de los recursos de información disponibles en Internet. Existe un URL único para cada página de la web.
 
-\subsection{URIs}
+\subsubsection{URIs}
 Un identificador de recursos uniforme es una cadena de caracteres que identifica los recursos de una red de forma unívoca. La diferencia respecto a un localizador de recursos uniforme (URL) es que estos últimos hacen referencia a recursos que, de forma general, pueden variar en el tiempo. 
 
 Normalmente estos recursos son accesibles en una red o sistema. Los URI pueden ser localizador de recursos uniforme (URL),(URN)
-\subsection{IRIs}
+\subsubsection{IRIs}
 Es un estándar de protocolo de Internet que se basa en el protocolo Identificador uniforme de recursos (URI) al expandir en gran medida el conjunto de caracteres permitidos.
 
 \section{Estructura RDF}
@@ -181,7 +181,7 @@ En este ejemplo\textbf{<La ronda de noche>} y el objeto \textbf{<Rembrandt>} se 
 \vspace{0.2cm}
 
 
-\section{Buscando RDF con SPARQL}
+\subsection{Buscando RDF con SPARQL}
 SPARQL nos permite traducir datos en grafo, intensamente enlazados, en datos normalizados en formato tabular, esto es, distribuidos en filas y columnas, que se pueden abrir  en formato como .csv .json .ttl ,etc o también se pueden ver en programas de visualización
 
 
@@ -220,20 +220,7 @@ SPARQL, acrónimo de SPARQL \textit{Protocol and RDF Query Language}, es un leng
 
 \subsection{Ejemplos de Consultas}
 Veamos algunas consultas que son comunes y así poder entenderlas.
-\subsection{Estructura RDF a utilizar}
 
-\begin{figure}[h]
-\includegraphics[scale=0.2]{imagenes/estruc_rdf_30.png} 
-\caption{30 tripletas de la estructura RDF utilizada (ver archivo RDF.ttl) }
-\end{figure} 
-
-\begin{figure}[h]
-\includegraphics[scale=0.25]{imagenes/grafo_rdf_30.jpeg} 
-\caption{Grafo generado con 30 tripletas de la estructura RDF utilizada \cite{b2}}
-\end{figure} 
-
-
-\vspace{0.2cm}
 
 \textbf{Ejemplo}
 \begin{lstlisting}[captionpos=b, caption=SPARQL query, label=lst:sparql,
@@ -260,6 +247,8 @@ WHERE {
 }
 LIMIT 10
 \end{lstlisting}
+\vspace{4cm}
+
 \subsection{Estructura RDF a utilizar}
 
 \begin{figure}[h]
@@ -267,14 +256,25 @@ LIMIT 10
 \caption{30 tripletas de la estructura RDF utilizada (ver archivo RDF.ttl) }
 \end{figure} 
 
-\begin{figure}[H]
+\begin{figure}[h]
 \includegraphics[scale=0.25]{imagenes/grafo_rdf_30.jpeg} 
 \caption{Grafo generado con 30 tripletas de la estructura RDF utilizada \cite{b2}}
 \end{figure} 
 
-\vspace{0.2cm}
 
 \newpage
+Como podemos Apreciar en las figura anteriores es muestra la data ya lista para usarse y pasare a explicar algunas lineas y sea mas fácil para los usuarios que vienen a ser abreviaturas de prefijos para WikiData que es donde hemos bajado la información[h]
+
+
+\begin{itemize}
+	\item \textbf{wd: } Una entidad de WikiData como se puede apreciar en el URL  <http://www.wikidata.org/entity/>
+	\item \textbf{wdt: } Propiedades de una entidad de WikiData  <http://www.wikidata.org/prop/direct/>
+	\item \textbf{@en:} Nos dice en que idioma esta  en este caso \textit{English} y así sucesivamente si en caso fuera \textbf{@es} el idioma español
+	\item\textbf{type:}Es una instancia de una clase
+\end{itemize}
+\vspace{0.2cm}
+
+
 
 \section{Conclusiones}
 
