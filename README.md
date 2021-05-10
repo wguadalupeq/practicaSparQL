@@ -4,11 +4,7 @@ Este repositorio abarca las consultas SparQL a estructuras RDF, además la de cr
 Integrantes: 
 
 - William Guadalupe 
-<<<<<<< HEAD
-- Danilo Blas
-=======
 - Danilo Blas Salas
->>>>>>> 265d8a6d4e25e8649231eef87675aceb9c11b314
 - Victor Chavez Bruno
 - Bryan Asmat 
 
