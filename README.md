@@ -27,20 +27,6 @@ Hasta ahora los pasos que hemos hecho es para extraer una estructura RDF nueva d
 - Fecha de Publicación
 - URL
 
-1. Accederemos al enlace mencionado anteriormente.
-2. Podemos usar las consultas con extensión `.rq` que estan almacenadas en el directorio [RDF](https://github.com/wguadalupeq/practicaSparQL/tree/main/RDF) de este repositorio en el servicio de consultas:
-    - Si usamos el contenido del archivo `onlineQuerySELECT.rq` copiaremos la información y la usaremos en el servicio de consultas de la Wikidata nos devuelve la tabla que hemos construido mediante las consultas que hemos hecho.
-    - Si usamos el contenido del archivo `onlineQueryCONSTRUCT.rq` copiaremos la información y la usaremos en el servicio de consultas de la Wikidata nos devuelve como serían las tripletas en una nueva estructura RDF que vamos a manejar.
-3. Descargamos el archivo TSV detallado que se genera al usar el archivo `onlineQueryCONSTRUCT.rq` y lo modificamos para que tenga el formato Turtle a usar en el presente proyecto.
-4. El archivo RDF en formato turtle una vez generado y se encuentra en el siguiente en el directorio [RDF](https://github.com/wguadalupeq/practicaSparQL/tree/main/RDF) con el siguiente nombre `RDF.ttl`.
+Teniendo todo lo anterior en cuenta vamos a usar el archivo `RDF.ttl` que esta en`RDF`y lo importamos en nuestro programa `Twinkle: SPARQL Tools` (en caso de no tenerlo descargado lo podemos descargar [aquí](http://ldodds.com/projects/twinkle/)), para ello lo ejecutamos y una vez abierto hacemos lo siguiente: `Write Simple Query -> Data URL -> File` y buscamos donde esta almacenado el archivo. Una vez realizado ya tenemos nuestro archivo con extensión  `.ttl`, ahora en la carpeta `RDF` del repositorio abrimos el archivo `SparQL.rq` el cual tiene diferentes consultas de pruebas las cuales serán como ejemplo didactico para la explicación de las diferentes consultas en este lenguaje para nuestro proyecto. 
 
-Hasta ahora los pasos que hemos hecho es para extraer una estructura RDF nueva de Wikidata realizado consultas SparQL para obtener datos de investigaciones y trabajos científicos, digamos obras, que se basen sobre el tema de Ciencias de la Computación. De estos datos hemos extraído las siguiente características:
 
-- Titulo
-- Descripción
-- Autor
-- Tema
-- Idioma
-- Revista
-- Fecha de Publicación
-- URL

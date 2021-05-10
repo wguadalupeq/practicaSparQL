@@ -12,7 +12,7 @@ WHERE{
 
 LIMIT 50
 
-# 2. Mostrar las 25 primeras tripletas almacenadas en la tabla pero mostrando prefijos
+# 2. Mostrar las 25 primeras tripletas almacenadas en la tabla pero mostrando prefijos (usaremos wdt:titulo)
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX wd: <http://www.wikidata.org/entity/> 
@@ -23,7 +23,8 @@ SELECT ?subject ?predicate ?object
 
 WHERE{
 
-    ?subject ?predicate ?object .
+    
+    ?subject wdt:titulo ?object .
 
 }
 
@@ -70,15 +71,14 @@ WHERE{
 	FILTER (langMatches( lang(?titulo), "es" )) . # Filtra los titulos que estén en español usando el literal
 }
 
-# 5. Mostrar las obras que tengan titulo, autor y como tema principal Inteligencia Artificial además de mostrar los 
-# titulos ordenados ascendentementes
+# 5. Mostrar las obras que tengan titulo, autor y como tema principal Inteligencia Artificial además que muestra la cantidad de autores 
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX wd: <http://www.wikidata.org/entity/> 
 PREFIX wdt: <http://www.wikidata.org/prop/direct/> 
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-SELECT ?titulo ?autor ?tema
+SELECT ?titulo ?tema ?cantidadAutores
 
 WHERE{
 
@@ -87,9 +87,39 @@ WHERE{
 	?obra wdt:tema "inteligencia artificial"@es .  # Buscamos obras que tengan propiedad tema y que este sea inteligencia artificial
 	?obra wdt:tema ?tema .  # Buscamos obras que tengan propiedad tema
 
+
+	
 }
 
-ORDER BY ?titulo # Si ponemos ORDER BY DESC(?titulo)
+# 6. Realizar una busqueda que te muestre títulos, tema  y opcionalmente autores, la url a la pagina de estos 
+# y si es que alguna revista los ha públicado. Además mostrara la fecha de publicación
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX wd: <http://www.wikidata.org/entity/> 
+PREFIX wdt: <http://www.wikidata.org/prop/direct/> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-# 6. Realizar una busqueda que te muestre titulos sobre machine learning, los temas que abarca, los autores,
-# y opcionalmente la url a la pagina de estos.
+SELECT ?obra ?titulo ?autor ?tema ?revista ?url ?fecha
+
+WHERE{
+
+	?obra wdt:titulo ?titulo ;  # Buscamos obras que tengan propiedad titulo
+	      wdt:tema ?tema .  # Buscamos obras que tengan propiedad tema
+	
+	OPTIONAL{ ?obra wdt:autor ?autor . }  # Buscamos obras que puedan tener como propiedad autor
+	OPTIONAL{ ?obra wdt:revista ?revista . } # Buscamos obras que puedan tener como propiedad revista
+	OPTIONAL{ ?obra wdt:url ?url . } # Buscamos obras que puedan tener como propiedad url
+	OPTIONAL{ ?obra wdt:fecha ?fecha . } # Buscamos obras que puedan tener como propiedad url y que su año de publicación este entre el 2000 y 2020
+
+	FILTER ( "2000-01-01T00:00:00Z"^^xsd:dateTime <= ?fecha && ?fecha < "2020-01-01T00:00:00Z"^^xsd:dateTime ) .
+
+	# Opcional: Mostrar como funciona la UNION
+	
+	# Estas dos consultas no se pueden hacer juntas a no ser que se use UNION
+	#wd:Q98148869 wdt:titulo ?titulo .
+	#wd:Q79454483 wdt:titulo ?titulo .
+	
+	#{ wd:Q98148869 wdt:titulo ?titulo . }
+	#UNION
+	#{ wd:Q79454483 wdt:titulo ?titulo . }	
+}
+ORDER BY DESC (?fecha)
