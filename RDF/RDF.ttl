@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 wd:Q15710145    rdf:type    wdt:obra .    
 wd:Q15710145    wdt:tema    "ciencias de la computación"@es .    
 wd:Q15710145    wdt:titulo    "International Journal of High Performance Computing Applications"@en .    
@@ -2603,4 +2604,2617 @@ wd:Q50815293    wdt:titulo    "Acta Universitatis Sapientiae Informatica"@ro .
 wd:Q50815293    wdt:idioma    "rumano"@es .    
 
 
+=======
+
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix wd: <http://www.wikidata.org/entity-/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+wd:Q15710145  rdf:type  wdt:obra .    
+wd:Q15710145  wdt:tema  "ciencias de la computación"@es .    
+wd:Q15710145  wdt:titulo  "International Journal of High Performance Computing Applications"@en .    
+wd:Q15710145  wdt:idioma  "inglés"@es .    
+wd:Q15749681  rdf:type  wdt:obra .    
+wd:Q15749681  wdt:tema  "ciencias de la computación"@es .    
+wd:Q15749681  wdt:titulo  "CIT"@en .    
+wd:Q15749681  wdt:idioma  "inglés"@es .    
+wd:Q15716568  rdf:type  wdt:obra .    
+wd:Q15716568  wdt:tema  "ciencias de la computación"@es .    
+wd:Q15716568  wdt:titulo  "Cognitive Computation"@en .    
+wd:Q15716568  wdt:idioma  "inglés"@es .    
+wd:Q15757245  rdf:type  wdt:obra .    
+wd:Q15757245  wdt:tema  "ciencias de la computación"@es .    
+wd:Q15757245  wdt:titulo  "Journal of Intelligent Systems"@en .    
+wd:Q15757245  wdt:idioma  "indonesio"@es .    
+wd:Q15761913  rdf:type  wdt:obra .    
+wd:Q15761913  wdt:tema  "ciencias de la computación"@es .    
+wd:Q15761913  wdt:titulo  "International journal of modelling & simulation"@en .    
+wd:Q15761913  wdt:idioma  "inglés"@es .    
+wd:Q15761913  wdt:titulo  "International Journal of Modelling and Simulation"@en .    
+wd:Q15753694  rdf:type  wdt:obra .    
+wd:Q15753694  wdt:tema  "ciencias de la computación"@es .    
+wd:Q15753694  wdt:titulo  "AJIS. Australian journal of information systems"@en .    
+wd:Q15753694  wdt:idioma  "inglés"@es .    
+wd:Q15753694  wdt:titulo  "Australasian Journal of Information Systems"@en .    
+wd:Q15749681  wdt:titulo  "Journal of Computing and Information Technology"@en .    
+wd:Q15757508  rdf:type  wdt:obra .    
+wd:Q15757508  wdt:tema  "ciencias de la computación"@es .    
+wd:Q15757508  wdt:titulo  "Ethics and Information Technology"@en .    
+wd:Q15757508  wdt:idioma  "inglés"@es .    
+wd:Q15759465  rdf:type  wdt:obra .    
+wd:Q15759465  wdt:tema  "ciencias de la computación"@es .    
+wd:Q15759465  wdt:titulo  "CLEI Electronic Journal"@en .    
+wd:Q15759465  wdt:idioma  "inglés"@es .    
+wd:Q15758250  rdf:type  wdt:obra .    
+wd:Q15758250  wdt:tema  "ciencias de la computación"@es .    
+wd:Q15758250  wdt:titulo  "ACM Transactions on Applied Perception"@en .    
+wd:Q15758250  wdt:idioma  "inglés"@es .    
+wd:Q15753694  wdt:tema  "tecnologías de la información y la comunicación"@es .    
+wd:Q15761097  rdf:type  wdt:obra .    
+wd:Q15761097  wdt:tema  "ciencias de la computación"@es .    
+wd:Q15761097  wdt:titulo  "Journal of Experimental Algorithmics"@en .    
+wd:Q15761097  wdt:idioma  "inglés"@es .    
+wd:Q15761097  wdt:titulo  "The ACM journal of experimental algorithmics"@en .    
+wd:Q15762768  rdf:type  wdt:obra .    
+wd:Q15762768  wdt:tema  "ciencias de la computación"@es .    
+wd:Q15762768  wdt:titulo  "Scandinavian Journal of Information Systems"@en .    
+wd:Q15762768  wdt:idioma  "inglés"@es .    
+wd:Q15757081  rdf:type  wdt:obra .    
+wd:Q15757081  wdt:tema  "ciencias de la computación"@es .    
+wd:Q15757081  wdt:titulo  "Informatica"@en .    
+wd:Q15757081  wdt:idioma  "inglés"@es .    
+wd:Q15757081  wdt:titulo  "Informatica: journal of computing and informatics"@en .    
+wd:Q15758468  rdf:type  wdt:obra .    
+wd:Q15758468  wdt:tema  "ciencias de la computación"@es .    
+wd:Q15758468  wdt:titulo  "Computers in Human Behavior"@en .    
+wd:Q15758468  wdt:idioma  "inglés"@es .    
+wd:Q15766461  rdf:type  wdt:obra .    
+wd:Q15766461  wdt:tema  "ciencias de la computación"@es .    
+wd:Q15766461  wdt:titulo  "IET Software"@en .    
+wd:Q15766461  wdt:idioma  "inglés"@es .    
+wd:Q15766628  rdf:type  wdt:obra .    
+wd:Q15766628  wdt:tema  "ciencias de la computación"@es .    
+wd:Q15766628  wdt:titulo  "International Journal of Cyber Criminology"@en .    
+wd:Q15766628  wdt:idioma  "inglés"@es .    
+wd:Q15766838  rdf:type  wdt:obra .    
+wd:Q15766838  wdt:tema  "ciencias de la computación"@es .    
+wd:Q15766838  wdt:titulo  "IEEE Distributed Systems Online"@en .    
+wd:Q15766838  wdt:idioma  "inglés"@es .    
+wd:Q106331353  rdf:type  wdt:obra .    
+wd:Q106331353  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106331353  wdt:titulo  "Category Theory and Computer Science"@en .    
+wd:Q106330824  rdf:type  wdt:obra .    
+wd:Q106330824  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106330824  wdt:titulo  "Australasian Computer Science Week"@en .    
+wd:Q106338235  rdf:type  wdt:obra .    
+wd:Q106338235  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106338235  wdt:titulo  "Coalgebraic Methods in Computer Science"@en .    
+wd:Q106338236  rdf:type  wdt:obra .    
+wd:Q106338236  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106338236  wdt:titulo  "Coalgebraic Methods in Computer Science"@en .    
+wd:Q106243151  rdf:type  wdt:obra .    
+wd:Q106243151  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106243151  wdt:titulo  "SOFSEM 2017: Theory and Practice of Computer Science - 43rd International Conference on Current Trends in Theory and Practice of Computer Science"@en .    
+wd:Q106243306  rdf:type  wdt:obra .    
+wd:Q106243306  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106243306  wdt:titulo  "Mathematical and Engineering Methods in Computer Science, 8th International Doctoral Workshop"@en .    
+wd:Q106245186  rdf:type  wdt:obra .    
+wd:Q106245186  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106245186  wdt:titulo  "Environmental Software Systems. Computer Science for Environmental Protection - 12th IFIP WG 5.11 International Symposium"@en .    
+wd:Q106245386  rdf:type  wdt:obra .    
+wd:Q106245386  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106245386  wdt:titulo  "Coalgebraic Methods in Computer Science - 13th IFIP WG 1.3 International Workshop"@en .    
+wd:Q106245387  rdf:type  wdt:obra .    
+wd:Q106245387  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106245387  wdt:titulo  "Coalgebraic Methods in Computer Science - 12th IFIP WG 1.3 International Workshop"@en .    
+wd:Q106245388  rdf:type  wdt:obra .    
+wd:Q106245388  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106245388  wdt:titulo  "Workshop on Coalgebraic Methods in Computer Science, CMCS 2004"@en .    
+wd:Q106245506  rdf:type  wdt:obra .    
+wd:Q106245506  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106245506  wdt:titulo  "Graph-Theoretic Concepts in Computer Science - 40th International Workshop"@en .    
+wd:Q106245507  rdf:type  wdt:obra .    
+wd:Q106245507  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106245507  wdt:titulo  "Graph-Theoretic Concepts in Computer Science - 39th International Workshop"@en .    
+wd:Q106245505  rdf:type  wdt:obra .    
+wd:Q106245505  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106245505  wdt:titulo  "Graph-Theoretic Concepts in Computer Science - 44th International Workshop"@en .    
+wd:Q106245510  rdf:type  wdt:obra .    
+wd:Q106245510  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106245510  wdt:titulo  "Graph-Theoretic Concepts in Computer Science, 19th International Workshop"@en .    
+wd:Q106245511  rdf:type  wdt:obra .    
+wd:Q106245511  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106245511  wdt:titulo  "Graph-Theoretic Concepts in Computer Science, 14th International Workshop"@en .    
+wd:Q106245508  rdf:type  wdt:obra .    
+wd:Q106245508  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106245508  wdt:titulo  "Graph-Theoretic Concepts in Computer Science, 34th International Workshop"@en .    
+wd:Q106245509  rdf:type  wdt:obra .    
+wd:Q106245509  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106245509  wdt:titulo  "Graph-Theoretic Concepts in Computer Science, 28th International Workshop"@en .    
+wd:Q106245512  rdf:type  wdt:obra .    
+wd:Q106245512  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106245512  wdt:titulo  "7th Conference Graphtheoretic Concepts in Computer Science (WG '81)"@en .    
+wd:Q106303718  rdf:type  wdt:obra .    
+wd:Q106303718  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106303718  wdt:titulo  "ACM 20th Annual Conference on Computer Science"@en .    
+wd:Q106303719  rdf:type  wdt:obra .    
+wd:Q106303719  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106303719  wdt:titulo  "ACM 18th Annual Computer Science Conference on Cooperation"@en .    
+wd:Q106303717  rdf:type  wdt:obra .    
+wd:Q106303717  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106303717  wdt:titulo  "24th ACM Conference on Computer Science"@en .    
+wd:Q106303720  rdf:type  wdt:obra .    
+wd:Q106303720  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106303720  wdt:titulo  "Sixteenth ACM Annual Conference on Computer Science"@en .    
+wd:Q106303721  rdf:type  wdt:obra .    
+wd:Q106303721  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106303721  wdt:titulo  "13th ACM Annual Conference on Computer Science"@en .    
+wd:Q106304138  rdf:type  wdt:obra .    
+wd:Q106304138  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106304138  wdt:titulo  "23rd Annual ACM Conference on Innovation and Technology in Computer Science Education"@en .    
+wd:Q106304136  rdf:type  wdt:obra .    
+wd:Q106304136  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106304136  wdt:titulo  "2020 ACM Conference on Innovation and Technology in Computer Science Education"@en .    
+wd:Q106330819  rdf:type  wdt:obra .    
+wd:Q106330819  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106330819  wdt:titulo  "38th Australasian Computer Science Conference"@en .    
+wd:Q106330822  rdf:type  wdt:obra .    
+wd:Q106330822  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106330822  wdt:titulo  "Computer Science 2006, Twenty-Nineth Australasian Computer Science Conference"@en .    
+wd:Q106330823  rdf:type  wdt:obra .    
+wd:Q106330823  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106330823  wdt:titulo  "Computer Science 2005, Twenty-Eighth Australasian Computer Science Conference"@en .    
+wd:Q106330820  rdf:type  wdt:obra .    
+wd:Q106330820  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106330820  wdt:titulo  "Thirty-Seventh Australasian Computer Science Conference"@en .    
+wd:Q106330821  rdf:type  wdt:obra .    
+wd:Q106330821  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106330821  wdt:titulo  "Thirty-Fourth Australasian Computer Science Conference"@en .    
+wd:Q106331331  rdf:type  wdt:obra .    
+wd:Q106331331  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106331331  wdt:titulo  "Eighth International C* Conference on Computer Science & Software Engineering"@en .    
+wd:Q106331329  rdf:type  wdt:obra .    
+wd:Q106331329  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106331329  wdt:titulo  "Ninth International C* Conference on Computer Science & Software Engineering, C3S2E '16"@en .    
+wd:Q106331333  rdf:type  wdt:obra .    
+wd:Q106331333  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106331333  wdt:titulo  "International C* Conference on Computer Science & Software Engineering, C3S2E '14"@en .    
+wd:Q106331351  rdf:type  wdt:obra .    
+wd:Q106331351  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106331351  wdt:titulo  "Category Theory and Computer Science, 4th International Conference"@en .    
+wd:Q106331616  rdf:type  wdt:obra .    
+wd:Q106331616  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106331616  wdt:titulo  "Computer Science Education Research Conference 2016"@en .    
+wd:Q106333467  rdf:type  wdt:obra .    
+wd:Q106333467  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106333467  wdt:titulo  "6th Workshop on Fixed Points in Computer Science"@en .    
+wd:Q106333465  rdf:type  wdt:obra .    
+wd:Q106333465  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106333465  wdt:titulo  "Workshop on Fixed Points in Computer Science"@en .    
+wd:Q106333468  rdf:type  wdt:obra .    
+wd:Q106333468  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106333468  wdt:titulo  "Fixed Points in Computer Science, an International Workshop"@en .    
+wd:Q106333690  rdf:type  wdt:obra .    
+wd:Q106333690  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106333690  wdt:titulo  "Fourth International Conference on Frontier of Computer Science and Technology"@en .    
+wd:Q106333694  rdf:type  wdt:obra .    
+wd:Q106333694  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106333694  wdt:titulo  "2005 International Conference on Frontiers in Education: Computer Science and Computer Engineering"@en .    
+wd:Q106333692  rdf:type  wdt:obra .    
+wd:Q106333692  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106333692  wdt:titulo  "Japan-China Joint Workshop on Frontier of Computer Science and Technology"@en .    
+wd:Q106335647  rdf:type  wdt:obra .    
+wd:Q106335647  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106335647  wdt:titulo  "33rd International Conference of the Chilean Computer Science Society"@en .    
+wd:Q106335645  rdf:type  wdt:obra .    
+wd:Q106335645  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106335645  wdt:titulo  "36th International Conference of the Chilean Computer Science Society"@en .    
+wd:Q106335650  rdf:type  wdt:obra .    
+wd:Q106335650  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106335650  wdt:titulo  "2009 International Conference of the Chilean Computer Science Society"@en .    
+wd:Q106335648  rdf:type  wdt:obra .    
+wd:Q106335648  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106335648  wdt:titulo  "30th International Conference of the Chilean Computer Science Society"@en .    
+wd:Q106336051  rdf:type  wdt:obra .    
+wd:Q106336051  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106336051  wdt:titulo  "3rd International Conference on Computer Science and Application Engineering"@en .    
+wd:Q106336053  rdf:type  wdt:obra .    
+wd:Q106336053  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106336053  wdt:titulo  "2nd International Conference on Computer Science and Software Engineering"@en .    
+wd:Q106337537  rdf:type  wdt:obra .    
+wd:Q106337537  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106337537  wdt:titulo  "2nd International Conference on Recent Trends and Applications in Computer Science and Information Technology"@en .    
+wd:Q106338231  rdf:type  wdt:obra .    
+wd:Q106338231  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106338231  wdt:titulo  "Tenth Workshop on Coalgebraic Methods in Computer Science"@en .    
+wd:Q106338234  rdf:type  wdt:obra .    
+wd:Q106338234  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106338234  wdt:titulo  "4th Coalgebraic Methods in Computer Science"@en .    
+wd:Q106338233  rdf:type  wdt:obra .    
+wd:Q106338233  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106338233  wdt:titulo  "Eighth Workshop on Coalgebraic Methods in Computer Science"@en .    
+wd:Q106338232  rdf:type  wdt:obra .    
+wd:Q106338232  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106338232  wdt:titulo  "Ninth Workshop on Coalgebraic Methods in Computer Science"@en .    
+wd:Q106338351  rdf:type  wdt:obra .    
+wd:Q106338351  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106338351  wdt:titulo  "Graph-Theoretic Concepts in Computer Science, 21st International Workshop"@en .    
+wd:Q106338352  rdf:type  wdt:obra .    
+wd:Q106338352  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106338352  wdt:titulo  "Graph-Theoretic Concepts in Computer Science, 18th International Workshop"@en .    
+wd:Q106331335  rdf:type  wdt:obra .    
+wd:Q106331335  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106331335  wdt:titulo  "Canadian Conference on Computer Science & Software Engineering"@en .    
+wd:Q106331338  rdf:type  wdt:obra .    
+wd:Q106331338  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106331338  wdt:titulo  "Canadian Conference on Computer Science & Software Engineering"@en .    
+wd:Q55443187  rdf:type  wdt:obra .    
+wd:Q55443187  wdt:tema  "matemáticas"@es .    
+wd:Q55443187  wdt:titulo  "Transactions of Karelian Research Centre of Russian Academy of Science"@en .    
+wd:Q55443187  wdt:idioma  "ruso"@es .    
+wd:Q55443187  wdt:titulo  "Trudy Karelʹskogo naučnogo centra Rossijskoj akademii nauk"@mul .    
+wd:Q55443187  wdt:titulo  "Труды Карельского научного центра Российской академии наук"@ru .    
+wd:Q55443187  wdt:tema  "oceanografía"@es .    
+wd:Q55443187  wdt:idioma  "plurilingüe"@es .    
+wd:Q55443187  wdt:tema  "biología"@es .    
+wd:Q55443187  wdt:idioma  "inglés"@es .    
+wd:Q55443187  wdt:tema  "biogeografía"@es .    
+wd:Q55443187  wdt:tema  "geología"@es .    
+wd:Q50817479  rdf:type  wdt:obra .    
+wd:Q50817479  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50817479  wdt:titulo  "IETI transactions on computers"@en .    
+wd:Q50817479  wdt:idioma  "inglés"@es .    
+wd:Q50816380  rdf:type  wdt:obra .    
+wd:Q50816380  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50816380  wdt:titulo  "Revista Antioqueäna de Ciencias Computacionales e Ingenierâia de Software-RACCIS-"@es .    
+wd:Q50816380  wdt:idioma  "español"@es .    
+wd:Q50817819  rdf:type  wdt:obra .    
+wd:Q50817819  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50817819  wdt:titulo  "Khazanah informatika"@id .    
+wd:Q50817819  wdt:idioma  "indonesio"@es .    
+wd:Q50816257  rdf:type  wdt:obra .    
+wd:Q50816257  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50816257  wdt:titulo  "Journal of applied computing and information technology"@en .    
+wd:Q50816257  wdt:idioma  "inglés"@es .    
+wd:Q50816562  rdf:type  wdt:obra .    
+wd:Q50816562  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50816562  wdt:titulo  "Frontiers in ICT"@en .    
+wd:Q50816562  wdt:idioma  "inglés"@es .    
+wd:Q50816550  rdf:type  wdt:obra .    
+wd:Q50816550  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50816550  wdt:titulo  "Open Computer Science"@en .    
+wd:Q50816550  wdt:idioma  "inglés"@es .    
+wd:Q50817154  rdf:type  wdt:obra .    
+wd:Q50817154  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50817154  wdt:titulo  "Journal of Computer Science"@en .    
+wd:Q50817154  wdt:idioma  "inglés"@es .    
+wd:Q50817182  rdf:type  wdt:obra .    
+wd:Q50817182  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50817182  wdt:titulo  "Probability, uncertainty and quantitative risk"@en .    
+wd:Q50817182  wdt:idioma  "inglés"@es .    
+wd:Q50817237  rdf:type  wdt:obra .    
+wd:Q50817237  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50817237  wdt:titulo  "Ikonomika i kompûtʺrni nauki"@bg .    
+wd:Q50817237  wdt:idioma  "búlgaro"@es .    
+wd:Q50816457  rdf:type  wdt:obra .    
+wd:Q50816457  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50816457  wdt:titulo  "Advances in distributed computing and artificial intelligence journal"@en .    
+wd:Q50816457  wdt:idioma  "inglés"@es .    
+wd:Q50816675  rdf:type  wdt:obra .    
+wd:Q50816675  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50816675  wdt:titulo  "Proceedings of the Spring/Summer young researchers' colloquium on software engineering"@en .    
+wd:Q50816675  wdt:idioma  "inglés"@es .    
+wd:Q50816639  rdf:type  wdt:obra .    
+wd:Q50816639  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50816639  wdt:titulo  "Foundations of Computing and Decision Sciences"@en .    
+wd:Q50816639  wdt:idioma  "inglés"@es .    
+wd:Q55443187  wdt:tema  "economía aplicada"@es .    
+wd:Q55443187  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50816710  rdf:type  wdt:obra .    
+wd:Q50816710  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50816710  wdt:titulo  "Avtomatizaciâ i upravlenie v tehničeskih sistemah"@ru .    
+wd:Q50816710  wdt:idioma  "ruso"@es .    
+wd:Q51677334  rdf:type  wdt:obra .    
+wd:Q51677334  wdt:tema  "ingeniería web"@es .    
+wd:Q51677334  wdt:titulo  "Web Engineering"@en .    
+wd:Q51677334  wdt:idioma  "inglés"@es .    
+wd:Q51677334  wdt:fecha  "2003-01-01T00:00:00Z"^^xsd:dateTime .
+wd:Q55443187  wdt:tema  "ecología"@es .    
+wd:Q51677334  wdt:tema  "ciencias de la computación"@es .    
+wd:Q55443187  wdt:tema  "limnología"@es .    
+wd:Q57985102  rdf:type  wdt:obra .    
+wd:Q57985102  wdt:tema  "educación"@es .    
+wd:Q57985102  wdt:titulo  "IE Comunicaciones"@es .    
+wd:Q57985102  wdt:idioma  "plurilingüe"@es .    
+wd:Q56791588  rdf:type  wdt:obra .    
+wd:Q56791588  wdt:tema  "ciencias de la computación"@es .    
+wd:Q56791588  wdt:titulo  "Der verlorene Chip"@de .    
+wd:Q56791588  wdt:idioma  "alemán"@es .    
+wd:Q56791588  wdt:fecha  "1995-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q57985102  wdt:tema  "ciencias de la computación"@es .    
+wd:Q56791588  wdt:tema  "cristianismo"@es .    
+wd:Q79454093  rdf:type  wdt:obra .    
+wd:Q79454093  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454093  wdt:titulo  "Fuzzy adpatation for information acces to digital libraries"@en .    
+wd:Q79454093  wdt:autor  "Vicente Matellán Olivera" .    
+wd:Q79454093  wdt:idioma  "inglés"@es .    
+wd:Q79454093  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454093  wdt:fecha  "2000-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454093  wdt:url  <http://hdl.handle.net/2099/3584> .    
+wd:Q79454111  rdf:type  wdt:obra .    
+wd:Q79454111  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454111  wdt:titulo  "Fuzzy max-min classifiers decide locally on the basis of two attributes"@en .    
+wd:Q79454111  wdt:autor  "Birka Von Schmidt" .    
+wd:Q79454111  wdt:idioma  "inglés"@es .    
+wd:Q79454111  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454111  wdt:fecha  "1999-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454111  wdt:url  <http://hdl.handle.net/2099/3546> .   
+wd:Q79454172  rdf:type  wdt:obra .    
+wd:Q79454172  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454172  wdt:titulo  "Innovative applications of associative morphological memories for image processing and pattern recognition"@en .    
+wd:Q79454172  wdt:autor  "Manuel Graña" .    
+wd:Q79454172  wdt:idioma  "inglés"@es .    
+wd:Q79454172  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454172  wdt:fecha  "2003-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454172  wdt:url  <http://hdl.handle.net/2099/1774> .    
+wd:Q79454166  rdf:type  wdt:obra .    
+wd:Q79454166  wdt:tema  "computational learning theory"@en .    
+wd:Q79454166  wdt:titulo  "Inference of fuzzy regular grammars from examples"@en .    
+wd:Q79454166  wdt:autor  "M. A. Comino" .    
+wd:Q79454166  wdt:idioma  "inglés"@es .    
+wd:Q79454166  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454166  wdt:fecha  "1999-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454166  wdt:url  <http://hdl.handle.net/2099/3559> .    
+wd:Q79454083  rdf:type  wdt:obra .    
+wd:Q79454083  wdt:tema  "High-level synthesis"@en .    
+wd:Q79454083  wdt:titulo  "Fast prototyping of computing-oriented fuzzy logic systems"@en .    
+wd:Q79454083  wdt:autor  "Milagros Fernández Centeno" .    
+wd:Q79454083  wdt:idioma  "inglés"@es .    
+wd:Q79454083  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454083  wdt:fecha  "1999-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454083  wdt:url  <http://hdl.handle.net/2099/3562> .    
+wd:Q79454186  rdf:type  wdt:obra .    
+wd:Q79454186  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454186  wdt:titulo  "Knwoledge revision in Markov networks"@en .    
+wd:Q79454186  wdt:autor  "Heinz Detmer" .    
+wd:Q79454186  wdt:idioma  "inglés"@es .    
+wd:Q79454186  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454186  wdt:fecha  "2004-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454186  wdt:url  <http://hdl.handle.net/2099/3640> .    
+wd:Q79454160  rdf:type  wdt:obra .    
+wd:Q79454160  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454160  wdt:titulo  "Improvement to the cooperative rules methodology by using the ant colony system algorithm"@en .    
+wd:Q79454160  wdt:autor  "Rafael Alcalá Fernández" .    
+wd:Q79454160  wdt:idioma  "inglés"@es .    
+wd:Q79454160  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454160  wdt:fecha  "2001-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454160  wdt:url  <http://hdl.handle.net/2099/3613> .    
+wd:Q79454172  wdt:tema  "image retrieval"@en .    
+wd:Q79454083  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454083  wdt:autor  "Jean Pierre Deschamps" .    
+wd:Q79454160  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454160  wdt:autor  "Oscar Cordón García" .    
+wd:Q79454083  wdt:autor  "José Ignacio Martínez Torre" .    
+wd:Q79454181  rdf:type  wdt:obra .    
+wd:Q79454181  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454181  wdt:titulo  "Introducing FDSA (Fuzzy Dictionary of Synonyms and Antonyms): applications on information retrieval and stand-alone use"@en .    
+wd:Q79454181  wdt:autor  "Alejandro Sobrino Cerdeiriña" .    
+wd:Q79454181  wdt:idioma  "inglés"@es .    
+wd:Q79454181  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454181  wdt:fecha  "2003-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454181  wdt:url  <http://hdl.handle.net/2099/1734> .    
+wd:Q79454160  wdt:tema  "aprendizaje"@es .    
+wd:Q79454181  wdt:tema  "antónimo"@es .    
+wd:Q79454170  rdf:type  wdt:obra .    
+wd:Q79454170  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454170  wdt:titulo  "Information systems in categories of valued relations"@en .    
+wd:Q79454170  wdt:autor  "Vladimir B. Gisin" .    
+wd:Q79454170  wdt:idioma  "inglés"@es .    
+wd:Q79454170  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454170  wdt:fecha  "1994-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454170  wdt:url  <http://hdl.handle.net/2099/2447> .    
+wd:Q79454131  rdf:type  wdt:obra .    
+wd:Q79454131  wdt:tema  "red neuronal"@es .    
+wd:Q79454131  wdt:titulo  "Fuzzy systems and neural networks XML schemas for soft computing"@en .    
+wd:Q79454131  wdt:autor  "Adolfo Rodríguez de Soto" .    
+wd:Q79454131  wdt:idioma  "inglés"@es .    
+wd:Q79454131  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454131  wdt:fecha  "2003-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454131  wdt:url  <http://hdl.handle.net/2099/1713> .    
+wd:Q79454129  rdf:type  wdt:obra .    
+wd:Q79454129  wdt:tema  "Visión artificial"@es .    
+wd:Q79454129  wdt:titulo  "Fuzzy sets in computer vision: an overview"@en .    
+wd:Q79454129  wdt:autor  "Pilar Sobrevilla Frisón" .    
+wd:Q79454129  wdt:idioma  "inglés"@es .    
+wd:Q79454129  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454129  wdt:fecha  "2003-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454129  wdt:url  <http://hdl.handle.net/2099/1735> .    
+wd:Q79454186  wdt:autor  "Jörg Gebhardt" .    
+wd:Q79454166  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454166  wdt:autor  "Inmaculada Fortes Ruiz" .    
+wd:Q79454166  wdt:autor  "Rafael Morales Bueno" .    
+wd:Q79454166  wdt:autor  "José Luís Pérez de la Cruz Molina" .    
+wd:Q79454131  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454131  wdt:autor  "Conrado A. Capdevila" .    
+wd:Q79454126  rdf:type  wdt:obra .    
+wd:Q79454126  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454126  wdt:titulo  "Fuzzy set theory for cumulative trauma prediction"@en .    
+wd:Q79454126  wdt:autor  "Thomas W. Merritt" .    
+wd:Q79454126  wdt:idioma  "inglés"@es .    
+wd:Q79454126  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454126  wdt:fecha  "2001-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454126  wdt:url  <http://hdl.handle.net/2099/3601> .    
+wd:Q79454080  rdf:type  wdt:obra .    
+wd:Q79454080  wdt:tema  "Bottleneck traveling salesman problem"@en .    
+wd:Q79454080  wdt:titulo  "Experiments writh variants of ant algorithms"@en .    
+wd:Q79454080  wdt:autor  "Sebastian Linke" .    
+wd:Q79454080  wdt:idioma  "inglés"@es .    
+wd:Q79454080  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454080  wdt:fecha  "2002-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454080  wdt:url  <http://hdl.handle.net/2099/3626> .    
+wd:Q79454111  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454113  rdf:type  wdt:obra .    
+wd:Q79454113  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454113  wdt:titulo  "Fuzzy morphological operators in image processing"@en .    
+wd:Q79454113  wdt:autor  "Noé Frago Paños" .    
+wd:Q79454113  wdt:idioma  "inglés"@es .    
+wd:Q79454113  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454113  wdt:fecha  "2003-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454113  wdt:url  <http://hdl.handle.net/2099/1738> .    
+wd:Q79454177  rdf:type  wdt:obra .    
+wd:Q79454177  wdt:tema  "Inteligencia artificial simbólica"@es .    
+wd:Q79454177  wdt:titulo  "Integrating inference and neural classification in a hybrid system for recognition tasks"@en .    
+wd:Q79454177  wdt:idioma  "inglés"@es .    
+wd:Q79454177  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454177  wdt:fecha  "1996-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454177  wdt:url  <http://hdl.handle.net/2099/2633> .    
+wd:Q79454131  wdt:tema  "Soft Computing"@es .    
+wd:Q79454116  rdf:type  wdt:obra .    
+wd:Q79454116  wdt:tema  "Neuro-borroso"@es .    
+wd:Q79454116  wdt:titulo  "Fuzzy neural network approach to fuzzy polynomial"@en .    
+wd:Q79454116  wdt:autor  "M Otadi" .    
+wd:Q79454116  wdt:idioma  "inglés"@es .    
+wd:Q79454116  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454116  wdt:fecha  "2006-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454116  wdt:url  <http://hdl.handle.net/2099/3668> .    
+wd:Q79454126  wdt:autor  "Daniel J. Fonseca" .    
+wd:Q79454129  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454131  wdt:autor  "Eva Cuervo Fernandez" .    
+wd:Q79454133  rdf:type  wdt:obra .    
+wd:Q79454133  wdt:tema  "algoritmo"@es .    
+wd:Q79454133  wdt:titulo  "Fuzzy termination criteria in Knapsack problem algorithms"@en .    
+wd:Q79454133  wdt:autor  "Edmundo Vergara-Moreno" .    
+wd:Q79454133  wdt:idioma  "inglés"@es .    
+wd:Q79454133  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454133  wdt:fecha  "2000-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454133  wdt:url  <http://hdl.handle.net/2099/3569> .    
+wd:Q79454116  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454083  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454177  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454113  wdt:autor  "Ramón Fuentes-González" .    
+wd:Q79454192  rdf:type  wdt:obra .    
+wd:Q79454192  wdt:tema  "Artificial Ants"@en .    
+wd:Q79454192  wdt:titulo  "Learning bayesian networks by ant colony optimisation: searching in two different spaces"@en .    
+wd:Q79454192  wdt:autor  "José Antonio Gámez Martín" .    
+wd:Q79454192  wdt:idioma  "inglés"@es .    
+wd:Q79454192  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454192  wdt:fecha  "2002-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454192  wdt:url  <http://hdl.handle.net/2099/3629> .    
+wd:Q79454126  wdt:autor  "Gary P. Moynihan" .    
+wd:Q79454129  wdt:autor  "Eduard Montseny Masip" .    
+wd:Q79454166  wdt:autor  "Francisco Triguero Ruiz" .    
+wd:Q79454080  wdt:tema  "Artificial Ants"@en .    
+wd:Q79454093  wdt:autor  "Camino Fernández Llamas" .    
+wd:Q79454181  wdt:tema  "Information Retrieval"@es .    
+wd:Q79454181  wdt:autor  "Jorge Graña" .    
+wd:Q79454186  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454186  wdt:autor  "Christian Bogerlt" .    
+wd:Q79454126  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454133  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454160  wdt:autor  "Jorge Casillas Barranquero" .    
+wd:Q79454129  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454116  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454192  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454192  wdt:autor  "José Miguel Puerta Castellón" .    
+wd:Q79454172  wdt:autor  "Gerhard Ritter" .    
+wd:Q79454080  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454086  rdf:type  wdt:obra .    
+wd:Q79454086  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454086  wdt:titulo  "Flexible information retrieval: some research trends"@en .    
+wd:Q79454086  wdt:idioma  "inglés"@es .    
+wd:Q79454086  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454086  wdt:fecha  "2002-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454086  wdt:url  <http://hdl.handle.net/2099/3621> .    
+wd:Q79454140  rdf:type  wdt:obra .    
+wd:Q79454140  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454140  wdt:titulo  "Generation of fuzzy mathematical morphologies"@en .    
+wd:Q79454140  wdt:autor  "Noé Frago Paños" .    
+wd:Q79454140  wdt:idioma  "inglés"@es .    
+wd:Q79454140  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454140  wdt:fecha  "2001-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454140  wdt:url  <http://hdl.handle.net/2099/3595> .    
+wd:Q79454177  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454181  wdt:autor  "Santiago Fernández Lanza" .    
+wd:Q79454086  wdt:tema  "Information Retrieval"@es .    
+wd:Q79454172  wdt:autor  "Peter Sussner" .    
+wd:Q79454177  wdt:tema  "red neuronal artificial"@es .    
+wd:Q79454140  wdt:autor  "Ramón Fuentes-González" .    
+wd:Q79454192  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454133  wdt:tema  "Continuous knapsack problem"@en .    
+wd:Q79454080  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454192  wdt:autor  "Luís Miguel de Campos" .    
+wd:Q79454241  rdf:type  wdt:obra .    
+wd:Q79454241  wdt:tema  "aprendizaje automático"@es .    
+wd:Q79454241  wdt:titulo  "Multi-stage genetic fuzzy systems based on the iterative rule learning approach"@en .    
+wd:Q79454241  wdt:autor  "Antonio González Muñoz" .    
+wd:Q79454241  wdt:idioma  "inglés"@es .    
+wd:Q79454241  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454241  wdt:fecha  "1997-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454241  wdt:url  <http://hdl.handle.net/2099/3495> .    
+wd:Q79454280  rdf:type  wdt:obra .    
+wd:Q79454280  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454280  wdt:titulo  "On fuzzy temporal constraint networks"@en .    
+wd:Q79454280  wdt:autor  "Lluís Godo Lacasa" .    
+wd:Q79454280  wdt:idioma  "inglés"@es .    
+wd:Q79454280  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454280  wdt:fecha  "1994-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454280  wdt:url  <http://hdl.handle.net/2099/2460> .    
+wd:Q79454213  rdf:type  wdt:obra .    
+wd:Q79454213  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454213  wdt:titulo  "Marginalization like a projection"@en .    
+wd:Q79454213  wdt:autor  "Juan Francisco Verdegay López" .    
+wd:Q79454213  wdt:idioma  "inglés"@es .    
+wd:Q79454213  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454213  wdt:fecha  "2001-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454213  wdt:url  <http://hdl.handle.net/2099/3599> .    
+wd:Q79454207  rdf:type  wdt:obra .    
+wd:Q79454207  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454207  wdt:titulo  "Localization and fuzzy classification of manufacturing defects in sheets of glass"@en .    
+wd:Q79454207  wdt:autor  "Luciano Sánchez Ramos" .    
+wd:Q79454207  wdt:idioma  "inglés"@es .    
+wd:Q79454207  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454207  wdt:fecha  "1998-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454207  wdt:url  <http://hdl.handle.net/2099/3516> .    
+wd:Q79454213  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454213  wdt:autor  "Serafín Moral Callejón" .    
+wd:Q79454218  rdf:type  wdt:obra .    
+wd:Q79454218  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454218  wdt:titulo  "Max-Min fuzzy neural networks for solving relational equations"@en .    
+wd:Q79454218  wdt:autor  "Armando Blanco Morón" .   
+wd:Q79454218  wdt:idioma  "inglés"@es .    
+wd:Q79454218  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454218  wdt:fecha  "1994-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454218  wdt:url  <http://hdl.handle.net/2099/2461> .   
+wd:Q79454271  rdf:type  wdt:obra .    
+wd:Q79454271  wdt:tema  "sistema de conocimiento"@es .    
+wd:Q79454271  wdt:titulo  "On defining multiple-valued logics for knowledge-based systems communication"@en .    
+wd:Q79454271  wdt:autor  "José Antonio Reyes" .   
+wd:Q79454271  wdt:idioma  "inglés"@es .    
+wd:Q79454271  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454271  wdt:fecha  "2000-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454271  wdt:url  <http://hdl.handle.net/2099/3577> .   
+wd:Q79454197  rdf:type  wdt:obra .    
+wd:Q79454197  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454197  wdt:titulo  "Learning imprecise semantic concepts from image databases"@en .    
+wd:Q79454197  wdt:autor  "Jesús Chamorro Martínez" .   
+wd:Q79454197  wdt:idioma  "inglés"@es .    
+wd:Q79454197  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454197  wdt:fecha  "2002-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454197  wdt:url  <http://hdl.handle.net/2099/3618> .   
+wd:Q79454195  rdf:type  wdt:obra .    
+wd:Q79454195  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454195  wdt:titulo  "Learning fuzzy systems: an ojective function-approach"@en .    
+wd:Q79454195  wdt:idioma  "inglés"@es .    
+wd:Q79454195  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454195  wdt:fecha  "2004-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454195  wdt:url  <http://hdl.handle.net/2099/3643> .   
+wd:Q79454250  rdf:type  wdt:obra .    
+wd:Q79454250  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454250  wdt:titulo  "New aspects on extraction of fuzzy rules using neural networks"@en .    
+wd:Q79454250  wdt:autor  "Armando Blanco Morón" .   
+wd:Q79454250  wdt:idioma  "inglés"@es .    
+wd:Q79454250  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454250  wdt:fecha  "1998-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454250  wdt:url  <http://hdl.handle.net/2099/3535> .   
+wd:Q79454271  wdt:autor  "Josep Puyol-Gruart" .   
+wd:Q79454234  rdf:type  wdt:obra .    
+wd:Q79454234  wdt:tema  "sistema experto"@es .    
+wd:Q79454234  wdt:titulo  "Milord II: language description"@en .    
+wd:Q79454234  wdt:autor  "Josep Puyol-Gruart" .   
+wd:Q79454234  wdt:idioma  "inglés"@es .    
+wd:Q79454234  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454234  wdt:fecha  "1997-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454234  wdt:url  <http://hdl.handle.net/2099/3491> .   
+wd:Q79454230  rdf:type  wdt:obra .    
+wd:Q79454230  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454230  wdt:titulo  "Method of least squares applied to the generalized modus ponens with interval-valued fuzzy sets"@en .    
+wd:Q79454230  wdt:autor  "Humberto Nicanor Bustince Sola" .   
+wd:Q79454230  wdt:idioma  "inglés"@es .    
+wd:Q79454230  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454230  wdt:fecha  "1999-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454230  wdt:url  <http://hdl.handle.net/2099/3558> .   
+wd:Q79454250  wdt:tema  "aprendizaje"@es .    
+wd:Q79454258  rdf:type  wdt:obra .    
+wd:Q79454258  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454258  wdt:titulo  "On (anti) conditional independence in Dempster-Shafer theory"@en .    
+wd:Q79454258  wdt:autor  "Mieczyslaw A. Klopotek" .   
+wd:Q79454258  wdt:idioma  "inglés"@es .    
+wd:Q79454258  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454258  wdt:fecha  "1998-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454258  wdt:url  <http://hdl.handle.net/2099/3505> .   
+wd:Q79454202  rdf:type  wdt:obra .    
+wd:Q79454202  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454202  wdt:titulo  "Linguistic knowledge base simplification regarding accuracy and interpretability"@en .    
+wd:Q79454202  wdt:autor  "Serge Guillaume" .   
+wd:Q79454202  wdt:idioma  "inglés"@es .    
+wd:Q79454202  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454202  wdt:fecha  "2006-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454202  wdt:url  <http://hdl.handle.net/2099/3662> .   
+wd:Q79454241  wdt:tema  "algoritmo genético"@es .    
+wd:Q79454280  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454280  wdt:autor  "Lluís Vila" .   
+wd:Q79454245  rdf:type  wdt:obra .    
+wd:Q79454245  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454245  wdt:titulo  "Neural methodologies in rule-based expert systems"@en .    
+wd:Q79454245  wdt:autor  "G. Tamburrini" .   
+wd:Q79454245  wdt:idioma  "inglés"@es .    
+wd:Q79454245  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454245  wdt:fecha  "1996-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454245  wdt:url  <http://hdl.handle.net/2099/2632> .   
+wd:Q79454234  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454241  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454271  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454321  rdf:type  wdt:obra .    
+wd:Q79454321  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454321  wdt:titulo  "Operating on formal concept abstraction"@en .    
+wd:Q79454321  wdt:autor  "Anio O. Arigoni" .   
+wd:Q79454321  wdt:idioma  "inglés"@es .    
+wd:Q79454321  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454321  wdt:fecha  "1994-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454321  wdt:url  <http://hdl.handle.net/2099/2446> .   
+wd:Q79454245  wdt:autor  "E. Burattini" .   
+wd:Q79454271  wdt:autor  "Francesc Esteva Massaguer" .   
+wd:Q79454218  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454218  wdt:autor  "Miguel Delgado Calvo-Flores" .   
+wd:Q79454208  rdf:type  wdt:obra .    
+wd:Q79454208  wdt:tema  "Prolog"@es .    
+wd:Q79454208  wdt:titulo  "Lukasiewicz logic based Prolog"@en .    
+wd:Q79454208  wdt:idioma  "inglés"@es .    
+wd:Q79454208  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454208  wdt:fecha  "1994-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454208  wdt:url  <http://hdl.handle.net/2099/2435> .   
+wd:Q79454250  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454250  wdt:autor  "José Manuel Benítez Sánchez" .   
+wd:Q79454230  wdt:autor  "Eduard Agustench Cotilla" .   
+wd:Q79454218  wdt:autor  "Ignacio Requena Ramos" .   
+wd:Q79454213  wdt:tema  "incertidumbre"@es .    
+wd:Q79454250  wdt:autor  "Miguel Delgado Calvo-Flores" .   
+wd:Q79454245  wdt:tema  "red neuronal"@es .    
+wd:Q79454230  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454250  wdt:autor  "Ignacio Requena Ramos" .   
+wd:Q79454230  wdt:autor  "Mª Victoria Mohedano Salillas" .   
+wd:Q79454245  wdt:tema  "knowledge acquisition"@en .    
+wd:Q79454207  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454207  wdt:autor  "Luís Antonio Junco Navascues" .    
+wd:Q79454245  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454241  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454195  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454271  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454258  wdt:tema  "teoría de Dempster-Shafer"@es .    
+wd:Q79454245  wdt:tema  "sistema experto basado en reglas"@es .    
+wd:Q79454271  wdt:tema  "lógica plurivalente"@es .    
+wd:Q79454202  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454202  wdt:autor  "Luis Magdalena Layos" .   
+wd:Q79454321  wdt:autor  "Andrea Rossi" .   
+wd:Q79454321  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454197  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454197  wdt:autor  "Daniel Sánchez Fernández" .   
+wd:Q79454205  rdf:type  wdt:obra .    
+wd:Q79454205  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454205  wdt:titulo  "Local Boolean manifolds from knowledge representation systems"@en .    
+wd:Q79454205  wdt:autor  "Gianpiero Cattaneo" .    
+wd:Q79454205  wdt:idioma  "inglés"@es .    
+wd:Q79454205  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454205  wdt:fecha  "1996-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454205  wdt:url  <http://hdl.handle.net/2099/2619> .   
+wd:Q79454205  wdt:tema  "lógica algebraica"@es .    
+wd:Q79454234  wdt:tema  "incertidumbre"@es .    
+wd:Q79454207  wdt:tema  "red neuronal"@es .    
+wd:Q79454236  rdf:type  wdt:obra .    
+wd:Q79454236  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454236  wdt:titulo  "Modeling a fuzzy coprocessor and its programming language"@en .    
+wd:Q79454236  wdt:autor  "Ricardo García Rosa" .    
+wd:Q79454236  wdt:idioma  "inglés"@es .    
+wd:Q79454236  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454236  wdt:fecha  "1998-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454236  wdt:url  <http://hdl.handle.net/2099/3513> .   
+wd:Q79454208  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454208  wdt:tema  "Ulam's game"@en .    
+wd:Q79454234  wdt:tema  "sistema de conocimiento"@es .    
+wd:Q79454241  wdt:tema  "lógica difusa"@es .    
+wd:Q79454236  wdt:autor  "Teresa de Pedro Lucio" .    
+wd:Q79454205  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454258  wdt:tema  "inteligencia artificial"@es .    
+wd:Q1835024  rdf:type  wdt:obra .    
+wd:Q1835024  wdt:tema  "matemáticas"@es .    
+wd:Q1835024  wdt:titulo  "Modeling, Identification and Control"@en .    
+wd:Q1835024  wdt:idioma  "inglés"@es .    
+wd:Q1660383  rdf:type  wdt:obra .    
+wd:Q1660383  wdt:tema  "medicina"@es .    
+wd:Q1660383  wdt:titulo  "Journal of Machine Learning Research"@en .    
+wd:Q1660383  wdt:idioma  "inglés"@es .    
+wd:Q830526  rdf:type  wdt:obra .    
+wd:Q830526  wdt:tema  "ciencias de la computación"@es .    
+wd:Q830526  wdt:titulo  "Free Culture"@en .    
+wd:Q830526  wdt:idioma  "inglés"@es .    
+wd:Q830526  wdt:fecha  "2004-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q3513778  rdf:type  wdt:obra .    
+wd:Q3513778  wdt:tema  "ciencias de la computación"@es .    
+wd:Q3513778  wdt:titulo  "\"Concepts, Techniques, and Models of Computer Programming\""@en .    
+wd:Q3513778  wdt:idioma  "inglés"@es .    
+wd:Q3513778  wdt:fecha  "2004-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q3513778  wdt:fecha  "2004-03-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q3186917  rdf:type  wdt:obra .    
+wd:Q3186917  wdt:tema  "ciencias de la computación"@es .    
+wd:Q3186917  wdt:titulo  "Journal of Functional Programming"@en .    
+wd:Q3186917  wdt:idioma  "inglés"@es .    
+wd:Q4650723  rdf:type  wdt:obra .    
+wd:Q4650723  wdt:tema  "ciencias de la computación"@es .    
+wd:Q4650723  wdt:titulo  "ACM Computing Reviews"@en .    
+wd:Q4650723  wdt:idioma  "inglés"@es .    
+wd:Q4650723  wdt:titulo  "Computing reviews"@en .    
+wd:Q812608  rdf:type  wdt:obra .    
+wd:Q812608  wdt:tema  "ciencias de la computación"@es .    
+wd:Q812608  wdt:titulo  "Bayrische Hackerpost"@de .    
+wd:Q812608  wdt:idioma  "alemán"@es .    
+wd:Q812608  wdt:fecha  "1984-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q2202393  rdf:type  wdt:obra .    
+wd:Q2202393  wdt:tema  "ciencias de la computación"@es .    
+wd:Q2202393  wdt:titulo  "Computer Science and Information Systems"@en .    
+wd:Q2202393  wdt:idioma  "inglés"@es .    
+wd:Q938821  rdf:type  wdt:obra .    
+wd:Q938821  wdt:tema  "ciencias de la computación"@es .    
+wd:Q938821  wdt:titulo  "Computers and Intractability: A Guide to the Theory of NP-Completeness"@en .    
+wd:Q938821  wdt:idioma  "inglés"@es .    
+wd:Q938821  wdt:fecha  "1979-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q2640575  rdf:type  wdt:obra .    
+wd:Q2640575  wdt:tema  "ciencias de la computación"@es .    
+wd:Q2640575  wdt:titulo  "International Journal of Distributed Sensor Networks"@en .    
+wd:Q2640575  wdt:idioma  "inglés"@es .    
+wd:Q924044  rdf:type  wdt:obra .    
+wd:Q924044  wdt:tema  "ciencias de la computación"@es .    
+wd:Q924044  wdt:titulo  "Lecture Notes in Computer Science"@en .    
+wd:Q924044  wdt:idioma  "inglés"@es .    
+wd:Q924044  wdt:titulo  "Lecture notes in computer science"@mul .    
+wd:Q2804867  rdf:type  wdt:obra .    
+wd:Q2804867  wdt:tema  "lingüística"@es .    
+wd:Q2804867  wdt:titulo  "Littérature et informatique : la littérature générée par ordinateur"@fr .    
+wd:Q2804867  wdt:idioma  "francés"@es .    
+wd:Q2804867  wdt:fecha  "1995-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q924044  wdt:idioma  "plurilingüe"@es .    
+wd:Q2788063  rdf:type  wdt:obra .    
+wd:Q2788063  wdt:tema  "ciencias de la computación"@es .    
+wd:Q2788063  wdt:titulo  "Information and Software Technology"@en .    
+wd:Q2788063  wdt:idioma  "inglés"@es .    
+wd:Q2804867  wdt:tema  "retórica"@es .    
+wd:Q1660383  wdt:tema  "ciencias de la computación"@es .    
+wd:Q2804867  wdt:tema  "ciencias de la computación"@es .    
+wd:Q1660383  wdt:tema  "aprendizaje automático"@es .    
+wd:Q1835024  wdt:tema  "ciencias de la computación"@es .    
+wd:Q1120519  rdf:type  wdt:obra .    
+wd:Q1120519  wdt:tema  "ciencias de la computación"@es .    
+wd:Q1120519  wdt:titulo  "Communications of the ACM"@en .    
+wd:Q1120519  wdt:idioma  "inglés"@es .    
+wd:Q129122  rdf:type  wdt:obra .    
+wd:Q129122  wdt:tema  "ciencias de la computación"@es .    
+wd:Q129122  wdt:titulo  "IEEE Transactions on Mobile Computing"@en .    
+wd:Q129122  wdt:idioma  "inglés"@es .    
+wd:Q812608  wdt:tema  "hackear"@es .    
+wd:Q812608  wdt:tema  "Remote data transmission"@en .    
+wd:Q5157475  rdf:type  wdt:obra .    
+wd:Q5157475  wdt:tema  "ciencias de la computación"@es .    
+wd:Q5157475  wdt:titulo  "Computer Science"@mul .    
+wd:Q5157475  wdt:idioma  "inglés"@es .    
+wd:Q3295299  rdf:type  wdt:obra .    
+wd:Q3295299  wdt:tema  "ciencias de la computación"@es .    
+wd:Q3295299  wdt:titulo  "ACM Computing Surveys"@en .    
+wd:Q3295299  wdt:idioma  "inglés"@es .    
+wd:Q5157475  wdt:titulo  "Computer Science"@en .    
+wd:Q129339  rdf:type  wdt:obra .    
+wd:Q129339  wdt:tema  "ciencias de la computación"@es .    
+wd:Q129339  wdt:titulo  "International Journal of Cooperative Information Systems"@en .    
+wd:Q129339  wdt:idioma  "inglés"@es .    
+wd:Q129239  rdf:type  wdt:obra .    
+wd:Q129239  wdt:tema  "ciencias de la computación"@es .    
+wd:Q129239  wdt:titulo  "Information Processing Letters"@en .    
+wd:Q129239  wdt:idioma  "inglés"@es .    
+wd:Q5157288  rdf:type  wdt:obra .    
+wd:Q5157288  wdt:tema  "ciencias de la computación"@es .    
+wd:Q5157288  wdt:titulo  "Computational Intelligence"@en .    
+wd:Q5157288  wdt:idioma  "inglés"@es .    
+wd:Q5157288  wdt:titulo  "Computational intelligence"@mul .    
+wd:Q5157475  wdt:idioma  "plurilingüe"@es .    
+wd:Q5157288  wdt:idioma  "plurilingüe"@es .    
+wd:Q1709878  rdf:type  wdt:obra .    
+wd:Q1709878  wdt:tema  "ciencias de la computación"@es .    
+wd:Q1709878  wdt:titulo  "Journal of the ACM"@en .    
+wd:Q1709878  wdt:idioma  "inglés"@es .    
+wd:Q1709878  wdt:titulo  "Journal of the Association for Computing Machinery"@en .    
+wd:Q845647  rdf:type  wdt:obra .    
+wd:Q845647  wdt:tema  "ciencias de la computación"@es .    
+wd:Q845647  wdt:titulo  "IEEE Software"@en .    
+wd:Q845647  wdt:idioma  "inglés"@es .    
+wd:Q3146632  rdf:type  wdt:obra .    
+wd:Q3146632  wdt:tema  "ciencias de la computación"@es .    
+wd:Q3146632  wdt:titulo  "IEEE Transactions on Pattern Analysis and Machine Intelligence"@en .    
+wd:Q3146632  wdt:idioma  "inglés"@es .    
+wd:Q5156624  rdf:type  wdt:obra .    
+wd:Q5156624  wdt:tema  "ciencias de la computación"@es .    
+wd:Q5156624  wdt:titulo  "Complexity"@en .    
+wd:Q5156624  wdt:idioma  "inglés"@es .    
+wd:Q79454354  rdf:type  wdt:obra .    
+wd:Q79454354  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454354  wdt:titulo  "Reasons: belief support and goal dynamics"@en .    
+wd:Q79454354  wdt:idioma  "inglés"@es .    
+wd:Q79454354  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454354  wdt:fecha  "1996-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454354  wdt:url  <http://hdl.handle.net/2099/2630> .   
+wd:Q79454383  rdf:type  wdt:obra .    
+wd:Q79454383  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454383  wdt:titulo  "Sedàs: a semantic based general classifier system"@en .    
+wd:Q79454383  wdt:autor  "Aïda Valls Mateu" .   
+wd:Q79454383  wdt:idioma  "inglés"@es .    
+wd:Q79454383  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454383  wdt:fecha  "1997-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454383  wdt:url  <http://hdl.handle.net/2099/3493> .   
+wd:Q79454373  rdf:type  wdt:obra .    
+wd:Q79454373  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454373  wdt:titulo  "Rule-based fuzzy object similarity"@en .    
+wd:Q79454373  wdt:autor  "Horst Bunke" .   
+wd:Q79454373  wdt:idioma  "inglés"@es .    
+wd:Q79454373  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454373  wdt:fecha  "2001-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454373  wdt:url  <http://hdl.handle.net/2099/3600> .   
+wd:Q79454373  wdt:tema  "distancia euclídea"@es .    
+wd:Q79454373  wdt:autor  "Xavier Fàbregas" .   
+wd:Q79454463  rdf:type  wdt:obra .    
+wd:Q79454463  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454463  wdt:titulo  "Towards a fuzzy computability?"@en .    
+wd:Q79454463  wdt:autor  "Claudio Moraga" .   
+wd:Q79454463  wdt:idioma  "inglés"@es .    
+wd:Q79454463  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454463  wdt:fecha  "1999-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454463  wdt:url  <http://hdl.handle.net/2099/3551> .   
+wd:Q79454345  rdf:type  wdt:obra .    
+wd:Q79454345  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454345  wdt:titulo  "Probabilistic evaluation of fuzzy quantified sentences: independence profile"@en .    
+wd:Q79454345  wdt:autor  "Purificación Cariñena Amigo" .   
+wd:Q79454345  wdt:idioma  "inglés"@es .    
+wd:Q79454345  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454345  wdt:fecha  "2001-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454345  wdt:url  <http://hdl.handle.net/2099/3609> .   
+wd:Q79454373  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454373  wdt:autor  "Abraham Kandel" .   
+wd:Q79454345  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454345  wdt:autor  "D. Senén Barro Ameneiro" .   
+wd:Q79454383  wdt:tema  "sistema de conocimiento"@es .    
+wd:Q79454383  wdt:autor  "Vicenç Torra Ferré" .   
+wd:Q79454366  rdf:type  wdt:obra .    
+wd:Q79454366  wdt:tema  "red de Petri"@es .    
+wd:Q79454366  wdt:titulo  "Representation of fuzzy knowledge bases using Petri nets: operation in the truth space"@en .    
+wd:Q79454366  wdt:autor  "D. Senén Barro Ameneiro" .   
+wd:Q79454366  wdt:idioma  "inglés"@es .    
+wd:Q79454366  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454366  wdt:fecha  "1996-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454366  wdt:url  <http://hdl.handle.net/2099/3473> .   
+wd:Q79454359  rdf:type  wdt:obra .    
+wd:Q79454359  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454359  wdt:titulo  "Relevance and redundancy in fuzzy classification systems"@en .    
+wd:Q79454359  wdt:autor  "Ana del Amo" .   
+wd:Q79454359  wdt:idioma  "inglés"@es .    
+wd:Q79454359  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454359  wdt:fecha  "2001-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454359  wdt:url  <http://hdl.handle.net/2099/3605> .   
+wd:Q79454383  wdt:autor  "David Riaño Ramos" .   
+wd:Q79454352  rdf:type  wdt:obra .    
+wd:Q79454352  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454352  wdt:titulo  "Qualitative reasoning in Bayesian networks"@en .    
+wd:Q79454352  wdt:autor  "Paolo Garbolino" .   
+wd:Q79454352  wdt:idioma  "inglés"@es .    
+wd:Q79454352  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454352  wdt:fecha  "1996-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454352  wdt:url  <http://hdl.handle.net/2099/2620> .   
+wd:Q79454421  rdf:type  wdt:obra .    
+wd:Q79454421  wdt:tema  "Fuzzy control system"@en .    
+wd:Q79454421  wdt:titulo  "Systolic architectures for fuzzy processing and their simulation"@en .    
+wd:Q79454421  wdt:autor  "Luis de Salvador" .   
+wd:Q79454421  wdt:idioma  "inglés"@es .    
+wd:Q79454421  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454421  wdt:fecha  "1994-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454421  wdt:url  <http://hdl.handle.net/2099/2458> .   
+wd:Q79454345  wdt:autor  "Alberto José Bugarín Diz" .   
+wd:Q79454421  wdt:tema  "simulación"@es .    
+wd:Q79454421  wdt:autor  "Marcos García" .   
+wd:Q79454386  rdf:type  wdt:obra .    
+wd:Q79454386  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454386  wdt:titulo  "Segmenting colour images on the basis of a fuzzy hierarchical approach"@en .    
+wd:Q79454386  wdt:autor  "Jesús Chamorro Martínez" .   
+wd:Q79454386  wdt:idioma  "inglés"@es .    
+wd:Q79454386  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454386  wdt:fecha  "2003-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454386  wdt:url  <http://hdl.handle.net/2099/1740> .   
+wd:Q79454366  wdt:autor  "Alberto José Bugarín Diz" .   
+wd:Q79454421  wdt:tema  "VHDL"@es .    
+wd:Q79454446  rdf:type  wdt:obra .    
+wd:Q79454446  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454446  wdt:titulo  "The logistic decision making in management accounting with genetic algoritms and fuzzy sets"@en .    
+wd:Q79454446  wdt:autor  "M. Ángel Rodríguez-Fernández" .   
+wd:Q79454446  wdt:idioma  "inglés"@es .    
+wd:Q79454446  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454446  wdt:fecha  "2000-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454446  wdt:url  <http://hdl.handle.net/2099/3579> .   
+wd:Q79454421  wdt:autor  "Julio Gutiérrez" .   
+wd:Q79454359  wdt:tema  "redundancia"@es .    
+wd:Q79454383  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454446  wdt:tema  "toma de decisiones"@es .    
+wd:Q79454446  wdt:autor  "Cristina Mendaña Cuervo" .   
+wd:Q79454345  wdt:autor  "Félix Díaz Hermida" .   
+wd:Q79454359  wdt:autor  "Daniel Gómez González" .    
+wd:Q79454446  wdt:autor  "Enrique López González" .    
+wd:Q79454421  wdt:tema  "sístole"@es .    
+wd:Q79454383  wdt:tema  "análisis de grupos"@es .    
+wd:Q79454429  rdf:type  wdt:obra .    
+wd:Q79454429  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454429  wdt:titulo  "The application of generalized constraints to object-oriented database models"@en .    
+wd:Q79454429  wdt:autor  "Guy de Tré" .    
+wd:Q79454429  wdt:idioma  "inglés"@es .    
+wd:Q79454429  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454429  wdt:fecha  "2000-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454429  wdt:url  <http://hdl.handle.net/2099/3580> .    
+wd:Q79454359  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454373  wdt:tema  "similarity"@en .    
+wd:Q79454429  wdt:tema  "base de datos objeto-relacional"@es .    
+wd:Q79454446  wdt:tema  "logística"@es .    
+wd:Q79454359  wdt:autor  "Francisco Javier Montero de Juan" .    
+wd:Q79454451  rdf:type  wdt:obra .    
+wd:Q79454451  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454451  wdt:titulo  "The role of heuristics in automated theorem proving J.A Robinson's resolution principle"@en .    
+wd:Q79454451  wdt:autor  "Roberto Coderschi" .   
+wd:Q79454451  wdt:idioma  "inglés"@es .    
+wd:Q79454451  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454451  wdt:fecha  "1996-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454451  wdt:url  <http://hdl.handle.net/2099/2634> .    
+wd:Q79454366  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454354  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454446  wdt:tema  "algoritmo"@es .    
+wd:Q79454408  rdf:type  wdt:obra .    
+wd:Q79454408  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454408  wdt:titulo  "Stock price forecasting: autoregressive modelling and fuzzy neural network"@en .    
+wd:Q79454408  wdt:autor  "Dusan Marcek" .    
+wd:Q79454408  wdt:idioma  "inglés"@es .    
+wd:Q79454408  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454408  wdt:fecha  "2000-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454408  wdt:url  <http://hdl.handle.net/2099/3572> .    
+wd:Q79454339  rdf:type  wdt:obra .    
+wd:Q79454339  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454339  wdt:titulo  "Parametric families of fuzzy consequence operators"@en .    
+wd:Q79454339  wdt:autor  "Jorge Elorza" .   
+wd:Q79454339  wdt:idioma  "inglés"@es .    
+wd:Q79454339  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454339  wdt:fecha  "2004-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454339  wdt:url  <http://hdl.handle.net/2099/3639> .    
+wd:Q79454421  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454359  wdt:autor  "Gregory S. Biging" .    
+wd:Q79454373  wdt:tema  "nearest neighbor classifier"@en .    
+wd:Q79454464  rdf:type  wdt:obra .    
+wd:Q79454464  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454464  wdt:titulo  "Towards Specifying with Inclusions"@en .    
+wd:Q79454464  wdt:autor  "Jaume Agustí Cullell" .   
+wd:Q79454464  wdt:idioma  "inglés"@es .    
+wd:Q79454464  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454464  wdt:fecha  "1997-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454464  wdt:url  <http://hdl.handle.net/2099/3492> .   
+wd:Q79454464  wdt:tema  "Lenguaje visual"@es .    
+wd:Q79454464  wdt:tema  "declarative programming language"@en .    
+wd:Q79454451  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454366  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454408  wdt:tema  "red neuronal artificial"@es .    
+wd:Q79454352  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454408  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454386  wdt:autor  "Belen Prados Suárez" .   
+wd:Q79454386  wdt:autor  "Daniel Sánchez Fernández" .    
+wd:Q79454386  wdt:autor  "Elena Galán Perales" .    
+wd:Q79453892  rdf:type  wdt:obra .    
+wd:Q79453892  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453892  wdt:titulo  "A review on the ant colony optimization metaheuristic: basis, models and new trends"@en .    
+wd:Q79453892  wdt:autor  "Oscar Cordón García" .    
+wd:Q79453892  wdt:idioma  "inglés"@es .    
+wd:Q79453892  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453892  wdt:fecha  "2002-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453892  wdt:url  <http://hdl.handle.net/2099/3624> .   
+wd:Q79453904  rdf:type  wdt:obra .    
+wd:Q79453904  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453904  wdt:titulo  "Aggregation, non-contradiction ans excluded-middle"@en .    
+wd:Q79453904  wdt:autor  "Enric Trillas i Gay" .    
+wd:Q79453904  wdt:idioma  "inglés"@es .    
+wd:Q79453904  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453904  wdt:fecha  "2006-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453904  wdt:url  <http://hdl.handle.net/2099/3661> .    
+wd:Q79453901  rdf:type  wdt:obra .    
+wd:Q79453901  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453901  wdt:titulo  "Adaptive search heuristics for the generalized assignment problem"@en .    
+wd:Q79453901  wdt:autor  "Daniel Serra" .    
+wd:Q79453901  wdt:idioma  "inglés"@es .    
+wd:Q79453901  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453901  wdt:fecha  "2002-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453901  wdt:url  <http://hdl.handle.net/2099/3627> .    
+wd:Q79453901  wdt:tema  "GRASP"@es .    
+wd:Q79453866  rdf:type  wdt:obra .    
+wd:Q79453866  wdt:tema  "Ad hoc On-Demand Distance Vector Routing"@en .    
+wd:Q79453866  wdt:titulo  "A model of routine lifetime optimization with linguistic knowledge in wireless ad-hoc networks"@en .    
+wd:Q79453866  wdt:autor  "Essam Natsheh" .    
+wd:Q79453866  wdt:idioma  "inglés"@es .    
+wd:Q79453866  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453866  wdt:fecha  "2006-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453866  wdt:url  <http://hdl.handle.net/2099/3654> .    
+wd:Q79453901  wdt:tema  "local search"@en .    
+wd:Q79453901  wdt:autor  "Helena Ramalhinho Lourenço" .    
+wd:Q79453877  rdf:type  wdt:obra .    
+wd:Q79453877  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453877  wdt:titulo  "A neural implementation of multi-adjoint logic programs via sf-homogenization"@en .    
+wd:Q79453877  wdt:autor  "Jesús Medina Moreno" .    
+wd:Q79453877  wdt:idioma  "inglés"@es .    
+wd:Q79453877  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453877  wdt:fecha  "2005-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453877  wdt:url  <http://hdl.handle.net/2099/1832> .    
+wd:Q79453882  rdf:type  wdt:obra .    
+wd:Q79453882  wdt:tema  "Neuro-borroso"@es .    
+wd:Q79453882  wdt:titulo  "A neuro-fuzzy system for sequence alignment on two levels"@en .    
+wd:Q79453882  wdt:autor  "Tilman Weyde" .    
+wd:Q79453882  wdt:idioma  "inglés"@es .    
+wd:Q79453882  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453882  wdt:fecha  "2004-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453882  wdt:url  <http://hdl.handle.net/2099/3646> .    
+wd:Q79453915  rdf:type  wdt:obra .    
+wd:Q79453915  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453915  wdt:titulo  "An approach to fuzzy temporal reasoning in medicine"@en .    
+wd:Q79453915  wdt:autor  "R. Marín" .    
+wd:Q79453915  wdt:idioma  "inglés"@es .    
+wd:Q79453915  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453915  wdt:fecha  "1994-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453915  wdt:url  <http://hdl.handle.net/2099/2455> .   
+wd:Q79453866  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453873  rdf:type  wdt:obra .    
+wd:Q79453873  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453873  wdt:titulo  "A multicriteria genetic tuning for fuzzy logic controllers"@en .    
+wd:Q79453873  wdt:autor  "Antonio González Muñoz" .    
+wd:Q79453873  wdt:idioma  "inglés"@es .    
+wd:Q79453873  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453873  wdt:fecha  "2001-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453873  wdt:url  <http://hdl.handle.net/2099/3604> .    
+wd:Q79453882  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79453868  rdf:type  wdt:obra .    
+wd:Q79453868  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453868  wdt:titulo  "A multi-agent system based on fuzzy logic applied to RoboCup's enviroment"@en .    
+wd:Q79453868  wdt:autor  "Eugenio Aguirre Molina" .    
+wd:Q79453868  wdt:idioma  "inglés"@es .    
+wd:Q79453868  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453868  wdt:fecha  "2001-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453868  wdt:url  <http://hdl.handle.net/2099/3603> .   
+wd:Q79453901  wdt:tema  "búsqueda tabú"@es .    
+wd:Q79453866  wdt:autor  "Sabira Khatum" .    
+wd:Q79453907  rdf:type  wdt:obra .    
+wd:Q79453907  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453907  wdt:titulo  "An analysis of MYCIN-like expert systems"@en .    
+wd:Q79453907  wdt:autor  "Julio José Valdés Ramos" .    
+wd:Q79453907  wdt:idioma  "inglés"@es .    
+wd:Q79453907  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453907  wdt:fecha  "1994-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453907  wdt:url  <http://hdl.handle.net/2099/1834> .   
+wd:Q79453877  wdt:tema  "matemáticas discretas"@es .    
+wd:Q79453873  wdt:autor  "Juan Luis Castro Peña" .    
+wd:Q79453915  wdt:tema  "sistema experto"@es .    
+wd:Q79453915  wdt:autor  "R. Ruiz" .   
+wd:Q79453871  rdf:type  wdt:obra .    
+wd:Q79453871  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79453871  wdt:titulo  "A multi-granular linguistic model to evaluate the suitability of installing an ERP system"@en .    
+wd:Q79453871  wdt:autor  "Antonio Gabriel López-Herrera" .    
+wd:Q79453871  wdt:idioma  "inglés"@es .    
+wd:Q79453871  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453871  wdt:fecha  "2005-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453871  wdt:url  <http://hdl.handle.net/2099/1833> .    
+wd:Q79453904  wdt:autor  "Ana Pradera Gómez" .   
+wd:Q79453915  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79453915  wdt:autor  "F. Palacios" .    
+wd:Q79453882  wdt:tema  "alineamiento de secuencias"@es .    
+wd:Q79453882  wdt:autor  "Klaus Dalinghaus" .    
+wd:Q79453897  rdf:type  wdt:obra .    
+wd:Q79453897  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79453897  wdt:titulo  "A survey of methods to evaluate quantified sentences"@en .    
+wd:Q79453897  wdt:autor  "Miguel Delgado Calvo-Flores" .    
+wd:Q79453897  wdt:idioma  "inglés"@es .    
+wd:Q79453897  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453897  wdt:fecha  "2000-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453897  wdt:url  <http://hdl.handle.net/2099/3573> .    
+wd:Q79453858  rdf:type  wdt:obra .    
+wd:Q79453858  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453858  wdt:titulo  "A methodology for developing knowledge-based systems"@en .    
+wd:Q79453858  wdt:autor  "José Jesús Castro Sánchez" .    
+wd:Q79453858  wdt:idioma  "inglés"@es .    
+wd:Q79453858  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453858  wdt:fecha  "1998-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453858  wdt:url  <http://hdl.handle.net/2099/3536> .   
+wd:Q79453865  rdf:type  wdt:obra .    
+wd:Q79453865  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79453865  wdt:titulo  "A model of decision with lingustic knowledge"@en .    
+wd:Q79453865  wdt:autor  "M.T. Lamata" .    
+wd:Q79453865  wdt:idioma  "inglés"@es .    
+wd:Q79453865  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453865  wdt:fecha  "1994-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453865  wdt:url  <http://hdl.handle.net/2099/2454> .    
+wd:Q79453873  wdt:autor  "Jorge Casillas Barranquero" .    
+wd:Q79453858  wdt:tema  "sistema de conocimiento"@es .    
+wd:Q79453858  wdt:autor  "Rafael Alejandro Espín Andrade" .   
+wd:Q79453875  rdf:type  wdt:obra .    
+wd:Q79453875  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453875  wdt:titulo  "A multistrategy approach for digital text"@en .    
+wd:Q79453875  wdt:autor  "María Dolores del Castillo" .    
+wd:Q79453875  wdt:idioma  "inglés"@es .    
+wd:Q79453875  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453875  wdt:fecha  "2005-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453875  wdt:url  <http://hdl.handle.net/2099/2052> .   
+wd:Q79453915  wdt:autor  "F. Martín" .    
+wd:Q79453879  rdf:type  wdt:obra .    
+wd:Q79453879  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79453879  wdt:titulo  "A neuro-fuzzy system for isolated hand-written digit recognition"@en .    
+wd:Q79453879  wdt:autor  "Jesús Villadangos Alonso" .   
+wd:Q79453879  wdt:idioma  "inglés"@es .    
+wd:Q79453879  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453879  wdt:fecha  "2001-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453879  wdt:url  <http://hdl.handle.net/2099/3611> .    
+wd:Q79453879  wdt:autor  "José Javier Astrain Escola" .    
+wd:Q79453879  wdt:autor  "José Ramón González de Mendívil" .    
+wd:Q79453858  wdt:autor  "José Manuel Zurita López" .    
+wd:Q79453882  wdt:tema  "red neuronal artificial"@es .    
+wd:Q79453858  wdt:autor  "Juan Luis Castro Peña" .    
+wd:Q79453882  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453871  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453868  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79453868  wdt:autor  "Antonio González Muñoz" .   
+wd:Q79453873  wdt:autor  "Rafael Alcalá Fernández" .    
+wd:Q79453871  wdt:autor  "Francisco Mata" .   
+wd:Q79453897  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453865  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453871  wdt:autor  "Luís G. Pérez" .    
+wd:Q79453892  wdt:tema  "Artificial Ants"@en .    
+wd:Q79453875  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79453875  wdt:autor  "José Ignacio Serrano Moreno" .    
+wd:Q79453879  wdt:autor  "Miguel Pinzolas" .    
+wd:Q79453879  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453901  wdt:tema  "Generalized assignment problem"@en .    
+wd:Q79453897  wdt:autor  "Daniel Sánchez Fernández" .    
+wd:Q79453868  wdt:autor  "Juan Carlos Gámez" .    
+wd:Q79453865  wdt:tema  "operador"@es .    
+wd:Q79453871  wdt:autor  "Pedro José Sánchez" .    
+wd:Q79453866  wdt:autor  "Adznan B. Jantan" .    
+wd:Q79453897  wdt:autor  "José María Serrano Chica" .    
+wd:Q79453892  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79453904  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79453901  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79453877  wdt:autor  "Enrique Mérida-Casermeiro" .    
+wd:Q79453865  wdt:tema  "incertidumbre"@es .    
+wd:Q79453865  wdt:tema  "toma de decisiones"@es .    
+wd:Q79454488  rdf:type  wdt:obra .    
+wd:Q79454488  wdt:tema  "lógica difusa"@es .    
+wd:Q79454488  wdt:titulo  "Visual anomaly detection via soft computing: a prototype application at NASA"@en .    
+wd:Q79454488  wdt:autor  "Jesús A. Domínguez" .    
+wd:Q79454488  wdt:idioma  "inglés"@es .    
+wd:Q79454488  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454488  wdt:fecha  "2003-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454488  wdt:url  <http://hdl.handle.net/2099/1769> .   
+wd:Q79454483  rdf:type  wdt:obra .    
+wd:Q79454483  wdt:tema  "user profile"@en .    
+wd:Q79454483  wdt:titulo  "Using genetic feature selection for optimizing user profiles"@en .    
+wd:Q79454483  wdt:autor  "Nicolás Marín Ruíz" .    
+wd:Q79454483  wdt:idioma  "inglés"@es .    
+wd:Q79454483  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454483  wdt:fecha  "2000-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454483  wdt:url  <http://hdl.handle.net/2099/3583> .    
+wd:Q79454477  rdf:type  wdt:obra .    
+wd:Q79454477  wdt:tema  "Visión artificial"@es .    
+wd:Q79454477  wdt:titulo  "Use of fuzzy techniques for detection of multiple sclerosis small lesions"@en .    
+wd:Q79454477  wdt:autor  "Jaume Gili Planas" .   
+wd:Q79454477  wdt:idioma  "inglés"@es .    
+wd:Q79454477  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454477  wdt:fecha  "1998-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454477  wdt:url  <http://hdl.handle.net/2099/3537> .   
+wd:Q79454488  wdt:tema  "retoque fotográfico"@es .    
+wd:Q87190093  rdf:type  wdt:obra .    
+wd:Q87190093  wdt:tema  "ecuación"@es .    
+wd:Q87190093  wdt:titulo  "Sistema Hidrobid II para simular corrientes en cuencos"@es .    
+wd:Q87190093  wdt:autor  "Ángel N. Menéndez" .    
+wd:Q87190093  wdt:idioma  "español"@es .    
+wd:Q87190093  wdt:revista  "Revista Internacional de Métodos Numéricos para Cálculo y Diseño en Ingeniería"@es .    
+wd:Q87190093  wdt:fecha  "1990-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q87190223  rdf:type  wdt:obra .    
+wd:Q87190223  wdt:tema  "ciencias de la computación"@es .    
+wd:Q87190223  wdt:titulo  "Projecto óptimo de reservatórios de pressão horizontais"@pt .    
+wd:Q87190223  wdt:autor  "C. A. Mota Soares" .    
+wd:Q87190223  wdt:idioma  "portugués"@es .    
+wd:Q87190223  wdt:revista  "Revista Internacional de Métodos Numéricos para Cálculo y Diseño en Ingeniería"@es .    
+wd:Q87190223  wdt:fecha  "1990-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q87190223  wdt:autor  "C. M. Mota Soares" .    
+wd:Q87190114  rdf:type  wdt:obra .    
+wd:Q87190114  wdt:tema  "ciencias de la computación"@es .    
+wd:Q87190114  wdt:titulo  "Factores de intensidad de tensiones en problemas con cierre de grieta"@es .    
+wd:Q87190114  wdt:autor  "L. Gracia" .    
+wd:Q87190114  wdt:idioma  "español"@es .    
+wd:Q87190114  wdt:revista  "Revista Internacional de Métodos Numéricos para Cálculo y Diseño en Ingeniería"@es .    
+wd:Q87190114  wdt:fecha  "1990-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q87190042  rdf:type  wdt:obra .    
+wd:Q87190042  wdt:tema  "método numérico"@es .    
+wd:Q87190042  wdt:titulo  "Un postprocesador gráfico independiente de los dispositivos"@es .    
+wd:Q87190042  wdt:autor  "Emilio Dufeu" .    
+wd:Q87190042  wdt:idioma  "español"@es .    
+wd:Q87190042  wdt:revista  "Revista Internacional de Métodos Numéricos para Cálculo y Diseño en Ingeniería"@es .    
+wd:Q87190042  wdt:fecha  "1989-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q87190042  wdt:autor  "Luis Quiroz" .    
+wd:Q79454479  rdf:type  wdt:obra .    
+wd:Q79454479  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454479  wdt:titulo  "Using fuzzy relational databases to represent agricultural and environmental information. An example within the scope of olive cultivation in Granada."@en .    
+wd:Q79454479  wdt:autor  "Victor Aranda" .    
+wd:Q79454479  wdt:idioma  "inglés"@es .    
+wd:Q79454479  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454479  wdt:fecha  "2001-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454479  wdt:url  <http://hdl.handle.net/2099/3610> .   
+wd:Q87190093  wdt:tema  "ecuación diferencial"@es .    
+wd:Q79454477  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454483  wdt:tema  "Fuzzy classification"@en .    
+wd:Q79454483  wdt:autor  "Henrik Legind Larsen" .    
+wd:Q79454488  wdt:tema  "red neuronal artificial"@es .    
+wd:Q79454488  wdt:autor  "Steve Klinko" .    
+wd:Q79454483  wdt:tema  "algoritmo genético"@es .    
+wd:Q79454483  wdt:autor  "Maria José Martín Bautista" .    
+wd:Q79454464  wdt:autor  "Wernher Marco Schorlemmer" .    
+wd:Q87189918  rdf:type  wdt:obra .    
+wd:Q87189918  wdt:tema  "ciencias de la computación"@es .    
+wd:Q87189918  wdt:titulo  "Aplicación de las técnicas de diseño asistido por ordenador a la concepción de estructuras para satélites espaciales"@es .    
+wd:Q87189918  wdt:autor  "Vicente Gómez Molinero" .    
+wd:Q87189918  wdt:idioma  "español"@es .    
+wd:Q87189918  wdt:revista  "Revista Internacional de Métodos Numéricos para Cálculo y Diseño en Ingeniería"@es .    
+wd:Q87189918  wdt:fecha  "1986-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454479  wdt:autor  "Juan Manuel Serrano" .    
+wd:Q79454477  wdt:autor  "Pilar Sobrevilla Frisión" .    
+wd:Q79454488  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454477  wdt:tema  "magnetic resonance"@en .    
+wd:Q79454483  wdt:tema  "ciencias de la computación"@es .    
+wd:Q87190316  rdf:type  wdt:obra .    
+wd:Q87190316  wdt:tema  "ciencias de la computación"@es .    
+wd:Q87190316  wdt:titulo  "Estudio de las condiciones de agitación por oleaje en un puerto mediante simulación numérica"@es .    
+wd:Q87190316  wdt:autor  "Ángel N. Menéndez" .    
+wd:Q87190316  wdt:idioma  "español"@es .    
+wd:Q87190316  wdt:revista  "Revista Internacional de Métodos Numéricos para Cálculo y Diseño en Ingeniería"@es .    
+wd:Q87190316  wdt:fecha  "1992-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454479  wdt:tema  "Olive cultivation in the heart of the Persian Achaemenid Empire: new insights into agricultural practices and environmental changes reflected in a late Holocene pollen record from Lake Parishan, SW Iran"@en .    
+wd:Q79454479  wdt:autor  "Gabriel Delgado Calvo-Flores" .    
+wd:Q96608260  rdf:type  wdt:obra .    
+wd:Q96608260  wdt:tema  "Wikipedia en inglés"@es .    
+wd:Q96608260  wdt:titulo  "WikiCSSH: Extracting Computer Science Subject Headings from Wikipedia"@en .    
+wd:Q96608260  wdt:autor  "Pingjing Yang" .   
+wd:Q96608260  wdt:idioma  "inglés"@es .    
+wd:Q96608260  wdt:revista  "SKG 2020"@en .    
+wd:Q96608260  wdt:fecha  "2020-06-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q96608260  wdt:url  <https://skg.kmi.open.ac.uk/SKG2020/papers/HAN_et_al_SKG_2020.pdf> .   
+wd:Q87190318  rdf:type  wdt:obra .    
+wd:Q87190318  wdt:tema  "ingeniería civil"@es .    
+wd:Q87190318  wdt:titulo  "Aplicaciones de Mecánica Computacional en la industria sidero-metalúrgica"@es .    
+wd:Q87190318  wdt:autor  "Eduardo N. Dvorkin" .    
+wd:Q87190318  wdt:idioma  "español"@es .    
+wd:Q87190318  wdt:revista  "Revista Internacional de Métodos Numéricos para Cálculo y Diseño en Ingeniería"@es .    
+wd:Q87190318  wdt:fecha  "1992-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q87190318  wdt:autor  "A. Assanelli" .    
+wd:Q87190316  wdt:autor  "Miguel A. Cavalieri" .    
+wd:Q87190316  wdt:autor  "Roberto Castellano" .    
+wd:Q87190223  wdt:tema  "método numérico"@es .    
+wd:Q79454483  wdt:tema  "selección de variable"@es .    
+wd:Q87190114  wdt:tema  "método numérico"@es .    
+wd:Q87190318  wdt:autor  "M. Cruchaga" .    
+wd:Q87190318  wdt:autor  "Marcela B. Goldschmit" .   
+wd:Q79454488  wdt:tema  "algoritmo genético"@es .    
+wd:Q87189898  rdf:type  wdt:obra .    
+wd:Q87189898  wdt:tema  "ingeniería civil"@es .    
+wd:Q87189898  wdt:titulo  "Dimensionamiento óptimo y automático de trazados planos"@es .    
+wd:Q87189898  wdt:autor  "Juan José Sendra Salas" .    
+wd:Q87189898  wdt:idioma  "español"@es .    
+wd:Q87189898  wdt:revista  "Revista Internacional de Métodos Numéricos para Cálculo y Diseño en Ingeniería"@es .    
+wd:Q87189898  wdt:fecha  "1986-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454488  wdt:tema  "inteligencia artificial"@es .    
+wd:Q96608260  wdt:tema  "Wikipedia"@es .    
+wd:Q87189965  rdf:type  wdt:obra .    
+wd:Q87189965  wdt:tema  "ciencias de la computación"@es .    
+wd:Q87189965  wdt:titulo  "SIMVIR: Un simulador de memoria virtual para microordenadores"@es .    
+wd:Q87189965  wdt:autor  "Manuel Doblaré" .   
+wd:Q87189965  wdt:idioma  "español"@es .    
+wd:Q87189965  wdt:revista  "Revista Internacional de Métodos Numéricos para Cálculo y Diseño en Ingeniería"@es .    
+wd:Q87189965  wdt:fecha  "1987-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454464  wdt:tema  "razonamiento diagramático"@es .    
+wd:Q79454477  wdt:tema  "ciencias de la computación"@es .    
+wd:Q87190223  wdt:autor  "H. C. Mateus" .    
+wd:Q87190093  wdt:tema  "ciencias de la computación"@es .    
+wd:Q87190316  wdt:tema  "método numérico"@es .    
+wd:Q79454477  wdt:tema  "esclerosis múltiple"@es .    
+wd:Q87190378  rdf:type  wdt:obra .    
+wd:Q87190378  wdt:tema  "ciencias de la computación"@es .    
+wd:Q87190378  wdt:titulo  "Identificaçao de propiedades mecanicas de materiais compósitos utilizando técnicas de optimizaçao"@pt .    
+wd:Q87190378  wdt:autor  "J. M. Meira" .    
+wd:Q87190378  wdt:idioma  "portugués"@es .    
+wd:Q87190378  wdt:revista  "Revista Internacional de Métodos Numéricos para Cálculo y Diseño en Ingeniería"@es .    
+wd:Q87190378  wdt:fecha  "1993-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q87190378  wdt:autor  "C. M. Mota Soares" .    
+wd:Q87190378  wdt:autor  "M. J. Moreira de Freitas" .    
+wd:Q87190114  wdt:autor  "F. Espiga" .    
+wd:Q87190114  wdt:autor  "M. Alcantud" .    
+wd:Q79454464  wdt:autor  "Jordi Puigsegur i Figueras" .    
+wd:Q80312330  rdf:type  wdt:obra .    
+wd:Q80312330  wdt:tema  "computadora"@es .    
+wd:Q80312330  wdt:titulo  "Mathematical machines"@en .    
+wd:Q80312330  wdt:autor  "H M DAVIS" .    
+wd:Q80312330  wdt:revista  "Scientific American"@es .    
+wd:Q80312330  wdt:fecha  "1949-04-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q87190042  wdt:tema  "ciencias de la computación"@es .    
+wd:Q80312330  wdt:tema  "ciencias de la computación"@es .    
+wd:Q96608260  wdt:tema  "ciencias de la computación"@es .    
+wd:Q87190318  wdt:tema  "ciencias de la computación"@es .    
+wd:Q87190378  wdt:tema  "método numérico"@es .    
+wd:Q87189898  wdt:tema  "ciencias de la computación"@es .    
+wd:Q7433606  rdf:type  wdt:obra .    
+wd:Q7433606  wdt:tema  "ciencias de la computación"@es .    
+wd:Q7433606  wdt:titulo  "Science software"@en .    
+wd:Q7433606  wdt:idioma  "inglés"@es .    
+wd:Q7433606  wdt:titulo  "Science Software Quarterly"@en .    
+wd:Q105710413  rdf:type  wdt:obra .    
+wd:Q105710413  wdt:tema  "ciencias de la computación"@es .    
+wd:Q105710413  wdt:titulo  "The Uses of Computers in Education"@en .    
+wd:Q105710413  wdt:revista  "Scientific American"@es .    
+wd:Q105710413  wdt:fecha  "1966-09-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q100295747  rdf:type  wdt:obra .    
+wd:Q100295747  wdt:tema  "lingüística"@es .    
+wd:Q100295747  wdt:titulo  "Le traitement automatique des langues pour les sciences sociales : quelques éléments de réflexion à partir d’expériences récentes"@fr .    
+wd:Q100295747  wdt:idioma  "francés"@es .    
+wd:Q100295747  wdt:revista  "Réseaux"@es .    
+wd:Q100295747  wdt:fecha  "2014-06-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454078  rdf:type  wdt:obra .    
+wd:Q79454078  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454078  wdt:titulo  "Evolutionaty training for dynamical recurrent neural networks: an application in finantial time series prediction"@en .    
+wd:Q79454078  wdt:autor  "Mª Carmen Pegalajar Jiménez" .    
+wd:Q79454078  wdt:idioma  "inglés"@es .    
+wd:Q79454078  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454078  wdt:fecha  "2006-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454078  wdt:url  <http://hdl.handle.net/2099/3666> .    
+wd:Q79454078  wdt:tema  "red neuronal recurrente"@es .    
+wd:Q98479389  rdf:type  wdt:obra .    
+wd:Q98479389  wdt:tema  "Wikipedia"@es .    
+wd:Q98479389  wdt:titulo  "WikiCSSH: Extracting Computer Science Subject Headings from Wikipedia"@en .    
+wd:Q98479389  wdt:autor  "Kanyao Han" .    
+wd:Q98479389  wdt:idioma  "inglés"@es .    
+wd:Q98479389  wdt:revista  "ADBIS, TPDL and EDA 2020 Common Workshops and Doctoral Consortium"@en .    
+wd:Q98479389  wdt:fecha  "2020-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q103827254  rdf:type  wdt:obra .    
+wd:Q103827254  wdt:tema  "Margaret Benston"@es .    
+wd:Q103827254  wdt:titulo  "Maggie Benston fonds"@en .    
+wd:Q79453820  rdf:type  wdt:obra .    
+wd:Q79453820  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453820  wdt:titulo  "A first approach to the multipurpose relational database server"@en .    
+wd:Q79453820  wdt:autor  "Ignacio J. Blanco" .    
+wd:Q79453820  wdt:idioma  "inglés"@es .    
+wd:Q79453820  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453820  wdt:fecha  "2005-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453820  wdt:url  <http://hdl.handle.net/2099/1828> .    
+wd:Q7743597  rdf:type  wdt:obra .    
+wd:Q7743597  wdt:tema  "ciencias de la computación"@es .    
+wd:Q7743597  wdt:titulo  "The Journal of Logic and Algebraic Programming"@en .    
+wd:Q7743597  wdt:idioma  "inglés"@es .    
+wd:Q96734873  rdf:type  wdt:obra .    
+wd:Q96734873  wdt:tema  "mecánica"@es .    
+wd:Q96734873  wdt:titulo  "Vestnik Permskogo universiteta. Matematika, mehanika, informatika"@ru .    
+wd:Q96734873  wdt:idioma  "ruso"@es .    
+wd:Q96734873  wdt:titulo  "Вестник Пермского университета. Математика. Механика. Информатика"@ru .    
+wd:Q79453843  rdf:type  wdt:obra .    
+wd:Q79453843  wdt:tema  "algoritmo genético"@es .    
+wd:Q79453843  wdt:titulo  "A hybrid evolutionary approach to intelligent system design"@en .    
+wd:Q79453843  wdt:autor  "Saad Eid" .    
+wd:Q79453843  wdt:idioma  "inglés"@es .    
+wd:Q79453843  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453843  wdt:fecha  "1999-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453843  wdt:url  <http://hdl.handle.net/2099/3541> .    
+wd:Q79453818  rdf:type  wdt:obra .    
+wd:Q79453818  wdt:tema  "Dualidad"@es .    
+wd:Q79453818  wdt:titulo  "A dual approach in fuzzy linear programming"@en .    
+wd:Q79453818  wdt:autor  "Fernando Jiménez Barrionuevo" .    
+wd:Q79453818  wdt:idioma  "inglés"@es .    
+wd:Q79453818  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453818  wdt:fecha  "1996-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453818  wdt:url  <http://hdl.handle.net/2099/3476> .    
+wd:Q7743634  rdf:type  wdt:obra .    
+wd:Q7743634  wdt:tema  "ciencias de la computación"@es .    
+wd:Q7743634  wdt:titulo  "The Journal of Supercomputing"@en .    
+wd:Q7743634  wdt:idioma  "inglés"@es .    
+wd:Q79453818  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453818  wdt:autor  "José Manuel Cadenas Figueredo" .    
+wd:Q79453843  wdt:tema  "algoritmo evolutivo"@es .    
+wd:Q79453843  wdt:autor  "Ibrahim Farag" .    
+wd:Q79453820  wdt:autor  "José María Serrano Chica" .   
+wd:Q100295747  wdt:tema  "inteligencia artificial"@es .    
+wd:Q98148869  rdf:type  wdt:obra .    
+wd:Q98148869  wdt:tema  "Folkeskole"@es .    
+wd:Q98148869  wdt:titulo  "Datalogisk tænkning og teknologiforståelse i folkeskolen tur-retur"@en .    
+wd:Q98148869  wdt:autor  "Elisa Nadire Caeli" .    
+wd:Q98148869  wdt:revista  "Læring og Medier"@en .    
+wd:Q98148869  wdt:fecha  "2019-04-30T00:00:00Z"^^xsd:dateTime .    
+wd:Q98148869  wdt:url  <https://tidsskrift.dk/lom/article/view/110919/162230> .   
+wd:Q79454078  wdt:autor  "Manuel Pegalajar Cuéllar" .    
+wd:Q79453858  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79453847  rdf:type  wdt:obra .    
+wd:Q79453847  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453847  wdt:titulo  "A language for expressing fuzzy temporal rules"@en .    
+wd:Q79453847  wdt:autor  "Purificación Cariñena Amigo" .    
+wd:Q79453847  wdt:idioma  "inglés"@es .    
+wd:Q79453847  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453847  wdt:fecha  "2000-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453847  wdt:url  <http://hdl.handle.net/2099/3578> .    
+wd:Q96623093  rdf:type  wdt:obra .    
+wd:Q96623093  wdt:tema  "ciencias de la computación"@es .    
+wd:Q96623093  wdt:titulo  "Natura ed informazione"@it .    
+wd:Q96623093  wdt:idioma  "italiano"@es .    
+wd:Q96623093  wdt:revista  "Bibliothecae.it"@es .    
+wd:Q96623093  wdt:fecha  "2020-06-23T00:00:00Z"^^xsd:dateTime .    
+wd:Q96623093  wdt:url  <https://bibliothecae.unibo.it/article/view/11092> .    
+wd:Q79453820  wdt:tema  "serverless relational database management system"@en .    
+wd:Q79453820  wdt:autor  "Carmen Martínez-Cruz" .    
+wd:Q79453843  wdt:tema  "algoritmo"@es .    
+wd:Q96734873  wdt:tema  "matemáticas"@es .    
+wd:Q104925035  rdf:type  wdt:obra .    
+wd:Q104925035  wdt:tema  "Linux embebido"@es .    
+wd:Q104925035  wdt:titulo  "Open Silicium"@fr .    
+wd:Q104925035  wdt:idioma  "francés"@es .    
+wd:Q79453843  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453843  wdt:autor  "Amr Badr" .    
+wd:Q103827254  wdt:tema  "movimiento feminista"@es .    
+wd:Q79453824  rdf:type  wdt:obra .    
+wd:Q79453824  wdt:tema  "algoritmo genético"@es .    
+wd:Q79453824  wdt:titulo  "A formal analisys of the computational dynamics in GIGANTEC"@en .    
+wd:Q79453824  wdt:autor  "Amr Badr" .    
+wd:Q79453824  wdt:idioma  "inglés"@es .    
+wd:Q79453824  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453824  wdt:fecha  "2001-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453824  wdt:url  <http://hdl.handle.net/2099/3602> .   
+wd:Q57985102  wdt:titulo  "IE comunicaciones"@mul .    
+wd:Q96608260  wdt:autor  "Kanyao Han" .    
+wd:Q79453843  wdt:tema  "autómata finito"@es .    
+wd:Q98479389  wdt:autor  "Pingjing Yang" .    
+wd:Q79453814  rdf:type  wdt:obra .    
+wd:Q79453814  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79453814  wdt:titulo  "A cost-sensitive learning algorithm for fuzzy rule-based classifiers"@en .    
+wd:Q79453814  wdt:autor  "Jens Jäkel" .   
+wd:Q79453814  wdt:idioma  "inglés"@es .    
+wd:Q79453814  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453814  wdt:fecha  "2004-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453814  wdt:url  <http://hdl.handle.net/2099/3645> .   
+wd:Q79453824  wdt:tema  "algoritmo"@es .    
+wd:Q7782354  rdf:type  wdt:obra .    
+wd:Q7782354  wdt:tema  "ciencias de la computación"@es .    
+wd:Q7782354  wdt:titulo  "Theoretical Computer Science"@en .    
+wd:Q7782354  wdt:idioma  "inglés"@es .    
+wd:Q100295747  wdt:tema  "ciencias de la comunicación"@es .    
+wd:Q96623093  wdt:tema  "comunicación"@es .    
+wd:Q79453814  wdt:autor  "Sebastian Beck" .    
+wd:Q79453858  wdt:tema  "aprendizaje automático"@es .    
+wd:Q96623093  wdt:tema  "naturaleza"@es .    
+wd:Q79454078  wdt:tema  "algoritmo evolutivo"@es .    
+wd:Q105710650  rdf:type  wdt:obra .    
+wd:Q105710650  wdt:tema  "ciencias de la computación"@es .    
+wd:Q105710650  wdt:titulo  "The Uses of Computers in Technology"@en .    
+wd:Q105710650  wdt:revista  "Scientific American"@es .    
+wd:Q105710650  wdt:fecha  "1966-09-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q100295747  wdt:tema  "sociología"@es .    
+wd:Q96623093  wdt:tema  "biología"@es .    
+wd:Q79454339  wdt:tema  "inteligencia artificial"@es .    
+wd:Q8042458  rdf:type  wdt:obra .    
+wd:Q8042458  wdt:tema  "ciencias de la computación"@es .    
+wd:Q8042458  wdt:titulo  "XRDS"@en .    
+wd:Q8042458  wdt:idioma  "inglés"@es .    
+wd:Q8042458  wdt:fecha  "1994-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q98148869  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106242544  rdf:type  wdt:obra .    
+wd:Q106242544  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106242544  wdt:titulo  "Computer Trends in the 1990s - 1989 ACM 17th Annual Computer Science Conference"@en .    
+wd:Q106242815  rdf:type  wdt:obra .    
+wd:Q106242815  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106242815  wdt:titulo  "12th Annual SIGCSE Conference on Innovation and Technology in Computer Science Education"@en .    
+wd:Q106242818  rdf:type  wdt:obra .    
+wd:Q106242818  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106242818  wdt:titulo  "11th Annual SIGCSE Conference on Innovation and Technology in Computer Science Education"@en .    
+wd:Q106242823  rdf:type  wdt:obra .    
+wd:Q106242823  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106242823  wdt:titulo  "8th Annual SIGCSE Conference on Innovation and Technology in Computer Science Education"@en .    
+wd:Q106242821  rdf:type  wdt:obra .    
+wd:Q106242821  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106242821  wdt:titulo  "9th Annual SIGCSE Conference on Innovation and Technology in Computer Science Education"@en .    
+wd:Q106242825  rdf:type  wdt:obra .    
+wd:Q106242825  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106242825  wdt:titulo  "5th Annual SIGCSE Conference on Innovation and Technology in Computer Science Education"@en .    
+wd:Q106242921  rdf:type  wdt:obra .    
+wd:Q106242921  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106242921  wdt:titulo  "Advances in Computer Science - ASIAN 2009. Information Security and Privacy, 13th Asian Computing Science Conference"@en .    
+wd:Q106242938  rdf:type  wdt:obra .    
+wd:Q106242938  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106242938  wdt:titulo  "Computer Science 2003, Twenty-Sixth Australasian Computer Science Conference (ACSC2003)"@en .    
+wd:Q106242936  rdf:type  wdt:obra .    
+wd:Q106242936  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106242936  wdt:titulo  "Computer Science 2004, Twenty-Seveth Australasian Computer Science Conference (ACSC2004)"@en .    
+wd:Q106243056  rdf:type  wdt:obra .    
+wd:Q106243056  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106243056  wdt:titulo  "Conference on Category Theory and Computer Science, CTCS 1999"@en .    
+wd:Q106243057  rdf:type  wdt:obra .    
+wd:Q106243057  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106243057  wdt:titulo  "Category Theory and Computer Science, 6th International Conference"@en .    
+wd:Q106243115  rdf:type  wdt:obra .    
+wd:Q106243115  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106243115  wdt:titulo  "Computer Science - Theory and Applications - 12th International Computer Science Symposium in Russia"@en .    
+wd:Q106243130  rdf:type  wdt:obra .    
+wd:Q106243130  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106243130  wdt:titulo  "Algebra and Coalgebra in Computer Science, Second International Conference"@en .    
+wd:Q106243131  rdf:type  wdt:obra .    
+wd:Q106243131  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106243131  wdt:titulo  "Algebra and Coalgebra in Computer Science: First International Conference"@en .    
+wd:Q106243128  rdf:type  wdt:obra .    
+wd:Q106243128  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106243128  wdt:titulo  "Algebra and Coalgebra in Computer Science - 4th International Conference"@en .    
+wd:Q106243129  rdf:type  wdt:obra .    
+wd:Q106243129  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106243129  wdt:titulo  "Algebra and Coalgebra in Computer Science, Third International Conference"@en .    
+wd:Q79453824  wdt:tema  "ciencias de la computación"@es .    
+wd:Q104925035  wdt:tema  "software libre"@es .    
+wd:Q79453834  rdf:type  wdt:obra .    
+wd:Q79453834  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453834  wdt:titulo  "A GA-P algorithm to automatically formulate extended Boolean queries for a fuzzy information retrieval system"@en .    
+wd:Q79453834  wdt:autor  "Oscar Cordón García" .   
+wd:Q79453834  wdt:idioma  "inglés"@es .    
+wd:Q79453834  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453834  wdt:fecha  "2000-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453834  wdt:url  <http://hdl.handle.net/2099/3586> .   
+wd:Q7390263  rdf:type  wdt:obra .    
+wd:Q7390263  wdt:tema  "ciencias de la computación"@es .    
+wd:Q7390263  wdt:titulo  "SIAM Journal on Computing"@en .    
+wd:Q7390263  wdt:idioma  "inglés"@es .    
+wd:Q104925035  wdt:tema  "electrónica"@es .    
+wd:Q79453814  wdt:tema  "ciencias de la computación"@es .    
+wd:Q106243130  wdt:tema  "álgebra"@es .    
+wd:Q106243131  wdt:tema  "álgebra"@es .    
+wd:Q106243128  wdt:tema  "álgebra"@es .    
+wd:Q106243129  wdt:tema  "álgebra"@es .    
+wd:Q8042458  wdt:titulo  "Crossroads"@en .    
+wd:Q79453847  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79453847  wdt:autor  "D. Senén Barro Ameneiro" .    
+wd:Q105710776  rdf:type  wdt:obra .    
+wd:Q105710776  wdt:tema  "ciencias de la computación"@es .    
+wd:Q105710776  wdt:titulo  "The Uses of Computers in Organizations"@en .    
+wd:Q105710776  wdt:idioma  "inglés"@es .    
+wd:Q105710776  wdt:revista  "Scientific American"@es .    
+wd:Q105710776  wdt:fecha  "1966-09-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q7246879  rdf:type  wdt:obra .    
+wd:Q7246879  wdt:tema  "ciencias de la computación"@es .    
+wd:Q7246879  wdt:titulo  "Probability in the Engineering and Informational Sciences"@en .    
+wd:Q7246879  wdt:idioma  "inglés"@es .    
+wd:Q104925035  wdt:tema  "sistema embebido"@es .    
+wd:Q105452423  rdf:type  wdt:obra .    
+wd:Q105452423  wdt:tema  "ciencias de la computación"@es .    
+wd:Q105452423  wdt:titulo  "Short cuts"@de .    
+wd:Q105452423  wdt:fecha  "2002-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453847  wdt:autor  "Alberto José Bugarín Diz" .    
+wd:Q98479389  wdt:tema  "ciencias de la computación"@es .    
+wd:Q100295747  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454078  wdt:tema  "inteligencia artificial"@es .    
+wd:Q7554240  rdf:type  wdt:obra .    
+wd:Q7554240  wdt:tema  "ciencias de la computación"@es .    
+wd:Q7554240  wdt:titulo  "Software and System Modeling"@en .    
+wd:Q7554240  wdt:idioma  "inglés"@es .    
+wd:Q7554240  wdt:titulo  "Software and Systems Modeling"@en .    
+wd:Q103827254  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453811  rdf:type  wdt:obra .    
+wd:Q79453811  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453811  wdt:titulo  "A chunking mechanism in a neural system for the parallel processing of a propositional production rules"@en .    
+wd:Q79453811  wdt:autor  "A. Pasconcino" .    
+wd:Q79453811  wdt:idioma  "inglés"@es .    
+wd:Q79453811  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453811  wdt:fecha  "1995-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453811  wdt:url  <http://hdl.handle.net/2099/2466> .    
+wd:Q103827254  wdt:tema  "estudios de la mujer"@es .    
+wd:Q96734873  wdt:tema  "ciencias de la computación"@es .    
+wd:Q103827254  wdt:tema  "química"@es .    
+wd:Q7486248  rdf:type  wdt:obra .    
+wd:Q7486248  wdt:tema  "ciencias de la computación"@es .    
+wd:Q7486248  wdt:titulo  "Introduction to Automata Theory, Languages, and Computation"@en .    
+wd:Q7486248  wdt:idioma  "inglés"@es .    
+wd:Q104925035  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453824  wdt:tema  "algoritmo evolutivo"@es .    
+wd:Q79453834  wdt:autor  "Carmen Zarco Fernández" .   
+wd:Q7727237  rdf:type  wdt:obra .    
+wd:Q7727237  wdt:tema  "ciencias de la computación"@es .    
+wd:Q7727237  wdt:titulo  "The Computer Journal"@en .    
+wd:Q7727237  wdt:idioma  "inglés"@es .    
+wd:Q6294801  rdf:type  wdt:obra .    
+wd:Q6294801  wdt:tema  "inteligencia artificial"@es .    
+wd:Q6294801  wdt:titulo  "Journal of Artificial Intelligence Research"@en .    
+wd:Q6294801  wdt:idioma  "inglés"@es .    
+wd:Q6294801  wdt:titulo  "The journal of artificial intelligence research"@en .    
+wd:Q6051440  rdf:type  wdt:obra .    
+wd:Q6051440  wdt:tema  "ciencias de la computación"@es .    
+wd:Q6051440  wdt:titulo  "International Journal of Information Technology & Decision Making"@en .    
+wd:Q6051440  wdt:idioma  "inglés"@es .    
+wd:Q6051395  rdf:type  wdt:obra .    
+wd:Q6051395  wdt:tema  "ciencias de la computación"@es .    
+wd:Q6051395  wdt:titulo  "International Journal of Foundations of Computer Science"@en .    
+wd:Q6051395  wdt:idioma  "inglés"@es .    
+wd:Q6051433  rdf:type  wdt:obra .    
+wd:Q6051433  wdt:tema  "ciencias de la computación"@es .    
+wd:Q6051433  wdt:titulo  "International Journal of Image and Graphics"@en .    
+wd:Q6051433  wdt:idioma  "inglés"@es .    
+wd:Q6051352  rdf:type  wdt:obra .    
+wd:Q6051352  wdt:tema  "ciencias de la computación"@es .    
+wd:Q6051352  wdt:titulo  "International Journal of Computational Intelligence and Applications"@en .    
+wd:Q6051352  wdt:idioma  "inglés"@es .    
+wd:Q6051352  wdt:titulo  "International journal on computational intelligence and applications"@en .    
+wd:Q6051621  rdf:type  wdt:obra .    
+wd:Q6051621  wdt:tema  "ciencias de la computación"@es .    
+wd:Q6051621  wdt:titulo  "International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems"@en .    
+wd:Q6051621  wdt:idioma  "inglés"@es .    
+wd:Q6051585  rdf:type  wdt:obra .    
+wd:Q6051585  wdt:tema  "ciencias de la computación"@es .    
+wd:Q6051585  wdt:titulo  "International Journal of Software Engineering and Knowledge Engineering"@en .    
+wd:Q6051585  wdt:idioma  "inglés"@es .    
+wd:Q5283113  rdf:type  wdt:obra .    
+wd:Q5283113  wdt:tema  "ciencias de la computación"@es .    
+wd:Q5283113  wdt:titulo  "Distributed Computing"@en .    
+wd:Q5283113  wdt:idioma  "inglés"@es .    
+wd:Q7240915  rdf:type  wdt:obra .    
+wd:Q7240915  wdt:tema  "ciencias de la computación"@es .    
+wd:Q7240915  wdt:titulo  "Presence"@en .    
+wd:Q7240915  wdt:idioma  "inglés"@es .    
+wd:Q5508929  rdf:type  wdt:obra .    
+wd:Q5508929  wdt:tema  "ciencias de la computación"@es .    
+wd:Q5508929  wdt:titulo  "Fundamenta Informaticae"@en .    
+wd:Q5508929  wdt:idioma  "inglés"@es .    
+wd:Q6294841  rdf:type  wdt:obra .    
+wd:Q6294841  wdt:tema  "bioinformática"@es .    
+wd:Q6294841  wdt:titulo  "Journal of Bioinformatics and Computational Biology"@en .    
+wd:Q6294841  wdt:idioma  "inglés"@es .    
+wd:Q5511079  rdf:type  wdt:obra .    
+wd:Q5511079  wdt:tema  "ciencias de la computación"@es .    
+wd:Q5511079  wdt:titulo  "Fuzzy Sets and Systems"@en .    
+wd:Q5511079  wdt:idioma  "inglés"@es .    
+wd:Q5227237  rdf:type  wdt:obra .    
+wd:Q5227237  wdt:tema  "ciencias de la computación"@es .    
+wd:Q5227237  wdt:titulo  "Data & knowledge engineering"@en .    
+wd:Q5227237  wdt:idioma  "inglés"@es .    
+wd:Q5227237  wdt:titulo  "Data and Knowledge Engineering"@en .    
+wd:Q5970389  rdf:type  wdt:obra .    
+wd:Q5970389  wdt:tema  "ciencias de la computación"@es .    
+wd:Q5970389  wdt:titulo  "IEEE Internet Computing"@en .    
+wd:Q5970389  wdt:idioma  "inglés"@es .    
+wd:Q5422302  rdf:type  wdt:obra .    
+wd:Q5422302  wdt:tema  "tecnología"@es .    
+wd:Q5422302  wdt:titulo  "ExtremeTech"@en .    
+wd:Q5422302  wdt:tema  "ciencias de la computación"@es .    
+wd:Q5422302  wdt:tema  "software"@es .    
+wd:Q6295014  rdf:type  wdt:obra .    
+wd:Q6295014  wdt:tema  "ciencias de la computación"@es .    
+wd:Q6295014  wdt:titulo  "Journal of Computer and System Sciences"@en .    
+wd:Q6295014  wdt:idioma  "inglés"@es .    
+wd:Q7134971  rdf:type  wdt:obra .    
+wd:Q7134971  wdt:tema  "ciencias de la computación"@es .    
+wd:Q7134971  wdt:titulo  "Parallel Processing Letters"@en .    
+wd:Q7134971  wdt:idioma  "inglés"@es .    
+wd:Q5422302  wdt:tema  "electronic hardware"@en .    
+wd:Q6295233  rdf:type  wdt:obra .    
+wd:Q6295233  wdt:tema  "ciencias de la computación"@es .    
+wd:Q6295233  wdt:titulo  "Journal of Formalized Reasoning"@en .    
+wd:Q6295233  wdt:idioma  "inglés"@es .    
+wd:Q6294801  wdt:tema  "ciencias de la computación"@es .    
+wd:Q6295379  rdf:type  wdt:obra .    
+wd:Q6295379  wdt:tema  "ciencias de la computación"@es .    
+wd:Q6295379  wdt:titulo  "Journal of Interconnection Networks"@en .    
+wd:Q6295379  wdt:idioma  "inglés"@es .    
+wd:Q6295379  wdt:titulo  "Journal of interconnection networks."@en .    
+wd:Q6294821  rdf:type  wdt:obra .    
+wd:Q6294821  wdt:tema  "ciencias de la computación"@es .    
+wd:Q6294821  wdt:titulo  "Journal of Automated Reasoning"@en .    
+wd:Q6294821  wdt:idioma  "inglés"@es .    
+wd:Q6294841  wdt:tema  "ciencias de la computación"@es .    
+wd:Q6295943  rdf:type  wdt:obra .    
+wd:Q6295943  wdt:tema  "ciencias de la computación"@es .    
+wd:Q6295943  wdt:titulo  "Journal of Software"@en .    
+wd:Q6295943  wdt:idioma  "inglés"@es .    
+wd:Q6295943  wdt:titulo  "Journal of Software Evolution and Process"@en .    
+wd:Q6295537  rdf:type  wdt:obra .    
+wd:Q6295537  wdt:tema  "ciencias de la computación"@es .    
+wd:Q6295537  wdt:titulo  "Journal of Medical Physics"@en .    
+wd:Q6295537  wdt:idioma  "inglés"@es .    
+wd:Q6295460  rdf:type  wdt:obra .    
+wd:Q6295460  wdt:tema  "ciencias de la computación"@es .    
+wd:Q6295460  wdt:titulo  "Journal of Logic and Computation"@en .    
+wd:Q6295460  wdt:idioma  "inglés"@es .    
+wd:Q6294819  rdf:type  wdt:obra .    
+wd:Q6294819  wdt:tema  "ciencias de la computación"@es .    
+wd:Q6294819  wdt:titulo  "Journal of Automata, Languages and Combinatorics"@en .    
+wd:Q6294819  wdt:idioma  "inglés"@es .    
+wd:Q6296122  rdf:type  wdt:obra .    
+wd:Q6296122  wdt:tema  "ciencias de la computación"@es .    
+wd:Q6296122  wdt:titulo  "Journal of the Brazilian Computer Society"@en .    
+wd:Q6296122  wdt:idioma  "inglés"@es .    
+wd:Q7168203  rdf:type  wdt:obra .    
+wd:Q7168203  wdt:tema  "ciencias de la computación"@es .    
+wd:Q7168203  wdt:titulo  "Performance Evaluation"@en .    
+wd:Q7168203  wdt:idioma  "inglés"@es .    
+wd:Q5453354  rdf:type  wdt:obra .    
+wd:Q5453354  wdt:tema  "ciencias de la computación"@es .    
+wd:Q5453354  wdt:titulo  "First Monday"@en .    
+wd:Q5453354  wdt:idioma  "inglés"@es .    
+wd:Q5469945  rdf:type  wdt:obra .    
+wd:Q5469945  wdt:tema  "ciencias de la computación"@es .    
+wd:Q5469945  wdt:titulo  "Formal Aspects of Computing"@en .    
+wd:Q5469945  wdt:idioma  "inglés"@es .    
+wd:Q6051357  rdf:type  wdt:obra .    
+wd:Q6051357  wdt:tema  "ciencias de la computación"@es .    
+wd:Q6051357  wdt:titulo  "International Journal of Computer Processing Of Languages"@en .    
+wd:Q6051357  wdt:idioma  "inglés"@es .    
+wd:Q6051436  rdf:type  wdt:obra .    
+wd:Q6051436  wdt:tema  "ciencias de la computación"@es .    
+wd:Q6051436  wdt:titulo  "International Journal of Information Acquisition"@en .    
+wd:Q6051436  wdt:idioma  "inglés"@es .    
+wd:Q6051587  rdf:type  wdt:obra .    
+wd:Q6051587  wdt:tema  "ciencias de la computación"@es .    
+wd:Q6051587  wdt:titulo  "International Journal of Software and Informatics"@en .    
+wd:Q6051587  wdt:idioma  "inglés"@es .    
+wd:Q6051626  rdf:type  wdt:obra .    
+wd:Q6051626  wdt:tema  "ciencias de la computación"@es .    
+wd:Q6051626  wdt:titulo  "International Journal of Wavelets, Multiresolution and Information Processing"@en .    
+wd:Q6051626  wdt:idioma  "inglés"@es .    
+wd:Q6030974  rdf:type  wdt:obra .    
+wd:Q6030974  wdt:tema  "ciencias de la computación"@es .    
+wd:Q6030974  wdt:titulo  "Information and Computation"@en .    
+wd:Q6030974  wdt:idioma  "inglés"@es .    
+wd:Q71068246  rdf:type  wdt:obra .    
+wd:Q71068246  wdt:tema  "humanidad"@es .    
+wd:Q71068246  wdt:titulo  "Social implications of the computer"@en .    
+wd:Q71068246  wdt:idioma  "inglés"@es .    
+wd:Q71068246  wdt:revista  "Annals of the New York Academy of Sciences"@es .    
+wd:Q71068246  wdt:fecha  "1971-06-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q74826944  rdf:type  wdt:obra .    
+wd:Q74826944  wdt:tema  "ciencias de la computación"@es .    
+wd:Q74826944  wdt:titulo  "Comparative and ensemble visualization of diffusion tensor fields"@en .    
+wd:Q74826944  wdt:autor  "Zhang, C." .    
+wd:Q74826944  wdt:idioma  "inglés"@es .    
+wd:Q74826944  wdt:fecha  "2017-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q74826944  wdt:url  <http://resolver.tudelft.nl/uuid:5b0da969-6e43-4cfa-bd33-09494ecfe199> .    
+wd:Q74826940  rdf:type  wdt:obra .    
+wd:Q74826940  wdt:tema  "ciencias de la computación"@es .    
+wd:Q74826940  wdt:titulo  "Techniques for depth acquisition and enhancement of depth perception"@en .    
+wd:Q74826940  wdt:autor  "Liao, J." .    
+wd:Q74826940  wdt:idioma  "inglés"@es .    
+wd:Q74826940  wdt:fecha  "2017-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q74826940  wdt:url  <http://resolver.tudelft.nl/uuid:e6ab025b-6acf-4d4c-a583-ad1e39a8caa7> .    
+wd:Q58387647  rdf:type  wdt:obra .    
+wd:Q58387647  wdt:tema  "Ilustración"@es .    
+wd:Q58387647  wdt:titulo  "An early intuition of Heidegger. From the Homme plante to the dilemma of music"@en .    
+wd:Q58387647  wdt:idioma  "italiano"@es .    
+wd:Q58387647  wdt:revista  "Bibliothecae.it"@es .    
+wd:Q58387647  wdt:fecha  "2017-12-29T00:00:00Z"^^xsd:dateTime .    
+wd:Q58387647  wdt:url  <https://bibliothecae.unibo.it/article/view/7707> .    
+wd:Q58076108  rdf:type  wdt:obra .    
+wd:Q58076108  wdt:tema  "ciencias de la computación"@es .    
+wd:Q58076108  wdt:titulo  "Sistemas de gestión de aprendizaje multientorno"@es .    
+wd:Q58076108  wdt:idioma  "español"@es .    
+wd:Q64225229  rdf:type  wdt:obra .    
+wd:Q64225229  wdt:tema  "ciencias de la computación"@es .    
+wd:Q64225229  wdt:titulo  "EVENTSKG: A 5-Star Dataset of Top-Ranked Events in Eight Computer Science Communities"@en .    
+wd:Q64225229  wdt:autor  "Said Fathalla" .    
+wd:Q64225229  wdt:idioma  "inglés"@es .    
+wd:Q64225229  wdt:revista  "The Semantic Web: 16th International Conference, ESWC 2019, Portorož, Slovenia, June 2–6, 2019, Proceedings"@en .    
+wd:Q64225229  wdt:fecha  "2019-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q66711433  rdf:type  wdt:obra .    
+wd:Q66711433  wdt:tema  "ciencias de la computación"@es .    
+wd:Q66711433  wdt:titulo  "Using Wikis to Learn Computer Programming"@en .    
+wd:Q66711433  wdt:autor  "David González-Ortega" .    
+wd:Q66711433  wdt:revista  "Communications in Computer and Information Science"@en .    
+wd:Q66711433  wdt:fecha  "2010-09-27T00:00:00Z"^^xsd:dateTime .    
+wd:Q71068246  wdt:tema  "computadora"@es .    
+wd:Q58387647  wdt:tema  "history of the bibliography"@en .    
+wd:Q63413288  rdf:type  wdt:obra .    
+wd:Q63413288  wdt:tema  "ciencias de la computación"@es .    
+wd:Q63413288  wdt:titulo  "Scientific and Technical Information Processing"@en .    
+wd:Q63413288  wdt:idioma  "inglés"@es .    
+wd:Q76633731  rdf:type  wdt:obra .    
+wd:Q76633731  wdt:tema  "ciencias de la computación"@es .    
+wd:Q76633731  wdt:titulo  "Supporting Developers' Teamwork from within the IDE"@en .    
+wd:Q76633731  wdt:autor  "Guzzi, A." .    
+wd:Q76633731  wdt:idioma  "inglés"@es .    
+wd:Q76633731  wdt:fecha  "2015-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q76633731  wdt:url  <http://resolver.tudelft.nl/uuid:bb27eb90-fa46-4db2-a28b-7c719f0d6b7a> .    
+wd:Q71068246  wdt:tema  "ciencias de la computación"@es .    
+wd:Q76631011  rdf:type  wdt:obra .    
+wd:Q76631011  wdt:tema  "ciencias de la computación"@es .    
+wd:Q76631011  wdt:titulo  "Yield and Cost Analysis or 3D Stacked ICs"@en .    
+wd:Q76631011  wdt:autor  "Taouil, M." .   
+wd:Q76631011  wdt:idioma  "inglés"@es .    
+wd:Q76631011  wdt:fecha  "2014-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q76631011  wdt:url  <http://resolver.tudelft.nl/uuid:23d05dce-da6a-4291-9a6f-002a679f85ff> .    
+wd:Q76633946  rdf:type  wdt:obra .    
+wd:Q76633946  wdt:tema  "ciencias de la computación"@es .    
+wd:Q76633946  wdt:titulo  "Detection of Botnet Command and Control Traffic in Enterprise Networks"@en .    
+wd:Q76633946  wdt:autor  "Burghouwt, P." .    
+wd:Q76633946  wdt:idioma  "inglés"@es .    
+wd:Q76633946  wdt:fecha  "2015-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q76633946  wdt:url  <http://resolver.tudelft.nl/uuid:1640ad86-fc07-4e54-9f05-1629296738c7> .    
+wd:Q76632821  rdf:type  wdt:obra .    
+wd:Q76632821  wdt:tema  "ciencias de la computación"@es .    
+wd:Q76632821  wdt:titulo  "Efficient High Performance Computing on Heterogeneous Platforms"@en .    
+wd:Q76632821  wdt:autor  "Shen, J." .    
+wd:Q76632821  wdt:idioma  "inglés"@es .    
+wd:Q76632821  wdt:fecha  "2015-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q76632821  wdt:url  <http://resolver.tudelft.nl/uuid:3efc8aae-e31f-47a4-a92c-b9da05917ada> .    
+wd:Q60296766  rdf:type  wdt:obra .    
+wd:Q60296766  wdt:tema  "ciencias de la computación"@es .    
+wd:Q60296766  wdt:titulo  "Knowing digital and critical thinking. Around the conference \"Noetic versus Computer: the new structures of scientific communication\" (Rome, 19 to 20 November 2013)"@en .    
+wd:Q60296766  wdt:idioma  "italiano"@es .    
+wd:Q60296766  wdt:revista  "JLIS.it"@es .    
+wd:Q60296766  wdt:fecha  "2015-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q60296766  wdt:url  <https://www.jlis.it/article/view/10908> .    
+wd:Q60296766  wdt:fecha  "2015-01-15T00:00:00Z"^^xsd:dateTime .    
+wd:Q66711433  wdt:tema  "wiki"@es .    
+wd:Q66711433  wdt:autor  "Francisco Javier Díaz-Pernas" .    
+wd:Q79453726  rdf:type  wdt:obra .    
+wd:Q79453726  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453726  wdt:titulo  "Fuzzy approach for data association in image tracking"@en .    
+wd:Q79453726  wdt:autor  "José Manuel Molina" .    
+wd:Q79453726  wdt:idioma  "inglés"@es .    
+wd:Q79453726  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453726  wdt:fecha  "2003-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453726  wdt:url  <http://hdl.handle.net/2099/1741> .    
+wd:Q79453726  wdt:tema  "Advanced Surface Movement Guidance and Control System"@en .    
+wd:Q79453726  wdt:autor  "Jesús García" .    
+wd:Q58387647  wdt:tema  "Martin Heidegger"@es .    
+wd:Q60296766  wdt:tema  "biblioteca"@es .    
+wd:Q58387647  wdt:tema  "ciencias de la computación"@es .    
+wd:Q66711433  wdt:autor  "Míriam Antón-Rodríguez" .    
+wd:Q58387647  wdt:tema  "música"@es .    
+wd:Q76630863  rdf:type  wdt:obra .    
+wd:Q76630863  wdt:tema  "ciencias de la computación"@es .    
+wd:Q76630863  wdt:titulo  "Advanced Wireless Local Area Networks in the Unlicensed Sub-1GHz ISM-bands"@en .    
+wd:Q76630863  wdt:autor  "Aust, S.H." .    
+wd:Q76630863  wdt:idioma  "inglés"@es .    
+wd:Q76630863  wdt:fecha  "2014-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q76630863  wdt:url  <http://resolver.tudelft.nl/uuid:c93d44cc-c194-49ff-8909-3736981930cf> .    
+wd:Q60296766  wdt:tema  "noética"@es .    
+wd:Q76632693  rdf:type  wdt:obra .    
+wd:Q76632693  wdt:tema  "ciencias de la computación"@es .    
+wd:Q76632693  wdt:titulo  "Origin, Impact and Cost of Interface Instability"@en .    
+wd:Q76632693  wdt:autor  "Raemaekers, S.B.A." .    
+wd:Q76632693  wdt:idioma  "inglés"@es .    
+wd:Q76632693  wdt:fecha  "2015-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q76632693  wdt:url  <http://resolver.tudelft.nl/uuid:dbb70852-e06b-40f7-b872-60047f962dba> .    
+wd:Q73378582  rdf:type  wdt:obra .    
+wd:Q73378582  wdt:tema  "ciencias de la computación"@es .    
+wd:Q73378582  wdt:titulo  "EURASIP Journal on Multimedia and Information Security"@en .    
+wd:Q73378582  wdt:idioma  "inglés"@es .    
+wd:Q76631094  rdf:type  wdt:obra .    
+wd:Q76631094  wdt:tema  "ciencias de la computación"@es .    
+wd:Q76631094  wdt:titulo  "Generic tools, specific languages"@en .    
+wd:Q76631094  wdt:autor  "Voelter, M." .    
+wd:Q76631094  wdt:idioma  "inglés"@es .    
+wd:Q76631094  wdt:fecha  "2014-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q76631094  wdt:url  <http://resolver.tudelft.nl/uuid:53c8e1e0-7a4c-43ed-9426-934c0a5a6522> .    
+wd:Q73379459  rdf:type  wdt:obra .    
+wd:Q73379459  wdt:tema  "ciencias de la computación"@es .    
+wd:Q73379459  wdt:titulo  "Kashika joho gakkai ronbunshu gappon"@mul .    
+wd:Q73379459  wdt:idioma  "plurilingüe"@es .    
+wd:Q74826911  rdf:type  wdt:obra .    
+wd:Q74826911  wdt:tema  "ciencias de la computación"@es .    
+wd:Q74826911  wdt:titulo  "Music Information Retrieval beyond Audio: A Vision-based Approach for Real-world Data"@en .    
+wd:Q74826911  wdt:autor  "Bazzica, A." .   
+wd:Q74826911  wdt:idioma  "inglés"@es .    
+wd:Q74826911  wdt:fecha  "2017-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q74826911  wdt:url  <http://resolver.tudelft.nl/uuid:7ad1aef5-7ce1-4972-9443-9f66a5c727f6> .    
+wd:Q76634105  rdf:type  wdt:obra .    
+wd:Q76634105  wdt:tema  "ciencias de la computación"@es .    
+wd:Q76634105  wdt:titulo  "Analyzing the Change-Proneness of APIs and web APIs"@en .    
+wd:Q76634105  wdt:autor  "Romano, D." .    
+wd:Q76634105  wdt:idioma  "inglés"@es .    
+wd:Q76634105  wdt:fecha  "2015-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q76634105  wdt:url  <http://resolver.tudelft.nl/uuid:215065f7-d22d-4189-a5cb-0b2e91897cd1> .    
+wd:Q76631242  rdf:type  wdt:obra .    
+wd:Q76631242  wdt:tema  "ciencias de la computación"@es .    
+wd:Q76631242  wdt:titulo  "Performance Optimization of Multi-Tenant Software Systems"@en .    
+wd:Q76631242  wdt:autor  "Bezemer, C." .    
+wd:Q76631242  wdt:idioma  "inglés"@es .    
+wd:Q76631242  wdt:fecha  "2014-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q76631242  wdt:url  <http://resolver.tudelft.nl/uuid:c4722b45-252d-4385-9ece-378348d1df35>.    
+wd:Q73551751  rdf:type  wdt:obra .    
+wd:Q73551751  wdt:tema  "ciencias de la computación"@es .    
+wd:Q73551751  wdt:titulo  "IJAIN (International Journal of Advances in Intelligent Informatics)"@mul .    
+wd:Q73551751  wdt:idioma  "plurilingüe"@es .    
+wd:Q76631163  rdf:type  wdt:obra .    
+wd:Q76631163  wdt:tema  "ciencias de la computación"@es .    
+wd:Q76631163  wdt:titulo  "Adaptive, Low-power Architectures for Embedded Multimedia Systems; with focus on H.264/AVC video codec"@en .    
+wd:Q76631163  wdt:autor  "Nadeem, M." .    
+wd:Q76631163  wdt:idioma  "inglés"@es .    
+wd:Q76631163  wdt:fecha  "2014-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q76631163  wdt:url  <http://resolver.tudelft.nl/uuid:b0741a29-dac2-413d-96d3-d11945b4c8f4> .    
+wd:Q76633636  rdf:type  wdt:obra .    
+wd:Q76633636  wdt:tema  "ciencias de la computación"@es .    
+wd:Q76633636  wdt:titulo  "Hybrid Interconnect Design for Heterogeneous Hardware Accelerators"@en .    
+wd:Q76633636  wdt:autor  "Pham-Quoc Cuong, P." .    
+wd:Q76633636  wdt:idioma  "inglés"@es .    
+wd:Q76633636  wdt:fecha  "2015-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q76633636  wdt:url  <http://resolver.tudelft.nl/uuid:862e5b58-b9d1-462a-90b0-6f94a054632e> .    
+wd:Q76630788  rdf:type  wdt:obra .    
+wd:Q76630788  wdt:tema  "ciencias de la computación"@es .    
+wd:Q76630788  wdt:titulo  "Multithreading for Embedded Reconfigurable Multicore Systems"@en .    
+wd:Q76630788  wdt:autor  "Zaykov, P.G." .   
+wd:Q76630788  wdt:idioma  "inglés"@es .    
+wd:Q76630788  wdt:fecha  "2014-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q76630788  wdt:url  <http://resolver.tudelft.nl/uuid:b619e7d6-3df5-40ee-8108-ea7411ffeda7> .   
+wd:Q71068246  wdt:tema  "ética"@es .    
+wd:Q60296766  wdt:tema  "epistemología"@es .    
+wd:Q61217074  rdf:type  wdt:obra .    
+wd:Q61217074  wdt:tema  "educación"@es .    
+wd:Q61217074  wdt:titulo  "Ukrainian Journal of Educational Studies and Information Technology"@en .    
+wd:Q61217074  wdt:idioma  "plurilingüe"@es .    
+wd:Q61217074  wdt:titulo  "Ukrainian journal of educational studies and information technology"@mul .    
+wd:Q76630885  rdf:type  wdt:obra .    
+wd:Q76630885  wdt:tema  "ciencias de la computación"@es .    
+wd:Q76630885  wdt:titulo  "Removing roadblocks for mobile phone sensing"@en .    
+wd:Q76630885  wdt:autor  "Brouwers, N." .    
+wd:Q76630885  wdt:idioma  "inglés"@es .    
+wd:Q76630885  wdt:fecha  "2014-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q76630885  wdt:url  <http://resolver.tudelft.nl/uuid:46081d76-17fc-41f6-bdc4-fbdc6d7bb939> .    
+wd:Q76630912  rdf:type  wdt:obra .    
+wd:Q76630912  wdt:tema  "ciencias de la computación"@es .    
+wd:Q76630912  wdt:titulo  "Fairness and resource allocation in device-to-device wireless regional area network"@en .    
+wd:Q76630912  wdt:autor  "Shi, H." .   
+wd:Q76630912  wdt:idioma  "inglés"@es .    
+wd:Q76630912  wdt:fecha  "2014-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q76630912  wdt:url  <http://resolver.tudelft.nl/uuid:db220b8a-c131-4cb2-bde0-604a269703ef> .    
+wd:Q76633464  rdf:type  wdt:obra .    
+wd:Q76633464  wdt:tema  "ciencias de la computación"@es .    
+wd:Q76633464  wdt:titulo  "Automated Fault Localization for Service-Oriented Software Systems"@en .    
+wd:Q76633464  wdt:autor  "Chen, C." .    
+wd:Q76633464  wdt:idioma  "inglés"@es .    
+wd:Q76633464  wdt:fecha  "2015-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q76633464  wdt:url  <http://resolver.tudelft.nl/uuid:f36d1e3e-70cb-4e79-a339-cbfb35fa16e6> .    
+wd:Q76630725  rdf:type  wdt:obra .    
+wd:Q76630725  wdt:tema  "ciencias de la computación"@es .    
+wd:Q76630725  wdt:titulo  "Exploiting Graph Properties for Decentralized Reputation Systems"@en .    
+wd:Q76630725  wdt:autor  "Gkorou, D." .    
+wd:Q76630725  wdt:idioma  "inglés"@es .    
+wd:Q76630725  wdt:fecha  "2014-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q76630725  wdt:url  <http://resolver.tudelft.nl/uuid:0fc40431-61ce-4bf6-b028-37c316e3e6b7> .    
+wd:Q60296766  wdt:tema  "web semántica"@es .    
+wd:Q71068246  wdt:tema  "ética de los datos"@es .    
+wd:Q66711433  wdt:autor  "Mario Martínez-Zarzuela" .    
+wd:Q76633522  rdf:type  wdt:obra .    
+wd:Q76633522  wdt:tema  "ciencias de la computación"@es .    
+wd:Q76633522  wdt:titulo  "Towards Dependable Network-on-Chip Architectures"@en .    
+wd:Q76633522  wdt:autor  "Chen, C." .   
+wd:Q76633522  wdt:idioma  "inglés"@es .    
+wd:Q76633522  wdt:fecha  "2015-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q76633522  wdt:url  <http://resolver.tudelft.nl/uuid:b1ea7059-773d-4d48-a28b-32bb24c7f201> .    
+wd:Q76633266  rdf:type  wdt:obra .    
+wd:Q76633266  wdt:tema  "ciencias de la computación"@es .    
+wd:Q76633266  wdt:titulo  "User contribution in peer-to-peer communities"@en .    
+wd:Q76633266  wdt:autor  "Capotă, M." .    
+wd:Q76633266  wdt:idioma  "inglés"@es .    
+wd:Q76633266  wdt:fecha  "2015-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q76633266  wdt:url  <http://resolver.tudelft.nl/uuid:a03b025b-1fd5-4cd1-9423-a5c1bd85fefe> .    
+wd:Q60296766  wdt:tema  "información"@es .    
+wd:Q76633778  rdf:type  wdt:obra .    
+wd:Q76633778  wdt:tema  "ciencias de la computación"@es .    
+wd:Q76633778  wdt:titulo  "Distributed Graph Filters"@en .    
+wd:Q76633778  wdt:autor  "Loukas, A." .    
+wd:Q76633778  wdt:idioma  "inglés"@es .    
+wd:Q76633778  wdt:fecha  "2015-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q76633778  wdt:url  <http://resolver.tudelft.nl/uuid:9189a22b-5528-4561-9d52-5e1664082a12> .   
+wd:Q60296766  wdt:tema  "bibliografía"@es .    
+wd:Q60296766  wdt:tema  "organización del conocimiento"@es .    
+wd:Q61217074  wdt:tema  "informática"@es .    
+wd:Q76630780  rdf:type  wdt:obra .    
+wd:Q76630780  wdt:tema  "ciencias de la computación"@es .    
+wd:Q76630780  wdt:titulo  "Composable Virtual Platforms for Mixed-Criticality Embedded Systems"@en .    
+wd:Q76630780  wdt:autor  "Beyranvand Nejad, A." .    
+wd:Q76630780  wdt:idioma  "inglés"@es .    
+wd:Q76630780  wdt:fecha  "2014-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q76630780  wdt:url  <http://resolver.tudelft.nl/uuid:204b09ee-971b-4035-a4b1-616ee50afbba> .    
+wd:Q64225229  wdt:tema  "datos abiertos enlazados"@es .    
+wd:Q66711433  wdt:autor  "Isabel de la Torre-Díez" .    
+wd:Q66711433  wdt:autor  "Daniel Boto-Giralda" .    
+wd:Q66711433  wdt:autor  "José Fernando Díez-Higuera" .    
+wd:Q61217074  wdt:tema  "ciencias de la computación"@es .    
+wd:Q72779464  rdf:type  wdt:obra .    
+wd:Q72779464  wdt:tema  "ciencias de la computación"@es .    
+wd:Q72779464  wdt:titulo  "The uses of computers in science"@en .    
+wd:Q72779464  wdt:autor  "Oettinger AG" .    
+wd:Q72779464  wdt:idioma  "inglés"@es .    
+wd:Q72779464  wdt:revista  "Scientific American"@es .    
+wd:Q72779464  wdt:fecha  "1966-09-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q76630659  rdf:type  wdt:obra .    
+wd:Q76630659  wdt:tema  "ciencias de la computación"@es .    
+wd:Q76630659  wdt:titulo  "Social Web Data Analytics: Relevance, Redundancy, Diversity"@en .    
+wd:Q76630659  wdt:autor  "Tao, K." .    
+wd:Q76630659  wdt:idioma  "inglés"@es .    
+wd:Q76630659  wdt:fecha  "2014-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q76630659  wdt:url  <http://resolver.tudelft.nl/uuid:1af94380-1414-4497-bfc6-a67b213de050> .    
+wd:Q76633735  rdf:type  wdt:obra .    
+wd:Q76633735  wdt:tema  "ciencias de la computación"@es .    
+wd:Q76633735  wdt:titulo  "Web Service Growing Pains: Understanding Services and Their Clients"@en .    
+wd:Q76633735  wdt:autor  "Espinha, T." .   
+wd:Q76633735  wdt:idioma  "inglés"@es .    
+wd:Q76633735  wdt:fecha  "2015-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q76633735  wdt:url  <http://resolver.tudelft.nl/uuid:0b513351-7ce5-438c-b266-56fd9838b543> .    
+wd:Q73896698  rdf:type  wdt:obra .    
+wd:Q73896698  wdt:tema  "ciencias de la computación"@es .    
+wd:Q73896698  wdt:titulo  "Mendel ...."@en .    
+wd:Q73896698  wdt:idioma  "inglés"@es .    
+wd:Q76631441  rdf:type  wdt:obra .    
+wd:Q76631441  wdt:tema  "ciencias de la computación"@es .    
+wd:Q76631441  wdt:titulo  "Home Networking at 60 GHz"@en .    
+wd:Q76631441  wdt:autor  "Genç, Z." .    
+wd:Q76631441  wdt:idioma  "inglés"@es .    
+wd:Q76631441  wdt:fecha  "2014-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q76631441  wdt:url  <http://resolver.tudelft.nl/uuid:9ef0d1a2-fb9c-4c96-926e-5ef79031ef81> .    
+wd:Q76633652  rdf:type  wdt:obra .    
+wd:Q76633652  wdt:tema  "ciencias de la computación"@es .    
+wd:Q76633652  wdt:titulo  "Massivizing Networked Virtual Environments on Clouds"@en .    
+wd:Q76633652  wdt:autor  "Shen, S." .   
+wd:Q76633652  wdt:idioma  "inglés"@es .    
+wd:Q76633652  wdt:fecha  "2015-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q76633652  wdt:url  <http://resolver.tudelft.nl/uuid:9ab06527-d848-4155-b7bd-63e07eb79002> .    
+wd:Q64225229  wdt:tema  "scientific event"@en .    
+wd:Q76630759  rdf:type  wdt:obra .    
+wd:Q76630759  wdt:tema  "ciencias de la computación"@es .    
+wd:Q76630759  wdt:titulo  "Handoff Management in Radio over Fiber 60 GHz Indoor Networks"@en .    
+wd:Q76630759  wdt:autor  "Bien, V.Q." .    
+wd:Q76630759  wdt:idioma  "inglés"@es .    
+wd:Q76630759  wdt:fecha  "2014-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q76630759  wdt:url  <http://resolver.tudelft.nl/uuid:b913c0ee-fa19-44a6-a7ef-41fecde7125a> .   
+wd:Q61217074  wdt:tema  "tecnologías de la información y la comunicación"@es .    
+wd:Q79454016  rdf:type  wdt:obra .    
+wd:Q79454016  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454016  wdt:titulo  "Design of a rule-driven architecture for a genetic T-norm"@en .    
+wd:Q79454016  wdt:autor  "Julio Gutiérrez Ríos" .    
+wd:Q79454016  wdt:idioma  "inglés"@es .    
+wd:Q79454016  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454016  wdt:fecha  "2000-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454016  wdt:url  <http://hdl.handle.net/2099/3587> .   
+wd:Q79453929  rdf:type  wdt:obra .    
+wd:Q79453929  wdt:tema  "XFL 3"@es .    
+wd:Q79453929  wdt:titulo  "An specification language for fuzzy systems"@en .    
+wd:Q79453929  wdt:autor  "Ángel Barriga Barrios" .    
+wd:Q79453929  wdt:idioma  "inglés"@es .    
+wd:Q79453929  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453929  wdt:fecha  "2001-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453929  wdt:url  <http://hdl.handle.net/2099/3608> .    
+wd:Q79453989  rdf:type  wdt:obra .    
+wd:Q79453989  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79453989  wdt:titulo  "Contributions to the symbolic processing of segments in computer vision"@en .    
+wd:Q79453989  wdt:autor  "Juan Cabrera Gámez" .    
+wd:Q79453989  wdt:idioma  "inglés"@es .    
+wd:Q79453989  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453989  wdt:fecha  "1996-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453989  wdt:url  <http://hdl.handle.net/2099/3478> .    
+wd:Q79453931  rdf:type  wdt:obra .    
+wd:Q79453931  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453931  wdt:titulo  "Analysis of the best-worst ant system and its variants on the TSP"@en .    
+wd:Q79453931  wdt:autor  "Iñaki Fernández de Viana" .    
+wd:Q79453931  wdt:idioma  "inglés"@es .    
+wd:Q79453931  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453931  wdt:fecha  "2002-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453931  wdt:url  <http://hdl.handle.net/2099/3625> .   
+wd:Q79453929  wdt:autor  "María Inmaculada Baturone Castillo" .   
+wd:Q79453929  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453929  wdt:autor  "Francisco José Moreno Velo" .    
+wd:Q79453921  rdf:type  wdt:obra .    
+wd:Q79453921  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79453921  wdt:titulo  "An evolutionary approach to constraint-regularized learning"@en .    
+wd:Q79453921  wdt:autor  "Ingo Renners" .    
+wd:Q79453921  wdt:idioma  "inglés"@es .    
+wd:Q79453921  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453921  wdt:fecha  "2004-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453921  wdt:url  <http://hdl.handle.net/2099/3641> .   
+wd:Q79454077  rdf:type  wdt:obra .    
+wd:Q79454077  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454077  wdt:titulo  "Evolutionary design of fuzzy logic controllers using strongly-typed GP"@en .    
+wd:Q79454077  wdt:autor  "Carlos Cotta Porras" .    
+wd:Q79454077  wdt:idioma  "inglés"@es .    
+wd:Q79454077  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454077  wdt:fecha  "1999-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454077  wdt:url  <http://hdl.handle.net/2099/3547> .   
+wd:Q79453915  wdt:autor  "D. Senén Barro Ameneiro" .    
+wd:Q79454016  wdt:tema  "t-norm"@en .    
+wd:Q79454016  wdt:autor  "Enrique Frías Martínez" .   
+wd:Q79453921  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453921  wdt:autor  "Adolf Grauel" .   
+wd:Q79454016  wdt:autor  "Felipe Fernández Hernández" .   
+wd:Q79453989  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453989  wdt:autor  "Francisco Mario Hernández Tejara" .   
+wd:Q79454011  rdf:type  wdt:obra .    
+wd:Q79454011  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454011  wdt:titulo  "Deformed fuzzy automata for the text error correction problem"@en .    
+wd:Q79454011  wdt:autor  "José Javier Astrain Escola" .    
+wd:Q79454011  wdt:idioma  "inglés"@es .    
+wd:Q79454011  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454011  wdt:fecha  "2000-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454011  wdt:url  <http://hdl.handle.net/2099/3585> .   
+wd:Q79454011  wdt:autor  "José Ramón Garitagoitia Padrones" .    
+wd:Q79454011  wdt:autor  "José Ramón González de Mendívil" .    
+wd:Q79453935  rdf:type  wdt:obra .    
+wd:Q79453935  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79453935  wdt:titulo  "Analyzing the reasoning mechanisms in fuzzy rule based classification systems"@en .    
+wd:Q79453935  wdt:autor  "Oscar Cordón García" .    
+wd:Q79453935  wdt:idioma  "inglés"@es .    
+wd:Q79453935  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453935  wdt:fecha  "1998-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453935  wdt:url  <http://hdl.handle.net/2099/3534> .    
+wd:Q79454077  wdt:tema  "programación genética cartesiana"@es .    
+wd:Q79453935  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453935  wdt:autor  "Ma José del Jesús Díaz" .    
+wd:Q79453989  wdt:tema  "lógica difusa"@es .    
+wd:Q79453989  wdt:autor  "Antonio Falcón Martel" .   
+wd:Q79453929  wdt:autor  "Diego R. López" .    
+wd:Q79453919  rdf:type  wdt:obra .    
+wd:Q79453919  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453919  wdt:titulo  "An elemental processor of fuzzy SQL"@en .    
+wd:Q79453919  wdt:autor  "Juan Miguel Medina Rodríguez" .    
+wd:Q79453919  wdt:idioma  "inglés"@es .    
+wd:Q79453919  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453919  wdt:fecha  "1994-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453919  wdt:url  <http://hdl.handle.net/2099/2457> .   
+wd:Q79453943  rdf:type  wdt:obra .    
+wd:Q79453943  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453943  wdt:titulo  "Application of fuzzy techniques to the design of algorithms in computer vision"@en .    
+wd:Q79453943  wdt:autor  "Pilar Sobrevilla Frisión" .   
+wd:Q79453943  wdt:idioma  "inglés"@es .    
+wd:Q79453943  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453943  wdt:fecha  "1998-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453943  wdt:url  <http://hdl.handle.net/2099/3526> .   
+wd:Q79454027  rdf:type  wdt:obra .    
+wd:Q79454027  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454027  wdt:titulo  "Dynamic gridmaps: comparing building techniques"@en .    
+wd:Q79454027  wdt:autor  "Vicente Matellán Olivera" .   
+wd:Q79454027  wdt:idioma  "inglés"@es .    
+wd:Q79454027  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454027  wdt:fecha  "2006-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454027  wdt:url  <http://hdl.handle.net/2099/3653> .    
+wd:Q79453989  wdt:autor  "J. Méndez" .   
+wd:Q79453988  rdf:type  wdt:obra .    
+wd:Q79453988  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79453988  wdt:titulo  "Contexts, locality and generality"@en .    
+wd:Q79453988  wdt:autor  "Enrico Giunchiglia" .   
+wd:Q79453988  wdt:idioma  "inglés"@es .    
+wd:Q79453988  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453988  wdt:fecha  "1996-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453988  wdt:url  <http://hdl.handle.net/2099/2613> .   
+wd:Q79453921  wdt:tema  "search engine optimization methods"@en .    
+wd:Q79454078  wdt:autor  "Miguel Delgado Calvo-Flores" .   
+wd:Q79454014  rdf:type  wdt:obra .    
+wd:Q79454014  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79454014  wdt:titulo  "Denotational semantics of languages with fuzzy data"@en .    
+wd:Q79454014  wdt:autor  "Antonio F. Gómez Skarmeta" .   
+wd:Q79454014  wdt:idioma  "inglés"@es .    
+wd:Q79454014  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79454014  wdt:fecha  "2000-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79454014  wdt:url  <http://hdl.handle.net/2099/3570> .    
+wd:Q79454077  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453931  wdt:tema  "Artificial Ants"@en .    
+wd:Q79453931  wdt:autor  "Oscar Cordón García" .    
+wd:Q79454027  wdt:autor  "José María Cañas Planas" .    
+wd:Q79453917  rdf:type  wdt:obra .    
+wd:Q79453917  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79453917  wdt:titulo  "An effective way to generate neural network structures for function approximation"@en .    
+wd:Q79453917  wdt:autor  "A. Bastian" .   
+wd:Q79453917  wdt:idioma  "inglés"@es .    
+wd:Q79453917  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453917  wdt:fecha  "1994-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453917  wdt:url  <http://hdl.handle.net/2099/2445> .   
+wd:Q79453938  rdf:type  wdt:obra .    
+wd:Q79453938  wdt:tema  "Artificial Ants"@en .    
+wd:Q79453938  wdt:titulo  "Ant colony optimization: models and applications [Guest editorial]"@en .    
+wd:Q79453938  wdt:autor  "Oscar Cordón García".    
+wd:Q79453938  wdt:idioma  "inglés"@es .    
+wd:Q79453938  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453938  wdt:fecha  "2002-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453938  wdt:url  <http://hdl.handle.net/2099/3630> .   
+wd:Q79454014  wdt:tema  "denotational semantics"@en .    
+wd:Q79453976  rdf:type  wdt:obra .    
+wd:Q79453976  wdt:tema  "incertidumbre"@es .    
+wd:Q79453976  wdt:titulo  "Completing an uncertainty criterion of classification"@en .    
+wd:Q79453976  wdt:autor  "Joaquín Abellán" .   
+wd:Q79453976  wdt:idioma  "inglés"@es .    
+wd:Q79453976  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453976  wdt:fecha  "2005-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453976  wdt:url  <http://hdl.handle.net/2099/1824> .   
+wd:Q79453919  wdt:tema  "SQL"@es .    
+wd:Q79453919  wdt:autor  "Olga Pons Capote" .    
+wd:Q79453929  wdt:autor  "Santiago Sánchez Solano" .    
+wd:Q79454077  wdt:tema  "sistema de tipos"@es .    
+wd:Q79453923  rdf:type  wdt:obra .    
+wd:Q79453923  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79453923  wdt:titulo  "An example of the knowledge based controller-design and evaluation"@en .    
+wd:Q79453923  wdt:autor  "Oto Tezak" .    
+wd:Q79453923  wdt:idioma  "inglés"@es .    
+wd:Q79453923  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453923  wdt:fecha  "1999-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453923  wdt:url  <http://hdl.handle.net/2099/3548> .    
+wd:Q79453978  rdf:type  wdt:obra .    
+wd:Q79453978  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79453978  wdt:titulo  "Computational logics and the philosophy of language: the problem of lexical meaning in formal semantics"@en .    
+wd:Q79453978  wdt:idioma  "inglés"@es .    
+wd:Q79453978  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453978  wdt:fecha  "1996-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453978  wdt:url  <http://hdl.handle.net/2099/2631> .    
+wd:Q79454027  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453931  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79453988  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453938  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79453943  wdt:tema  "retoque fotográfico"@es .    
+wd:Q79454011  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454011  wdt:autor  "Francisco Javier Echanobe Arias" .    
+wd:Q79453917  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453945  rdf:type  wdt:obra .    
+wd:Q79453945  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453945  wdt:titulo  "Applying fuzzy logic in video surveillance systems"@en .    
+wd:Q79453945  wdt:autor  "José Manuel Molina" .   
+wd:Q79453945  wdt:idioma  "inglés"@es .    
+wd:Q79453945  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453945  wdt:fecha  "2005-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453945  wdt:url  <http://hdl.handle.net/2099/1831> .    
+wd:Q79453945  wdt:tema  "video surveillance"@en .    
+wd:Q79453976  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79454014  wdt:autor  "Daniel Sánchez Álvarez" .    
+wd:Q79453923  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453943  wdt:tema  "Visión artificial"@es .    
+wd:Q79453938  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453978  wdt:tema  "semántica"@es .    
+wd:Q79453978  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453945  wdt:tema  "lógica difusa"@es .    
+wd:Q79453943  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79453976  wdt:tema  "ciencias de la computación"@es .    
+wd:Q15817496  rdf:type  wdt:obra .    
+wd:Q15817496  wdt:tema  "ciencias de la computación"@es .    
+wd:Q15817496  wdt:titulo  "ACM Journal on Computing and Cultural Heritage"@en .    
+wd:Q15817496  wdt:idioma  "inglés"@es .    
+wd:Q15817496  wdt:titulo  "Journal on computing and cultural heritage"@en .    
+wd:Q50761416  rdf:type  wdt:obra .    
+wd:Q50761416  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50761416  wdt:titulo  "Scientific and practical cyber security journal"@mul .    
+wd:Q50761416  wdt:idioma  "plurilingüe"@es .    
+wd:Q36437840  rdf:type  wdt:obra .    
+wd:Q36437840  wdt:tema  "ciencias de la computación"@es .    
+wd:Q36437840  wdt:titulo  "Distill"@en .    
+wd:Q36437840  wdt:idioma  "inglés"@es .    
+wd:Q47440812  rdf:type  wdt:obra .    
+wd:Q47440812  wdt:tema  "tecnologías de la información y la comunicación"@es .    
+wd:Q47440812  wdt:titulo  "Future Computing and Informatics Journal"@en .    
+wd:Q47440812  wdt:idioma  "inglés"@es .    
+wd:Q36437840  wdt:tema  "aprendizaje automático"@es .    
+wd:Q28104930  rdf:type  wdt:obra .    
+wd:Q28104930  wdt:tema  "descubrimiento de fármacos"@es .    
+wd:Q28104930  wdt:titulo  "Tetrahedron computer methodology and a new format for tetrahedron"@en .    
+wd:Q28104930  wdt:autor  "Derek H.R. Barton" .
+wd:Q28104930  wdt:revista  "Tetrahedron"@es .    
+wd:Q28104930  wdt:fecha  "1988-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q48644385  rdf:type  wdt:obra .    
+wd:Q48644385  wdt:tema  "finanzas"@es .    
+wd:Q48644385  wdt:titulo  "The Journal of Finance and Data Science"@en .    
+wd:Q48644385  wdt:idioma  "inglés"@es .    
+wd:Q27681562  rdf:type  wdt:obra .    
+wd:Q27681562  wdt:tema  "ciencia de la información"@es .    
+wd:Q27681562  wdt:titulo  "Communications in Computer and Information Science"@en .    
+wd:Q27681562  wdt:idioma  "inglés"@es .    
+wd:Q50808407  rdf:type  wdt:obra .    
+wd:Q50808407  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50808407  wdt:titulo  "Computers"@en .    
+wd:Q50808407  wdt:idioma  "inglés"@es .    
+wd:Q50520683  rdf:type  wdt:obra .    
+wd:Q50520683  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50520683  wdt:titulo  "Economy Informatics"@en .    
+wd:Q50520683  wdt:idioma  "inglés"@es .    
+wd:Q18585458  rdf:type  wdt:obra .    
+wd:Q18585458  wdt:tema  "ciencias de la computación"@es .    
+wd:Q18585458  wdt:titulo  "International Journal of Advanced Computer Technology"@en .    
+wd:Q18585458  wdt:idioma  "inglés"@es .    
+wd:Q50497722  rdf:type  wdt:obra .    
+wd:Q50497722  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50497722  wdt:titulo  "Egyptian Informatics Journal (Print)"@en .    
+wd:Q50497722  wdt:idioma  "inglés"@es .    
+wd:Q50520712  rdf:type  wdt:obra .    
+wd:Q50520712  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50520712  wdt:titulo  "Anale Seria Informatică"@mul .    
+wd:Q50520712  wdt:idioma  "plurilingüe"@es .    
+wd:Q50811286  rdf:type  wdt:obra .    
+wd:Q50811286  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50811286  wdt:titulo  "Proxies: Jurnal Informatika"@id .    
+wd:Q50811286  wdt:idioma  "indonesio"@es .    
+wd:Q28807399  rdf:type  wdt:obra .    
+wd:Q28807399  wdt:tema  "ciencias de la computación"@es .    
+wd:Q28807399  wdt:titulo  "Advances in multimedia"@en .    
+wd:Q28807399  wdt:idioma  "inglés"@es .    
+wd:Q50806952  rdf:type  wdt:obra .    
+wd:Q50806952  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50806952  wdt:titulo  "Journal of Internet Services and Information Security"@en .    
+wd:Q50806952  wdt:idioma  "inglés"@es .    
+wd:Q50498172  rdf:type  wdt:obra .    
+wd:Q50498172  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50498172  wdt:titulo  "Studia Universitatis Babeş-Bolyai Informatica"@mul .    
+wd:Q50498172  wdt:idioma  "plurilingüe"@es .    
+wd:Q28807383  rdf:type  wdt:obra .    
+wd:Q28807383  wdt:tema  "ciencias de la computación"@es .    
+wd:Q28807383  wdt:titulo  "Applied computational intelligence and soft computing"@en .    
+wd:Q28807383  wdt:idioma  "inglés"@es .    
+wd:Q48644385  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50811210  rdf:type  wdt:obra .    
+wd:Q50811210  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50811210  wdt:titulo  "Baltic Journal of Modern Computing"@en .    
+wd:Q50811210  wdt:idioma  "inglés"@es .    
+wd:Q50521861  rdf:type  wdt:obra .    
+wd:Q50521861  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50521861  wdt:titulo  "Sistemnì doslìdžennâ ta ìnformacìjnì tehnologìï"@mul .    
+wd:Q50521861  wdt:idioma  "plurilingüe"@es .    
+wd:Q50518185  rdf:type  wdt:obra .    
+wd:Q50518185  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50518185  wdt:titulo  "Computer science journal of Moldova"@en .    
+wd:Q50518185  wdt:idioma  "inglés"@es .    
+wd:Q28104930  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50520823  rdf:type  wdt:obra .    
+wd:Q50520823  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50520823  wdt:titulo  "Analele Universităţii \"Dunărea de Jos\" din Galaţi Fascicula I Economie şi Informatică aplicată"@mul .    
+wd:Q50520823  wdt:idioma  "plurilingüe"@es .    
+wd:Q15817496  wdt:tema  "patrimonio cultural"@es .    
+wd:Q27681562  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50808363  rdf:type  wdt:obra .    
+wd:Q50808363  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50808363  wdt:titulo  "Oeconomics of knowledge"@en .    
+wd:Q50808363  wdt:idioma  "inglés"@es .    
+wd:Q50515596  rdf:type  wdt:obra .    
+wd:Q50515596  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50515596  wdt:titulo  "Jurnal Informatika"@id .    
+wd:Q50515596  wdt:idioma  "indonesio"@es .    
+wd:Q50811720  rdf:type  wdt:obra .    
+wd:Q50811720  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50811720  wdt:titulo  "Jurnal teknologi dan sistem komputer"@id .    
+wd:Q50811720  wdt:idioma  "indonesio"@es .    
+wd:Q28840797  rdf:type  wdt:obra .    
+wd:Q28840797  wdt:tema  "ciencias de la computación"@es .    
+wd:Q28840797  wdt:titulo  "Advances in Intelligent Systems and Computing"@en .    
+wd:Q28840797  wdt:idioma  "inglés"@es .    
+wd:Q50810487  rdf:type  wdt:obra .    
+wd:Q50810487  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50810487  wdt:titulo  "Jurnal Informatika: Juita"@id .    
+wd:Q50810487  wdt:idioma  "indonesio"@es .    
+wd:Q50810688  rdf:type  wdt:obra .    
+wd:Q50810688  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50810688  wdt:titulo  "Journal of computer networks and communications"@en .    
+wd:Q50810688  wdt:idioma  "inglés"@es .    
+wd:Q50810557  rdf:type  wdt:obra .    
+wd:Q50810557  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50810557  wdt:titulo  "Lontar Komputer: Jurnal Ilmiah Teknologi Informasi"@id .    
+wd:Q50810557  wdt:idioma  "indonesio"@es .    
+wd:Q50811036  rdf:type  wdt:obra .    
+wd:Q50811036  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50811036  wdt:titulo  "Romanian Journal of Mathematics and Computer Science"@en .    
+wd:Q50811036  wdt:idioma  "inglés"@es .    
+wd:Q50515454  rdf:type  wdt:obra .    
+wd:Q50515454  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50515454  wdt:titulo  "Maǧalaẗ ǧamʼaẗ al-malīk Saud : ùlm al-ḥasib wa al-maʼlumat"@ar .   
+wd:Q50515454  wdt:idioma  "árabe"@es .    
+wd:Q50811083  rdf:type  wdt:obra .    
+wd:Q50811083  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50811083  wdt:titulo  "Computer Engineering and Applications Journal"@id .    
+wd:Q50811083  wdt:idioma  "indonesio"@es .    
+wd:Q50668217  rdf:type  wdt:obra .    
+wd:Q50668217  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50668217  wdt:titulo  "Jurnal Informatika"@id .    
+wd:Q50668217  wdt:idioma  "indonesio"@es .    
+wd:Q50811397  rdf:type  wdt:obra .    
+wd:Q50811397  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50811397  wdt:titulo  "International journal of open information technologies"@mul .    
+wd:Q50811397  wdt:idioma  "plurilingüe"@es .    
+wd:Q40856981  rdf:type  wdt:obra .    
+wd:Q40856981  wdt:tema  "ciencias de la computación"@es .    
+wd:Q40856981  wdt:titulo  "Selected Papers on Computer Science"@en .    
+wd:Q40856981  wdt:idioma  "inglés"@es .    
+wd:Q40856981  wdt:fecha  "1996-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q25103996  rdf:type  wdt:obra .    
+wd:Q25103996  wdt:tema  "ciencias de la computación"@es .    
+wd:Q25103996  wdt:titulo  "International journal of creative computing"@en .    
+wd:Q25103996  wdt:idioma  "inglés"@es .    
+wd:Q28841196  rdf:type  wdt:obra .    
+wd:Q28841196  wdt:tema  "ciencias de la computación"@es .    
+wd:Q28841196  wdt:titulo  "APSIPA transactions on signal and information processing"@en .    
+wd:Q28841196  wdt:idioma  "inglés"@es .    
+wd:Q50769537  rdf:type  wdt:obra .    
+wd:Q50769537  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50769537  wdt:titulo  "Revista de Sistemas, Cibernética e Informática"@es .    
+wd:Q15767638  rdf:type  wdt:obra .    
+wd:Q15767638  wdt:tema  "ciencias de la computación"@es .    
+wd:Q15767638  wdt:titulo  "Modelling and Simulation in Engineering"@en .    
+wd:Q15767129  rdf:type  wdt:obra .    
+wd:Q15767129  wdt:tema  "ciencias de la computación"@es .    
+wd:Q15767129  wdt:titulo  "Journal of Research and Practice in Information Technology"@en .    
+wd:Q15767129  wdt:idioma  "inglés"@es .    
+wd:Q47440812  wdt:tema  "sistema de información"@es .    
+wd:Q48644385  wdt:tema  "ciencia de datos"@es .    
+wd:Q50498072  rdf:type  wdt:obra .    
+wd:Q50498072  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50498072  wdt:titulo  "Inteligencia artificial"@es .    
+wd:Q50498072  wdt:idioma  "español"@es .    
+wd:Q27726596  rdf:type  wdt:obra .    
+wd:Q27726596  wdt:tema  "ciencias de la computación"@es .    
+wd:Q27726596  wdt:titulo  "PeerJ Computer Science"@en .    
+wd:Q27726596  wdt:idioma  "inglés"@es .    
+wd:Q27726596  wdt:titulo  "PeerJ. Computer science"@en .    
+wd:Q50552635  rdf:type  wdt:obra .    
+wd:Q50552635  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50552635  wdt:titulo  "Informatika"@ru .    
+wd:Q50552635  wdt:idioma  "ruso"@es .    
+wd:Q18343897  rdf:type  wdt:obra .    
+wd:Q18343897  wdt:tema  "ciencias de la computación"@es .    
+wd:Q18343897  wdt:titulo  "Concise Encyclopedia of Computer Science"@en .    
+wd:Q18343897  wdt:idioma  "inglés"@es .    
+wd:Q18343897  wdt:fecha  "2004-07-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q50552591  rdf:type  wdt:obra .    
+wd:Q50552591  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50552591  wdt:titulo  "Journal of Systems Integration"@en .    
+wd:Q50552591  wdt:idioma  "inglés"@es .    
+wd:Q50557895  rdf:type  wdt:obra .    
+wd:Q50557895  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50557895  wdt:titulo  "International journal of computational intelligence systems"@en .    
+wd:Q50557895  wdt:idioma  "inglés"@es .    
+wd:Q50557921  rdf:type  wdt:obra .    
+wd:Q50557921  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50557921  wdt:titulo  "Electronic communications of the EASST"@en .    
+wd:Q50557921  wdt:idioma  "inglés"@es .    
+wd:Q47115891  rdf:type  wdt:obra .    
+wd:Q47115891  wdt:tema  "ciencias de la computación"@es .    
+wd:Q47115891  wdt:titulo  "International Journal of Advanced Research in Computer Science"@en .    
+wd:Q47115891  wdt:idioma  "inglés"@es .    
+wd:Q28104930  wdt:tema  "química orgánica"@es .    
+wd:Q15817631  rdf:type  wdt:obra .    
+wd:Q15817631  wdt:tema  "ciencias de la computación"@es .    
+wd:Q15817631  wdt:titulo  "Advances in Human-Computer Interaction"@en .    
+wd:Q15817631  wdt:idioma  "inglés"@es .    
+wd:Q16248633  rdf:type  wdt:obra .    
+wd:Q16248633  wdt:tema  "ciencias de la computación"@es .    
+wd:Q16248633  wdt:titulo  "Database System Concepts"@en .    
+wd:Q16248633  wdt:idioma  "inglés"@es .    
+wd:Q16248633  wdt:fecha  "1986-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q28840797  wdt:tema  "ingeniería"@es .    
+wd:Q47440812  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453736  rdf:type  wdt:obra .    
+wd:Q79453736  wdt:tema  "ciencias de la computación"@es .    
+wd:Q79453736  wdt:titulo  "Towards automatic modeling of economic texts"@en .    
+wd:Q79453736  wdt:autor  "Antonin Dvořák" .    
+wd:Q79453736  wdt:idioma  "inglés"@es .    
+wd:Q79453736  wdt:revista  "Mathware & soft computing"@es .    
+wd:Q79453736  wdt:fecha  "2007-01-01T00:00:00Z"^^xsd:dateTime .    
+wd:Q79453736  wdt:url  <http://hdl.handle.net/2099/10583> .    
+wd:Q79453726  wdt:autor  "Javier Ignacio Portillo García" .    
+wd:Q79453726  wdt:autor  "Juan Alberto Besada" .    
+wd:Q50812599  rdf:type  wdt:obra .    
+wd:Q50812599  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50812599  wdt:titulo  "Cogito smart journal"@id .    
+wd:Q50812599  wdt:idioma  "indonesio"@es .    
+wd:Q79453811  wdt:autor  "G. Tamburrini" .
+wd:Q50811970  rdf:type  wdt:obra .    
+wd:Q50811970  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50811970  wdt:titulo  "SISFORMA"@id .    
+wd:Q50811970  wdt:idioma  "indonesio"@es .    
+wd:Q50812334  rdf:type  wdt:obra .    
+wd:Q50812334  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50812334  wdt:titulo  "Jurnal nasional teknologi dan sistem informasi (TEKNOSI) Universitas Andalas"@id .    
+wd:Q50812334  wdt:idioma  "indonesio"@es .    
+wd:Q50814396  rdf:type  wdt:obra .    
+wd:Q50814396  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50814396  wdt:titulo  "Acta simulatio"@en .    
+wd:Q50814396  wdt:idioma  "inglés"@es .    
+wd:Q50812309  rdf:type  wdt:obra .    
+wd:Q50812309  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50812309  wdt:titulo  "Indonesian Journal on Computing"@id .    
+wd:Q50812309  wdt:idioma  "indonesio"@es .    
+wd:Q50815327  rdf:type  wdt:obra .    
+wd:Q50815327  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50815327  wdt:titulo  "Journal of cybersecurity"@en .    
+wd:Q50815327  wdt:idioma  "inglés"@es .    
+wd:Q50816112  rdf:type  wdt:obra .    
+wd:Q50816112  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50816112  wdt:titulo  "The International journal of networked and distributed computing"@en .    
+wd:Q50816112  wdt:idioma  "inglés"@es .    
+wd:Q79453811  wdt:autor  "E. Burattini" .    
+wd:Q50811781  rdf:type  wdt:obra .    
+wd:Q50811781  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50811781  wdt:titulo  "Computational Methods in Social Sciences"@en .    
+wd:Q50811781  wdt:idioma  "inglés"@es .    
+wd:Q50812126  rdf:type  wdt:obra .    
+wd:Q50812126  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50812126  wdt:titulo  "Jurnal Ilmiah KLIK"@id .    
+wd:Q50812126  wdt:idioma  "indonesio"@es .    
+wd:Q50812470  rdf:type  wdt:obra .    
+wd:Q50812470  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50812470  wdt:titulo  "CESS (Journal of Computer Engineering, System and Science)"@id .    
+wd:Q50812470  wdt:idioma  "indonesio"@es .    
+wd:Q50812516  rdf:type  wdt:obra .    
+wd:Q50812516  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50812516  wdt:titulo  "JOIN (Jurnal Online Informatika)"@id .    
+wd:Q50812516  wdt:idioma  "indonesio"@es .    
+wd:Q50812326  rdf:type  wdt:obra .    
+wd:Q50812326  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50812326  wdt:titulo  "Jurnal informatika UPGRIS"@id .    
+wd:Q50812326  wdt:idioma  "indonesio"@es .    
+wd:Q50814800  rdf:type  wdt:obra .    
+wd:Q50814800  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50814800  wdt:titulo  "The python papers"@en .    
+wd:Q50814800  wdt:idioma  "inglés"@es .    
+wd:Q50815023  rdf:type  wdt:obra .    
+wd:Q50815023  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50815023  wdt:titulo  "Sistemas de Informação"@pt .    
+wd:Q50815023  wdt:idioma  "portugués"@es .    
+wd:Q50812215  rdf:type  wdt:obra .    
+wd:Q50812215  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50812215  wdt:titulo  "Supercomputing frontiers and innovations"@en .    
+wd:Q50812215  wdt:idioma  "inglés"@es .    
+wd:Q79453736  wdt:tema  "inteligencia artificial"@es .    
+wd:Q79453736  wdt:autor  "Vilém Novák" .    
+wd:Q50815437  rdf:type  wdt:obra .    
+wd:Q50815437  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50815437  wdt:titulo  "Database Systems Journal"@en .    
+wd:Q50815437  wdt:idioma  "inglés"@es .    
+wd:Q50815198  rdf:type  wdt:obra .    
+wd:Q50815198  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50815198  wdt:titulo  "ICST Transactions on Ambient Systems"@en .    
+wd:Q50815198  wdt:idioma  "inglés"@es .    
+wd:Q50815200  rdf:type  wdt:obra .    
+wd:Q50815200  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50815200  wdt:titulo  "Computational science and techniques"@en .    
+wd:Q50815200  wdt:idioma  "inglés"@es .    
+wd:Q50815749  rdf:type  wdt:obra .    
+wd:Q50815749  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50815749  wdt:titulo  "Revista Brasileira de Computação Aplicada"@pt .    
+wd:Q50815749  wdt:idioma  "portugués"@es .    
+wd:Q50815456  rdf:type  wdt:obra .    
+wd:Q50815456  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50815456  wdt:titulo  "Image processing on line"@en .    
+wd:Q50815456  wdt:idioma  "inglés"@es .    
+wd:Q50815461  rdf:type  wdt:obra .    
+wd:Q50815461  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50815461  wdt:titulo  "Computational visual media"@en .    
+wd:Q50815461  wdt:idioma  "inglés"@es .    
+wd:Q50814708  rdf:type  wdt:obra .    
+wd:Q50814708  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50814708  wdt:titulo  "Acta Informatica Pragensia"@mul .    
+wd:Q50814708  wdt:idioma  "plurilingüe"@es .    
+wd:Q50814534  rdf:type  wdt:obra .    
+wd:Q50814534  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50814534  wdt:titulo  "Leonardo Journal of Practices and Technologies"@ro .    
+wd:Q50814534  wdt:idioma  "rumano"@es .    
+wd:Q50815369  rdf:type  wdt:obra .    
+wd:Q50815369  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50815369  wdt:titulo  "Computation"@en .    
+wd:Q50815369  wdt:idioma  "inglés"@es .    
+wd:Q50815293  rdf:type  wdt:obra .    
+wd:Q50815293  wdt:tema  "ciencias de la computación"@es .    
+wd:Q50815293  wdt:titulo  "Acta Universitatis Sapientiae Informatica"@ro .    
+wd:Q50815293  wdt:idioma  "rumano"@es .    
+
+>>>>>>> 265d8a6d4e25e8649231eef87675aceb9c11b314
 
