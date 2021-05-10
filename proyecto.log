@@ -1,7 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.11)  10 MAY 2021 06:18
 =======
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.13)  10 MAY 2021 12:06
+>>>>>>> modify
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.13)  10 MAY 2021 15:13
 >>>>>>> modify
 entering extended mode
  restricted \write18 enabled.
@@ -1392,6 +1396,7 @@ File: imagenes/imagen1.jpeg Graphic file (type jpg)
 <use imagenes/imagen1.jpeg>
 Package pdftex.def Info: imagenes/imagen1.jpeg  used on input line 146.
 (pdftex.def)             Requested size: 238.88826pt x 157.7867pt.
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 =======
@@ -1412,14 +1417,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 320--321
 >>>>>>> 4b1eb5613ebb576858ce112e9a6f8d950ee4833f
 
 (c:/texlive/2019/texmf-dist/tex/latex/psnfss/t1pcr.fd
+=======
+ [2 <./imagenes/imagen1.jpeg>]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 219.
+ (c:/texlive/2019/texmf-dist/tex/latex/psnfss/t1pcr.fd
+>>>>>>> modify
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10> not available
-(Font)              Font shape `T1/pcr/b/n' tried instead on input line 228.
-<imagenes/estruc_rdf_30.png, id=91, 1220.56pt x 852.18375pt>
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 220.
+<imagenes/estruc_rdf_30.png, id=96, 1220.56pt x 852.18375pt>
 File: imagenes/estruc_rdf_30.png Graphic file (type png)
 <use imagenes/estruc_rdf_30.png>
-Package pdftex.def Info: imagenes/estruc_rdf_30.png  used on input line 253.
+Package pdftex.def Info: imagenes/estruc_rdf_30.png  used on input line 245.
 (pdftex.def)             Requested size: 244.10767pt x 170.43372pt.
 
 <<<<<<< HEAD
@@ -1432,18 +1442,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 320--321
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <imagenes/grafo_rdf_30.jpeg, id=93, 970.62625pt x 1284.8pt>
+=======
+<imagenes/grafo_rdf_30.jpeg, id=98, 970.62625pt x 1284.8pt>
+>>>>>>> modify
 File: imagenes/grafo_rdf_30.jpeg Graphic file (type jpg)
 <use imagenes/grafo_rdf_30.jpeg>
-Package pdftex.def Info: imagenes/grafo_rdf_30.jpeg  used on input line 258.
+Package pdftex.def Info: imagenes/grafo_rdf_30.jpeg  used on input line 250.
 (pdftex.def)             Requested size: 242.65596pt x 321.19922pt.
 [3 <./imagenes/estruc_rdf_30.png> <./imagenes/grafo_rdf_30.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
 []\T1/ppl/m/n/8 Jimmy Lei Ba, Ja-mie Ryan Ki-ros, Geof-frey
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
 \T1/ppl/m/n/8 E.Hinton. La-yer Nor-ma-li-za-tion (2016). Dis-po-ni-ble en
 =======
 Underfull \hbox (badness 1484) in paragraph at lines 321--322
@@ -1458,6 +1472,22 @@ ers/[][].
  []
 
 
+Underfull \hbox (badness 2452) in paragraph at lines 274--275
+[]\T1/ppl/m/n/8 Uso de SPARQL pa-ra ac-ce-der a da-tos abier-tos en-la-za-dos
+ []
+
+
+Overfull \hbox (1.75734pt too wide) in paragraph at lines 274--275
+[][]\T1/ppl/m/n/8 https://programminghistorian.org/es/lecciones/retirada/sparql
+-
+ []
+
+
+Underfull \hbox (badness 3449) in paragraph at lines 276--278
+[]\T1/ppl/m/n/8 SPARQL query [][]https://medium.com/wallscope/constructing-
+ []
+
+
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
 
@@ -1469,15 +1499,20 @@ Before submitting the final camera ready copy, remember to:
  process uses the appropriate paper size.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 284.
+=======
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 281.
+>>>>>>> modify
 [4
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 284.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 281.
  (./proyecto.aux
 LaTeX Info: Redefining \. on input line 24.
 LaTeX Info: Redefining \% on input line 24.
 )
+<<<<<<< HEAD
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 284.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 284.
 =======
@@ -1493,11 +1528,12 @@ LaTeX Info: Redefining \% on input line 27.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 334.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 334.
 >>>>>>> 4b1eb5613ebb576858ce112e9a6f8d950ee4833f
+=======
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 281.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 281.
+>>>>>>> modify
 Package rerunfilecheck Info: File `proyecto.out' has not changed.
 (rerunfilecheck)             Checksum: 4C96C5A4C38F195FBC7858CC0B1A95E1;792.
-
-
-LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1506,10 +1542,10 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
 <<<<<<< HEAD
  12239 strings out of 492623
- 171798 string characters out of 6133290
+ 171799 string characters out of 6133290
  375604 words of memory out of 5000000
  15934 multiletter control sequences out of 15000+600000
- 73121 words of font info for 111 fonts, out of 8000000 for 9000
+ 72512 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  30i,8n,53p,798b,1356s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2019/texm
@@ -1518,11 +1554,11 @@ e1/urw/courier/ucrr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/palatino/
 uplb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb><c:
 /texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2019/t
 exmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on proyecto.pdf (4 pages, 605085 bytes).
+Output written on proyecto.pdf (4 pages, 604448 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
- 137 compressed objects within 2 object streams
- 40 named destinations out of 1000 (max. 500000)
+ 171 PDF objects out of 1000 (max. 8388607)
+ 144 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
  128 words of extra memory for PDF output out of 10000 (max. 10000000)
 =======
  10509 strings out of 481239
