@@ -140,11 +140,18 @@ En este ejemplo\textbf{<La ronda de noche>} y el objeto \textbf{<Rembrandt>} se 
 
 \vspace{0.2cm}
 
+<<<<<<< HEAD
 
 \begin{figure}[h]
 %\includegraphics[scale=0.3]{imagenes/Encoder-decoder.png} 
 \caption{Encoder-Decoder del Transformer. Fuente The Transformer:
 Attention Is All You Need. \cite{b1}}
+=======
+\begin{figure}[h]
+    \centering
+	\includegraphics[scale=0.40]{imagenes/imagen1.jpeg} 
+	\caption{Web semántica \cite{b7}}
+>>>>>>> 7b3d925dbd85b0e96f7ae90dcf5bbbff82ce7eed
 \end{figure}
 
 \vspace{0.2cm}
@@ -169,7 +176,46 @@ Con la aparici\'on del Transformer, han surgido diversas variantes y mejoras del
 
 \subsection{Transformer Universal}
 
+<<<<<<< HEAD
 El Transformer Universal, propuesto en el art\'iculo del mismo nombre \textcolor{orange}{Universal Transformers} \cite{b5}, es una variante del modelo Transformer que tiene como objetivo lograr un buen rendimiento tanto en traducci\'on de lenguaje como en tareas algor\'itmicas con un solo modelo. Los autores del Transformer Universal se\~nalan que es un modelo completo de Turing. 
+=======
+SPARQL, acrónimo de SPARQL \textit{Protocol and RDF Query Language}, es un lenguaje estandarizado para hacer consultas en estructuras RDF.  Es una tecnología clave en el desarrollo de la web semántica que se constituyó como recomendación oficial del W3C el 15 de enero de 2008, siendo actualizado a la versión 1.1 en 2013\cite{b1}. En un principio SPARQL únicamente incorpora funciones para la recuperación sentencias RDF. Sin embargo, algunas propuestas también incluyen operaciones para el mantenimiento (creación, modificación y borrado) de datos.
+
+\subsection{Especificaciones}
+
+SPARQL 1.0:
+
+\begin{itemize}
+	\item SPARQL como lenguaje de consultas para RDF, cubre la sintaxis de las consultas (QL).
+	\item SPARQL como protocolo para RDF especifica cómo un programa debe pasar consultas SPARQL a un servicio de procesamiento de consultas SPARQL y cómo este servicio las retorna. 
+	\item Formato XML de resultados de consultas SPARQL, describe un formato simple XML para que los procesadores de consultas lo utilizen al devolver resultados.
+	
+\end{itemize}
+
+Sparql 1.1: 
+
+\begin{itemize}
+	\item La especificación de consulta federada describe como una simple consulta puede traer data de multiples fuentes, esto hace más fácil construir aplicaciones que toman ventaja de entornos distribuidos.
+	\item La especificación de actualización es la diferencia clave entre SPARQL 1.0 y 1.1 porque lleva a SPARQL de ser un lenguaje de consulta a algo que puede agregar datos a un conjunto de datos, reemplazarlos y eliminarlos también.
+	\item La especificación de Descripción del servicio describe cómo un programa cliente puede preguntarle a un motor SPARQL exactamente qué características admite.
+	\item La especificación del formato JSON de los resultados de la consulta describe un equivalente JSON del formato XML de los resultados de la consulta.
+	\item La especificación de los formatos CSV y TSV de los resultados de la consulta describe los equivalentes de valores separados por comas y tabuladores del formato XML de los resultados de la consulta.
+	\item La especificación del Protocolo HTTP de Graph Store amplía el Protocolo SPARQL con una API similar a REST para la comunicación entre un cliente y un procesador SPARQL sobre gráficos o conjuntos de tripletas. 
+	
+\end{itemize}
+
+\subsection{Estructura RDF a utilizar}
+
+\begin{figure}[H]
+\includegraphics[scale=0.2]{imagenes/estruc_rdf_30.png} 
+\caption{30 tripletas de la estructura RDF utilizada (ver archivo RDF.ttl) }
+\end{figure} 
+
+\begin{figure}[H]
+\includegraphics[scale=0.25]{imagenes/grafo_rdf_30.jpeg} 
+\caption{Grafo generado con 30 tripletas de la estructura RDF utilizada \cite{b2}}
+\end{figure} 
+>>>>>>> 7b3d925dbd85b0e96f7ae90dcf5bbbff82ce7eed
 
 \vspace{0.2cm}
 
