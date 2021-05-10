@@ -88,15 +88,22 @@ En el presente trabajo se implementaron consultas de tipos SPARQL que permiten h
 \end{abstract}
 
 \section{Introducci\'on}
-Una tendencia dada en el ICRL \footnote{International Conference on Learning Representations } y en el NAACL- HLT \footnote{Annual Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies.} celebrados en el 2019,  muestra que las RNN presentan un declive en el n\'umero de publicaciones realizadas. Dicha tendencia era de esperarse, aunque las RNN son intuitivas para los datos secuenciales tienen como principal incoveniente la parelización en su procesamiento, por lo tanto, no pueden aprovechar el factor m\'as importante que ha impulsado el progreso en la investigaci\'on desde $2012$: la potencia de c\'alculo. Los RNN nunca han sido populares en visi\'on computacional y aprendizaje por refuerzo y para NLP, est\'an siendo reemplazados por arquitecturas basadas en la atenci\'on.
-
 \vspace{0.2cm}
+El consorcio World Wide Web (W3C) propuso una especificación llamada SparQL(lenguaje de consultas) para manipular grafos compuesstos por tripletas RDF en la web y en repositorios de datos, asi como extraer datos mediante consultas a relaciones desconocidas  y relaizar búsquedas con combinaciones complejas de base de datos.
 
-Los Transformers, presentados en 2017, introdujeron un nuevo enfoque: m\'odulos de atenci\'on. Este modelo ha conllevado a una enorme cantidad de variantes que mejoran el desempe\~no de tareas del NLP, como el Transformer Universal, BERT (google) o el Transformer-XL; la mayor\'ia de modelos de vanguardia que requieren gran cantidad de datos de entrenamiento y d\'ias de entrenamiento en hardware haci\'endolo costoso. Sin embargo, con el lanzamiento de librer\'ias especializadas en NLP y arquitecturas Transformer, ahora pueden ser utilizados en datos reducidos.
+\vspace{0.5cm}
+La estructura de los resultados de una consulta SPARQL es una tabla donde cada fila es un resultado y cada columna se corresponde con una de las variables de la consulta.
 
-\vspace{0.2cm}
+Una consulta SparQL consta de tres partes:
+\begin{itemize}
+    \item  Coincidencia de patrones: optional, union, nesting,filtering.
+    \item  Modificadores de solución: projection, distinct, order, límit, offset.
+    \item  Parte de salida: construcción de nuevas tripletas.
+\end{itemize}
 
-De esta manera, el presente trabajo busca explorar la aplicación de estos modelos sobre el conjunto de datos reducido AG News y Multi30k. En primer lugar se realizar\'a la definici\'on del modelo Transformer. A continuaci\'on, se describir\'a el estado del arte de modelos basados en el Transformer, para diferentes tareas del NLP. Posteriomente, se explica la metodolog\'ia a utilizar en los experimentos con diferentes arquitecturas. Las secciones siguientes tratar\'an los resultados experimentales, las conclusiones y discusiones, y los trabajos futuros que se pueden realizar con esta nueva familia de t\'ecnicas del NLP.
+\vspace{0.5cm}
+Las búsquedas se realizan a través de un SparQL Endpoint, que es la interfaz de entrada y salida de estas bases de datos y que permitirá nuestras consultas. Dicho de otra forma, los Endpoints de SparQL no son más que una dirección web (URL) que acepta peticiones de búsqueda SparQL y devuelve resultados, las formas de consulta SparQL son select, construct, ask y describe.
+
 
 \vspace{0.2cm}
 
