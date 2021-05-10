@@ -259,40 +259,6 @@ Para reutilizar adecuadamente los estados ocultos, los autores proponen un mecan
 
 \vspace{0.2cm}
 
-
-El transformer-XL reduce el puntaje de perplejidad SoTA anterior en varios conjuntos de datos como text8, enwiki8, One Billion Word y WikiText-103. Los autores afirman que el m\'etodo es m\'as flexible, m\'as r\'apido durante la evaluaci\'on (aceleraci\'on de $1874$ veces), se generaliza bien en conjuntos de datos peque\~nos y es eficaz para modelar secuencias cortas y largas.
-
-\vspace{0.2cm}
-
-As\'i mismo, los autores proponen una nueva m\'etrica llamada Relative Effective Context Length que proporciona una manera justa de comparar modelos que se prueban con mayores longitudes de contexto.
-
-\subsection{XLNet}
-
-XLNet es un modelo presentado en el art\'iculo \textcolor{green}{XLNet: Generalized Autoregressive Pretraining for Language Understanding} \cite{b8} que es un lenguaje autoregresivo que genera la probabilidad conjunta de una secuencia de tokens basada en la arquitectura del Transformer con recurrencia. Este modelo introduce una variante de modelado de lenguaje llamada modelado de lenguaje de permutaci\'on. Los modelos de lenguaje de permutaci\'on est\'an entrenados para predecir un token dado el contexto anterior como el modelo de lenguaje tradicional, pero en lugar de predecir los tokens en orden secuencial, predice los tokens en un orden aleatorio.
-
-\vspace{0.2cm}
-
-Adem\'as de usar el modelado de lenguaje de permutaci\'on, XLNet mejora BERT  al usar el Transformer XL como su arquitectura base. XLNet utiliza las dos ideas clave de Transformer XL: embeddings posicionales relativas y el mecanismo de recurrencia. Los estados ocultos del segmento anterior se almacenan en cach\'e y se congelan mientras se realiza el modelado del lenguaje de permutaci\'on para el segmento actual. Como todas las palabras del segmento anterior se usan como entrada, no es necesario conocer el orden de permutaci\'on del segmento anterior.
-	
-\subsection{BERT}
-
-Este modelo \cite{b9},publicado el 2018, esta conformado por una pila de bloques Transformers, la cual esta pre-entrenada en un corpus de dominio general con 800 millones de palabras. 
-Este modelo obtiene un mejor rendimiento que modelos anteriores a su publicación debido a su naturaleza bidireccional donde la atención se centra en toda la secuencia. 
-
-\subsection{RoBERTa}
-
-Es un modelo introducido en Facebook. El enfoque BERT robustamente optimizado RoBERTa \cite{b10}, es un reentrenamiento de BERT con una metodolog\'ia de entrenamiento mejorada, un $1000\%$ más de datos y potencia de cálculo. Para mejorar el procedimiento de entrenamiento, RoBERTa elimina tareas como Next Sentence Prediction (NSP) del entrenamiento previo de BERT e introduce el enmascaramiento dinámico para que el token enmascarado cambie durante las \'epocas de entrenamiento. 
-
-\vspace{0.2cm}
-
-RoBERTa supera a BERT y XLNet en los resultados de referencia de \href{https://gluebenchmark.com/}{GLUE}.
-
-\subsection{DistilBERT}
-
-Este modelo aprende una versión destilada (aproximada) de BERT, que retiene el $95\%$ de rendimiento pero utiliza solo la mitad del n\'umero de par\'ametros. Espec'ificamente, no tiene embeddings de tipo token, pooler y retiene solo la mitad de las capas del BERT de Google.
-
-DistilBERT \cite{b11}, utiliza una técnica llamada destilation, que se aproxima a BERT de Google. La idea es que una vez que se ha entrenado una gran red neuronal, sus distribuciones de salidas completas se pueden aproximar usando una red más pequeña. Una de las funciones clave de optimización utilizadas para la aproximación posterior en las estadísticas bayesianas es la divergencia de Kulback-Leiber.
-
 \section{Conclusiones}
 
 \begin{itemize}
@@ -300,7 +266,7 @@ DistilBERT \cite{b11}, utiliza una técnica llamada destilation, que se aproxima
 \item En la tarea de traducci\'on, se realizaron comparaciones entre distintos modelos seq2seq y los modelos transformers, donde estos \'ultimos obtuvieron mejores resultados. Sin embargo el modelo Transformer XL modificado no logr\'o superar al Transformer original.
 \end{itemize}
 
-%\section{Referencias}
+
 \begin{thebibliography}{00}
 \bibitem{b1}\href{https://arxiv.org/abs/1502.03167}{https://www.w3.org/TR/rdf-sparql-query/}. 
 \bibitem{b2}Página web para generar grafos a partir de una estructura RDF: \href{https://www.ldf.fi/service/rdf-grapher}.
