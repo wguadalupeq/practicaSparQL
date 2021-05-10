@@ -70,22 +70,26 @@ WHERE{
 	FILTER (langMatches( lang(?titulo), "es" )) . # Filtra los titulos que estén en español usando el literal
 }
 
-# 5. Mostrar las obras que tengan titulo, autor y como tema principal Inteligencia Artificial además que muestra la cantidad de autores 
+# 5. Mostrar las obras que tengan titulo, autor y como tema principal Inteligencia Artificial además de mostrar los 
+# titulos ordenados ascendentementes
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX wd: <http://www.wikidata.org/entity/> 
 PREFIX wdt: <http://www.wikidata.org/prop/direct/> 
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-SELECT ?titulo ?tema ?cantidadAutores
+SELECT ?titulo ?autor ?tema
 
 WHERE{
 
 	?obra wdt:titulo ?titulo .  # Buscamos obras que tengan propiedad titulo
-	?obre wdt:autor ?autor .  # Buscamos obras que tengan propiedad autor
+	?obra wdt:autor ?autor .  # Buscamos obras que tengan propiedad autor
 	?obra wdt:tema "inteligencia artificial"@es .  # Buscamos obras que tengan propiedad tema y que este sea inteligencia artificial
 	?obra wdt:tema ?tema .  # Buscamos obras que tengan propiedad tema
 
-
-	
 }
+
+ORDER BY ?titulo # Si ponemos ORDER BY DESC(?titulo)
+
+# 6. Realizar una busqueda que te muestre titulos sobre machine learning, los temas que abarca, los autores,
+# y opcionalmente la url a la pagina de estos.
