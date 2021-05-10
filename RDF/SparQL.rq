@@ -12,7 +12,7 @@ WHERE{
 
 LIMIT 50
 
-# 2. Mostrar las 25 primeras tripletas almacenadas en la tabla pero usando prefijos
+# 2. Mostrar las 25 primeras tripletas almacenadas en la tabla pero mostrando prefijos
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX wd: <http://www.wikidata.org/entity/> 
@@ -42,9 +42,8 @@ WHERE{
 
 	?obra wdt:titulo ?titulo . # Buscamos obras que tengan propiedad titulo
 	?obra wdt:tema ?tema . # Buscamos obras que tengan propiedad tema
-
-	OPTIONAL{ ?x wdt:autor ?autor . } # Buscamos obras que puedan tener como propiedad autor
-
+	
+	OPTIONAL{ ?obra wdt:autor ?autor . } # Buscamos obras que puedan tener como propiedad autor
 }
 
 LIMIT 50
@@ -72,3 +71,21 @@ WHERE{
 }
 
 # 5. Mostrar las obras que tengan titulo, autor y como tema principal Inteligencia Artificial además que muestra la cantidad de autores 
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX wd: <http://www.wikidata.org/entity/> 
+PREFIX wdt: <http://www.wikidata.org/prop/direct/> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?titulo ?tema ?cantidadAutores
+
+WHERE{
+
+	?obra wdt:titulo ?titulo .  # Buscamos obras que tengan propiedad titulo
+	?obre wdt:autor ?autor .  # Buscamos obras que tengan propiedad autor
+	?obra wdt:tema "inteligencia artificial"@es .  # Buscamos obras que tengan propiedad tema y que este sea inteligencia artificial
+	?obra wdt:tema ?tema .  # Buscamos obras que tengan propiedad tema
+
+
+	
+}
