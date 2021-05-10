@@ -1,4 +1,22 @@
 \BOOKMARK [1][-]{section.1}{Introducci\363n}{}% 1
+<<<<<<< HEAD
+\BOOKMARK [1][-]{section.2}{\277Que es la web Sem\341ntica?}{}% 2
+\BOOKMARK [1][-]{section.3}{URLs, URIs, IRIs}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{URLs}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{URIs}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{IRIs}{section.3}% 6
+\BOOKMARK [1][-]{section.4}{Estructura RDF}{}% 7
+\BOOKMARK [1][-]{section.5}{Buscando RDF con SPARQL}{}% 8
+\BOOKMARK [1][-]{section.6}{Consultas SPARQL}{}% 9
+\BOOKMARK [2][-]{subsection.6.1}{Transformer Universal}{section.6}% 10
+\BOOKMARK [2][-]{subsection.6.2}{Transformer-XL}{section.6}% 11
+\BOOKMARK [2][-]{subsection.6.3}{XLNet}{section.6}% 12
+\BOOKMARK [2][-]{subsection.6.4}{BERT}{section.6}% 13
+\BOOKMARK [2][-]{subsection.6.5}{RoBERTa}{section.6}% 14
+\BOOKMARK [2][-]{subsection.6.6}{DistilBERT}{section.6}% 15
+\BOOKMARK [1][-]{section.7}{Conclusiones}{}% 16
+\BOOKMARK [1][-]{section*.1}{Referencias}{}% 17
+=======
 \BOOKMARK [1][-]{section.2}{Estructura RDF}{}% 2
 \BOOKMARK [1][-]{section.3}{COnsultas SPARQL}{}% 3
 \BOOKMARK [2][-]{subsection.3.1}{Transformer Universal}{section.3}% 4
@@ -9,3 +27,4 @@
 \BOOKMARK [2][-]{subsection.3.6}{DistilBERT}{section.3}% 9
 \BOOKMARK [1][-]{section.4}{Conclusiones}{}% 10
 \BOOKMARK [1][-]{section*.1}{Referencias}{}% 11
+>>>>>>> 265d8a6d4e25e8649231eef87675aceb9c11b314
