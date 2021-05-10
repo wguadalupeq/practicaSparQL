@@ -1,5 +1,6 @@
 \BOOKMARK [1][-]{section.1}{Introducci\363n}{}% 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 \BOOKMARK [1][-]{section.2}{\277Que es la web Sem\341ntica?}{}% 2
 \BOOKMARK [1][-]{section.3}{URLs, URIs, IRIs}{}% 3
 \BOOKMARK [2][-]{subsection.3.1}{URLs}{section.3}% 4
@@ -28,3 +29,16 @@
 \BOOKMARK [1][-]{section.4}{Conclusiones}{}% 10
 \BOOKMARK [1][-]{section*.1}{Referencias}{}% 11
 >>>>>>> 265d8a6d4e25e8649231eef87675aceb9c11b314
+=======
+\BOOKMARK [1][-]{section.2}{Estructura RDF}{}% 2
+\BOOKMARK [1][-]{section.3}{COnsultas SPARQL}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Especificaciones}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Estructura RDF a utilizar}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Transformer-XL}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.4}{XLNet}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.5}{BERT}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.6}{RoBERTa}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.7}{DistilBERT}{section.3}% 10
+\BOOKMARK [1][-]{section.4}{Conclusiones}{}% 11
+\BOOKMARK [1][-]{section*.1}{Referencias}{}% 12
+>>>>>>> ramaBryan

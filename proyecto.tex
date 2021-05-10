@@ -183,13 +183,47 @@ Resulta útil pensar las consultas SPARQL como un conjunto de oraciones con espa
 
 
 
+<<<<<<< HEAD
 
 \section{Consultas SPARQL}
 Con la aparici\'on del Transformer, han surgido diversas variantes y mejoras del modelo para  mejorar las limitaciones  y el desempe\~no en diversas tareas del NLP. En esta secci\'on describiremos algunas relacionadas a este trabajo.
+=======
+\item Esta segmentaci\'on del texto provoca la fragmentaci\'on del contexto \footnote{Context fragmentation}. Por ejemplo, si una oraci\'on se divide en dos, se pierde una cantidad significativa de contexto. En otras palabras, el texto se divide sin considerar la oraci\'on o cualquier otro l\'imite sem\'antico.
+\end{itemize}
+\section{COnsultas SPARQL}
+>>>>>>> ramaBryan
 
-\subsection{Transformer Universal}
+SPARQL, acrónimo de SPARQL \textit{Protocol and RDF Query Language}, es un lenguaje estandarizado para hacer consultas en estructuras RDF.  Es una tecnología clave en el desarrollo de la web semántica que se constituyó como recomendación oficial del W3C el 15 de enero de 2008, siendo actualizado a la versión 1.1 en 2013\cite{b1}. En un principio SPARQL únicamente incorpora funciones para la recuperación sentencias RDF. Sin embargo, algunas propuestas también incluyen operaciones para el mantenimiento (creación, modificación y borrado) de datos.
 
-El Transformer Universal, propuesto en el art\'iculo del mismo nombre \textcolor{orange}{Universal Transformers} \cite{b5}, es una variante del modelo Transformer que tiene como objetivo lograr un buen rendimiento tanto en traducci\'on de lenguaje como en tareas algor\'itmicas con un solo modelo. Los autores del Transformer Universal se\~nalan que es un modelo completo de Turing. 
+\subsection{Especificaciones}
+
+SPARQL 1.0:
+
+\begin{itemize}
+	\item SPARQL como lenguaje de consultas para RDF, cubre la sintaxis de las consultas (QL).
+	\item SPARQL como protocolo para RDF especifica cómo un programa debe pasar consultas SPARQL a un servicio de procesamiento de consultas SPARQL y cómo este servicio las retorna. 
+	\item Formato XML de resultados de consultas SPARQL, describe un formato simple XML para que los procesadores de consultas lo utilizen al devolver resultados.
+	
+\end{itemize}
+
+Sparql 1.1: 
+
+\begin{itemize}
+	\item La especificación de consulta federada describe como una simple consulta puede traer data de multiples fuentes, esto hace más fácil construir aplicaciones que toman ventaja de entornos distribuidos.
+	\item La especificación de actualización es la diferencia clave entre SPARQL 1.0 y 1.1 porque lleva a SPARQL de ser un lenguaje de consulta a algo que puede agregar datos a un conjunto de datos, reemplazarlos y eliminarlos también.
+	\item La especificación de Descripción del servicio describe cómo un programa cliente puede preguntarle a un motor SPARQL exactamente qué características admite.
+	\item La especificación del formato JSON de los resultados de la consulta describe un equivalente JSON del formato XML de los resultados de la consulta.
+	\item La especificación de los formatos CSV y TSV de los resultados de la consulta describe los equivalentes de valores separados por comas y tabuladores del formato XML de los resultados de la consulta.
+	\item La especificación del Protocolo HTTP de Graph Store amplía el Protocolo SPARQL con una API similar a REST para la comunicación entre un cliente y un procesador SPARQL sobre gráficos o conjuntos de tripletas. 
+	
+\end{itemize}
+
+\subsection{Estructura RDF a utilizar}
+
+\begin{figure}[h]
+\includegraphics[scale=0.25]{imagenes/grafo_rdf_30.jpeg} 
+\caption{Transformer XL: EGrafo generado, con 30 tripletas de la estructura RDF utilizada \cite{b2}}
+\end{figure} 
 
 \vspace{0.2cm}
 
@@ -264,9 +298,8 @@ DistilBERT \cite{b11}, utiliza una técnica llamada destilation, que se aproxima
 
 %\section{Referencias}
 \begin{thebibliography}{00}
-
-\bibitem{b1} Vaswani, Ashish, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, and Illia Polosukhin. Attention is all you need. In 
-\bibitem{b2}Sergey Ioffe, Christian Szegedy. Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift (2015). Disponible en \href{https://arxiv.org/abs/1502.03167}{https://arxiv.org/abs/1502.03167}.
+\bibitem{b1}\href{https://arxiv.org/abs/1502.03167}{https://www.w3.org/TR/rdf-sparql-query/}. 
+\bibitem{b2}Página web para generar grafos a partir de una estructura RDF: \href{https://www.ldf.fi/service/rdf-grapher}.
 \bibitem{b3} Jimmy Lei Ba, Jamie Ryan Kiros, Geoffrey E.Hinton. Layer Normalization (2016). Disponible en \href{https://arxiv.org/abs/1607.06450}{https://arxiv.org/abs/1607.06450}.
 \bibitem{b4}Kishore Papineni , Salim Roukos , Todd Ward , Wei-jing Zhu (2002). BLEU: a Method for Automatic Evaluation of Machine Translation,  pp. 311-318. Proceedings of the 40th Annual Meeting of the Association for Computational Linguistics (ACL). 
 \bibitem{b5}Mostafa Dehghani, Stephan Gouws, Oriol Vinyals, Jakob Uszkoreit, Łukasz Kaiser. Universal Transformers (2018). ICLR 2019. Disponible en \href{https://arxiv.org/abs/1807.03819}{https://arxiv.org/abs/1807.03819}
