@@ -105,8 +105,21 @@ Una consulta SparQL consta de tres partes:
 \vspace{0.5cm}
 Las búsquedas se realizan a través de un SparQL Endpoint, que es la interfaz de entrada y salida de estas bases de datos y que permitirá nuestras consultas. Dicho de otra forma, los Endpoints de SparQL no son más que una dirección web (URL) que acepta peticiones de búsqueda SparQL y devuelve resultados, las formas de consulta SparQL son select, construct, ask y describe.
 
+\vspace{0.5cm}
+\textbf{¿Cuáles son los desafíos de diseño en SparQL?}
+\vspace{0.5cm}
+
+SparQL debe tener en cuenta las características distintivas de RDF:
+\begin{itemize}
+    \item Debería poder extraer información de grafos RDF interconectados.
+    \item Debe ser coherente con la semántica de mundo abierto de RDF.
+    \item Debe ofrecer la posibilidad de agregar información opcional si está presente. 
+    \item Debería ser capaz de interpretar correctamente grafos RDF con un vocabulario con semántica predefinida.
+    \item Debería ofrecer algunas funcionalidades para navegar en un grafo RDF.
+\end{itemize}
 
 \vspace{0.2cm}
+
 \section{¿Que es la web Semántica?}
 
 La Web Semántica vendría a ser una extensión de la Web actual dotada de significado, esto es, un espacio donde la información tendría un significado bien definido, de manera que pudiera ser interpretada tanto por agentes humanos como por agentes computarizados.
