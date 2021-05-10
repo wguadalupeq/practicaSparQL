@@ -77,19 +77,30 @@ Lima, Perú \\
 \maketitle
 
 \begin{abstract}
-La información en la web se puede representar bajo un formato de datos llamado RDF
+En el presente trabajo se implementaron consultas de tipos SparQL que permiten hacer la búsqueda en distintas fuentes de datos como estructuras RDF,la creación de esta estructura, asi como un resumen de los pasos que realizamos para la ejecución del proyecto.
 
-En el presente trabajo se implementaron consultas de tipos SPARQL que permiten hacer la busqueda en distintas fuentes de datos.
+Para iniciar el proyecto se usó la base de conocimiento de la Wikidata realizando consultas online \textbf{https://query.wikidata.org/} con lo cual seguiremos los siguientes pasos para que se entienda como se ha creado la estructura RDF.
+\vspace{0.2cm}
+Accedemos al enlace mencionado anteriormente.Podemos usar las consultas con extensión .rq que estan almacenadas en el repositorio de este proyecto:
+\vspace{0.2cm}
+Si usamos el contenido del archivo onlineQuerySELECT.rq copiaremos la información y la usaremos en el servicio de consultas de la Wikidata nos devuelve la tabla que hemos construido mediante las consultas que hemos hecho.
+Si usamos el contenido del archivo onlineQueryCONSTRUCT.rq copiaremos la información y la usaremos en el servicio de consultas de la Wikidata nos devuelve como serían las tripletas en una nueva estructura RDF que vamos a manejar.
+\vspace{0.2cm}
+Descargamos el archivo TSV detallado que se genera al usar el archivo onlineQueryCONSTRUCT.rq y lo modificamos para que tenga el formato Turtle a usar en el presente proyecto.
+El archivo RDF en formato turtle una vez generado y se encuentra en el siguiente en el directorio RDF con el siguiente nombre RDF.ttl.
+\vspace{0.2cm}
+Hasta ahora los pasos que hemos hecho es para extraer una estructura RDF nueva de Wikidata realizado consultas SparQL para obtener datos de investigaciones y trabajos científicos, digamos obras, que se basen sobre el tema de Ciencias de la Computación. De estos datos hemos extraído las siguiente características:
+
+Titulo,Autor,Tema, Idioma, Revista,  Fecha de Publicación, URL.
 
 \vspace{0.2cm}
 
 
-\'Indice de T\'erminos— RNN, modelos seq2seq, mecanismos de atenci\'on, transformers.
-    
 \end{abstract}
 
 \section{Introducci\'on}
 \vspace{0.2cm}
+La información en la web se puede representar bajo un formato de datos llamado RDF.
 El consorcio World Wide Web (W3C) propuso una especificación llamada SparQL(lenguaje de consultas) para manipular grafos compuesstos por tripletas RDF en la web y en repositorios de datos, asi como extraer datos mediante consultas a relaciones desconocidas  y relaizar búsquedas con combinaciones complejas de base de datos.
 
 \vspace{0.5cm}
