@@ -1,5 +1,14 @@
 # Muestra las diferentes salidas de las consultas realizadas
 
+## Consultas realizadas mediante Wikidata Query Service (ConsultaOnline)
+
+1. Consultas para visualizar las tablas
+2. Visualización de las tablas
+3. Consulta para construir el archivo RDF
+4. Visualización de las tripletas
+
+## Consultas realizadas en Twinkle (Consulta)
+
 1. Mostraremos las 50 primeras tripletas almacenadas en la tabla.
 2. Mostrar de las 25 primeras tripletas almacenadas en la tabla el sujeto y objeto (usaremos wdt:titulo).
 3. Mostrar el titulo, tema y autor si es que tiene de 50 obras.
