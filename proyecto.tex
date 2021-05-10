@@ -215,7 +215,7 @@ DistilBERT \cite{b11}, utiliza una técnica llamada destilation, que se aproxima
 
 \begin{itemize}
 \item Se ha realizado clasificaci\'on multiclase utilizando la librer\'ia simpletransformers y modelos pre-entrenados, basados en BERT, obteniendo buenos resultados en m\'etricas de clasificaci\'on, especialmente del modelo distilBERT, que tiene un menor n\'umero de param\'etros que BERT y que utiliza el aprendizaje \texttt{teacher-students}, donde se entrena a una red de \texttt{students} para imitar la distribuci\'on de salida completa de la red del \texttt{teacher} (su conocimiento) y retiene el rendimiento de BERT.
-\item En la tarea de traducci\'on, se realizaron comparaciones entre distintos modelos seq2seq y los modelos transformers, donde estos \'ultimos obtuvieron mejores resultados. Sin embargo el modelo Transformer XL modificado no logr\'o superar al Transformer original.
+
 \end{itemize}
 
 %\section{Referencias}
