@@ -1,0 +1,74 @@
+# El presente archivo realizaremos diferentes consultas SparQL
+
+# 1. Mostraremos las 50 primeras tripletas almacenadas en la tabla 
+
+SELECT * 
+
+WHERE{
+
+    ?subject ?predicate ?object .
+
+}
+
+LIMIT 50
+
+# 2. Mostrar las 25 primeras tripletas almacenadas en la tabla pero usando prefijos
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX wd: <http://www.wikidata.org/entity/> 
+PREFIX wdt: <http://www.wikidata.org/prop/direct/> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?subject ?predicate ?object 
+
+WHERE{
+
+    ?subject ?predicate ?object .
+
+}
+
+LIMIT 25
+
+# 3. Mostrar el titulo, tema y autor si es que tiene de 50 obras
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX wd: <http://www.wikidata.org/entity/> 
+PREFIX wdt: <http://www.wikidata.org/prop/direct/> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?titulo ?tema ?autor
+
+WHERE{
+
+	?obra wdt:titulo ?titulo . # Buscamos obras que tengan propiedad titulo
+	?obra wdt:tema ?tema . # Buscamos obras que tengan propiedad tema
+
+	OPTIONAL{ ?x wdt:autor ?autor . } # Buscamos obras que puedan tener como propiedad autor
+
+}
+
+LIMIT 50
+
+# 4. Mostraremos solo obras que tengan el titulo en español y que tengan necesariamente datos como autor, tema y opcionalmente que tenga
+# datos como revista y fecha de publicación 
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX wd: <http://www.wikidata.org/entity/> 
+PREFIX wdt: <http://www.wikidata.org/prop/direct/> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?titulo ?tema ?autor ?revista ?fechaPublicacion 
+
+WHERE{
+
+	?x wdt:titulo ?titulo . # Buscamos obras que tengan propiedad titulo
+	?x wdt:tema ?tema . # Buscamos obras que tengan propiedad tema
+	?x wdt:autor ?autor . # Buscamos obras que tengan propiedad autor
+
+	OPTIONAL{ ?x wdt:revista ?revista . } # Buscamos obras que puedan tener como propiedad revista
+	OPTIONAL{ ?x wdt:fecha ?fechaPublicacion . } # Buscamos obras que puedan tener como propiedad fecha de publiación
+	
+	FILTER (langMatches( lang(?titulo), "es" )) . # Filtra los titulos que estén en español usando el literal
+}
+
+# 5. Mostrar las obras que tengan titulo, autor y como tema principal Inteligencia Artificial además que muestra la cantidad de autores 

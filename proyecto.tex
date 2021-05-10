@@ -6,6 +6,7 @@
 \usepackage{mathpazo}
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 \usepackage{graphicx}
 \usepackage{textcomp}
 \usepackage{xcolor}
@@ -33,7 +34,7 @@
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
     
 \begin{document}
-\title{\bf{Consultas SparQl a estructuras RDF}}
+\title{\bf{Consultas SparQl a Estructuras RDF}}
 
 \begin{comment}
 \author{\IEEEauthorblockN{Asmat Franco, Bryan}
@@ -52,7 +53,7 @@ Lima, Perú \\
 \texttt{vchavezb@uni.pe}}
 \and
 \IEEEauthorblockN{Guadalupe Quispe, William}
-\IEEEauthorblockA{\textit{Universidad Nacional de Ingeniería} \\
+\IEEEauthorblockA{\textit{Universidad Nacional de Ingenieri\'a} \\
 Lima, Perú \\
 \texttt{wguadalupeq@uni.pe}}
 }
@@ -60,7 +61,7 @@ Lima, Perú \\
 \author{%x  x
 \textsc{Bryan Asmat}\textsc{, Danilo Blas}\textsc{, Victor Chavez}\textsc{, William Guadalupe}\\
 %\thanks{A thank you or further information} \\[1ex] % Your name
-\normalsize Universidad Nacional de Ingenieria \\ % Your institution
+\normalsize Universidad Nacional de Ingeniería \\ % Your institution
 \normalsize Lima,Perú \\ % Your institution
 \normalsize \href{mailto:basmatf@uni.pe}{basmatf@uni.pe},  \href{mailto:iblass@uni.pe}{iblass@uni.pe} \href{mailto:vchavezb@uni.pe}{,  vchavezb@uni.pe} \href{mailto:wguadalupeq@uni.pe}{,  wguadalupeq@uni.pe} % Your email address
 %\and % Uncomment if 2 authors are required, duplicate these 4 lines if more
@@ -106,17 +107,49 @@ Las búsquedas se realizan a través de un SparQL Endpoint, que es la interfaz d
 
 
 \vspace{0.2cm}
+\section{¿Que es la web Semántica?}
 
-\section{Estructura RDF}
-
-El modelo Transformer, propuesto en el art\'iculo \textcolor{orange}{Attention Is All You Need} \cite{b1}, se basa en la auto-atenci\'on sin el uso de RNN. Como resultado, es altamente paralelo y requiere menos tiempo para entrenamiento, al tiempo que establece resultados de vanguardia en modelamiento de lenguaje y la traducci\'on autom\'atica.
+La Web Semántica vendría a ser una extensión de la Web actual dotada de significado, esto es, un espacio donde la información tendría un significado bien definido, de manera que pudiera ser interpretada tanto por agentes humanos como por agentes computarizados.
 
 \vspace{0.2cm}
 
-El Transformer se basa en una estructura encoder-decoder. La diferencia entre este y cualquier otro modelo es que el Transformer se basa completamente en mecanismos de atenci\'on. 
+La web Semántica ha sido impulsada, entre otros, por el creador de la web, Tim Berners Lee en el 2000 para que la información sea reunida de forma que los buscadores puedan ''comprender'', más allá de limitarse a colocar los documentos en una lista
 
 \begin{figure}[h]
-\includegraphics[scale=0.3]{imagenes/Encoder-decoder.png} 
+%	\includegraphics[scale=0.25]{imagenes/imagen1.jpg} 
+	\caption{Transformer XL: Entrenamiento y Evaluación. Fuente: Transformer XL \cite{b7}}
+\end{figure}
+
+\section{URLs, URIs, IRIs}
+\subsection{URLs}
+El LRU es una cadena de caracteres con la que se asigna una dirección única a cada uno de los recursos de información disponibles en Internet. Existe un URL único para cada página de cada uno de los documentos de la WWW
+
+\subsection{URIs}
+Un identificador de recursos uniforme es una cadena de caracteres que identifica los recursos de una red de forma unívoca. La diferencia respecto a un localizador de recursos uniforme (URL) es que estos últimos hacen referencia a recursos que, de forma general, pueden variar en el tiempo. 
+
+Normalmente estos recursos son accesibles en una red o sistema. Los URI pueden ser localizador de recursos uniforme (URL),(URN)
+\subsection{IRIs}
+Es un estándar de protocolo de Internet que se basa en el protocolo Identificador uniforme de recursos (URI) al expandir en gran medida el conjunto de caracteres permitidos.
+
+\section{Estructura RDF}
+RDF es un método general para descomponer cualquier tipo de conocimiento en trozos pequeños, con algunas reglas acerca de la semántica o significado, de esas piezas.
+
+El punto es tener un método tan simple que puede expresar cualquier hecho, y a la vez tan estructurada que las aplicaciones informáticas pueden hacer cosas útiles con él. \textcolor{orange}{Attention Is All You Need} \cite{b1}
+
+RDF representa la información en una declaración triple -también llamada tripleta- que sigue la estructura sujeto-predicado-objeto \textcolor{orange}{Aqui citaremos las paginas} \cite{b1}
+
+\vspace{0.2cm}
+\textbf{Ejemplo}
+
+<La ronda de noche> <fue creada por> <Rembrandt>
+\vspace{0.2cm}
+En este ejemplo\textbf{<La ronda de noche>} y el objeto \textbf{<Rembrandt>} se pueden considerar como dos nodos en un grafo donde el predicado \textbf{<fue creada por>} define una arista o la relación entre estos .
+
+\vspace{0.2cm}
+
+
+\begin{figure}[h]
+%\includegraphics[scale=0.3]{imagenes/Encoder-decoder.png} 
 \caption{Encoder-Decoder del Transformer. Fuente The Transformer:
 Attention Is All You Need. \cite{b1}}
 \end{figure}
@@ -124,21 +157,21 @@ Attention Is All You Need. \cite{b1}}
 \vspace{0.2cm}
 
 
-El encoder est\'a formado por una pila de $N = 6$ capas, cada una de las cuales est\'a compuesta por dos subcapas: un mecanismo de atenci\'on de m\'ultiples cabeceras y una red de alimentaci\'on directa completamente conectada m\'as conexiones residuales \cite{b2} en ambas etapas, seguidas de un procedimiento de normalizaci\'on de capas \cite{b3}. El decoder se define de manera similar, solo que cada capa est\'a compuesta de 3 subcapas: atenci\'on de m\'ultiples cabeceras, capas completamente conectadas y atenci\'on de m\'ultiples cabeceras enmascarada.
+
 
 \vspace{0.2cm}
 
-Este modelo fue entrenado durante $300000$ pasos, aproximadamente $3.5$ d\'ias, utilizando \texttt{8 GPU NVIDIA P100}. De esta manera, el modelo Transformer alcanz\'o un puntaje BLUE \cite{b4} de $26.4$ cuando se aplic\'o sobre el conjunto de datos \texttt{newstest2013} como un conjunto de prueba, que estableci\'o un nuevo resultado de vanguardia.
+\section{Buscando RDF con SPARQL}
+SPARQL nos permite traducir datos en grafo, intensamente enlazados, en datos normalizados en formato tabular, esto es, distribuidos en filas y columnas, que se pueden abrir  en formato como .csv .json .ttl ,etc o también se pueden ver en programas de visualización
+
+
+Resulta útil pensar las consultas SPARQL como un conjunto de oraciones con espacios en blanco. La base de datos tomará esta consulta y encontrará cada conjunto de oraciones que encaje correctamente en estos espacios en blanco, devolviéndonos los valores coincidentes como una tabla.
 \vspace{0.2cm}
 
-El Transformer es una mejora con respecto a los modelos seq2seq basados en RNN, pero tiene algunas limitaciones.
 
-\begin{itemize}
-\item La atenci\'on solo puede ocuparse de cadenas de texto de longitud fija, lo cual implica que el texto debe dividirse en un cierto n\'umero de segmentos antes de ser alimentado al sistema como entrada. 
 
-\item Esta segmentaci\'on del texto provoca la fragmentaci\'on del contexto \footnote{Context fragmentation}. Por ejemplo, si una oraci\'on se divide en dos, se pierde una cantidad significativa de contexto. En otras palabras, el texto se divide sin considerar la oraci\'on o cualquier otro l\'imite sem\'antico.
-\end{itemize}
-\section{COnsultas SPARQL}
+
+\section{Consultas SPARQL}
 Con la aparici\'on del Transformer, han surgido diversas variantes y mejoras del modelo para  mejorar las limitaciones  y el desempe\~no en diversas tareas del NLP. En esta secci\'on describiremos algunas relacionadas a este trabajo.
 
 \subsection{Transformer Universal}
@@ -168,7 +201,7 @@ Se introduce un mecanismo recurrente a nivel de segmento que permite que el mode
 Para reutilizar adecuadamente los estados ocultos, los autores proponen un mecanismo llamado codificaciones posicionales relativas  que ayuda a evitar la confusi\'on temporal. Los modelos actuales no pueden distinguir la diferencia posicional entre entradas en diferentes segmentos en diferentes capas. La codificaci\'on de posici\'on relativa soluciona este problema al codificar el sesgo de informaci\'on posicional en los estados ocultos, que difiere de otros enfoques que realizan esto como el nivel de entrada.
 
 \begin{figure}[h]
-\includegraphics[scale=0.25]{imagenes/TransformerXL1.png} 
+%\includegraphics[scale=0.25]{imagenes/TransformerXL1.png} 
 \caption{Transformer XL: Entrenamiento y Evaluación. Fuente: Transformer XL \cite{b7}}
 \end{figure}
 
