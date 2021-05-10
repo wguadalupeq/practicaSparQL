@@ -6,6 +6,7 @@
 \usepackage{mathpazo}
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 \usepackage{graphicx}
 \usepackage{textcomp}
 \usepackage{xcolor}
@@ -52,7 +53,7 @@ Lima, Perú \\
 \texttt{vchavezb@uni.pe}}
 \and
 \IEEEauthorblockN{Guadalupe Quispe, William}
-\IEEEauthorblockA{\textit{Universidad Nacional de Ingeniería} \\
+\IEEEauthorblockA{\textit{Universidad Nacional de Ingenieri\'a} \\
 Lima, Perú \\
 \texttt{wguadalupeq@uni.pe}}
 }
@@ -101,15 +102,15 @@ De esta manera, el presente trabajo busca explorar la aplicación de estos model
 \vspace{0.2cm}
 
 \section{Estructura RDF}
-
-El modelo Transformer, propuesto en el art\'iculo \textcolor{orange}{Attention Is All You Need} \cite{b1}, se basa en la auto-atenci\'on sin el uso de RNN. Como resultado, es altamente paralelo y requiere menos tiempo para entrenamiento, al tiempo que establece resultados de vanguardia en modelamiento de lenguaje y la traducci\'on autom\'atica.
+RDF representa la información en una declaración triple -también llamada tripleta- que sigue la estructura sujeto-predicado-objeto
+ \textcolor{orange}{Attention Is All You Need} \cite{b1}, se basa en la auto-atenci\'on sin el uso de RNN. Como resultado, es altamente paralelo y requiere menos tiempo para entrenamiento, al tiempo que establece resultados de vanguardia en modelamiento de lenguaje y la traducci\'on autom\'atica.
 
 \vspace{0.2cm}
 
 El Transformer se basa en una estructura encoder-decoder. La diferencia entre este y cualquier otro modelo es que el Transformer se basa completamente en mecanismos de atenci\'on. 
 
 \begin{figure}[h]
-\includegraphics[scale=0.3]{imagenes/Encoder-decoder.png} 
+%\includegraphics[scale=0.3]{imagenes/Encoder-decoder.png} 
 \caption{Encoder-Decoder del Transformer. Fuente The Transformer:
 Attention Is All You Need. \cite{b1}}
 \end{figure}
@@ -161,7 +162,7 @@ Se introduce un mecanismo recurrente a nivel de segmento que permite que el mode
 Para reutilizar adecuadamente los estados ocultos, los autores proponen un mecanismo llamado codificaciones posicionales relativas  que ayuda a evitar la confusi\'on temporal. Los modelos actuales no pueden distinguir la diferencia posicional entre entradas en diferentes segmentos en diferentes capas. La codificaci\'on de posici\'on relativa soluciona este problema al codificar el sesgo de informaci\'on posicional en los estados ocultos, que difiere de otros enfoques que realizan esto como el nivel de entrada.
 
 \begin{figure}[h]
-\includegraphics[scale=0.25]{imagenes/TransformerXL1.png} 
+%\includegraphics[scale=0.25]{imagenes/TransformerXL1.png} 
 \caption{Transformer XL: Entrenamiento y Evaluación. Fuente: Transformer XL \cite{b7}}
 \end{figure}
 
