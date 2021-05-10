@@ -6,18 +6,19 @@
 
 # Investigaciones Cientificas sobre Ciencias de la Computación
 # SELECT ?titulo ?descripcion ?autor ?tema ?idioma ?revista ?fechaPublicacion ?URL # Si colocamos ?obra podemos ver las propiedades que tiene 
+# TENER EN CUENTA   P921(tema) P1476(titulo) P2093(autor) P407(idioma) P1433(revista) P577(fecha) P953(url)
 
 CONSTRUCT
 {  
   ?obra rdf:type wdt:P800. # Le decimos que la obra sera de tipo "Obra Notable"
   # Genera las diferentes relaciones entre las tripletas
-  ?obra wdt:P921 ?tema. 
-  ?obra wdt:P1476 ?titulo. 
-  ?obra wdt:P2093 ?autor.
-  ?obra wdt:P407 ?idioma.   
-  ?obra wdt:P1433 ?revista.
-  ?obra wdt:P577 ?fechaPublicacion.
-  ?obra wdt:P953 ?URL.
+  ?obra wdt:tema ?tema. 
+  ?obra wdt:titulo ?titulo. 
+  ?obra wdt:autor ?autor.
+  ?obra wdt:idioma ?idioma.   
+  ?obra wdt:revista ?revista.
+  ?obra wdt:fecha ?fechaPublicacion.
+  ?obra wdt:url ?URL.
   #?obra wdt:P856 ?URL2.
 }
 
