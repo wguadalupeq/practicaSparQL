@@ -26,3 +26,7 @@ Hasta ahora los pasos que hemos hecho es para extraer una estructura RDF nueva d
 - Revista
 - Fecha de Publicación
 - URL
+
+Teniendo todo lo anterior en cuenta vamos a usar el archivo `RDF.ttl` que esta en`RDF`y lo importamos en nuestro programa `Twinkle: SPARQL Tools` (en caso de no tenerlo descargado lo podemos descargar [aquí](http://ldodds.com/projects/twinkle/)), para ello lo ejecutamos y una vez abierto hacemos lo siguiente: `Write Simple Query -> Data URL -> File` y buscamos donde esta almacenado el archivo. Una vez realizado ya tenemos nuestro archivo con extensión  `.ttl`, ahora en la carpeta `RDF` del repositorio abrimos el archivo `SparQL.rq` el cual tiene diferentes consultas de pruebas las cuales serán como ejemplo didactico para la explicación de las diferentes consultas en este lenguaje para nuestro proyecto. 
+
+
