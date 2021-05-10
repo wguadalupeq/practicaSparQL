@@ -90,3 +90,6 @@ WHERE{
 }
 
 ORDER BY ?titulo # Si ponemos ORDER BY DESC(?titulo)
+
+# 6. Realizar una busqueda que te muestre titulos sobre machine learning, los temas que abarca, los autores,
+# y opcionalmente la url a la pagina de estos.
