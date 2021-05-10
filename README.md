@@ -12,8 +12,8 @@ Para iniciar el presente proyecto se ha usado la base de conocimiento de la Wiki
 
 1. Accederemos al enlace mencionado anteriormente.
 2. Podemos usar las consultas con extensión `.rq` que estan almacenadas en el directorio [RDF](https://github.com/wguadalupeq/practicaSparQL/tree/main/RDF) de este repositorio en el servicio de consultas:
-  - Si usamos el contenido del archivo `onlineQuerySELECT.rq` copiaremos la información y la usaremos en el servicio de consultas de la Wikidata nos devuelve la tabla que hemos construido mediante las consultas que hemos hecho.
-  - Si usamos el contenido del archivo `onlineQueryCONSTRUCT.rq` copiaremos la información y la usaremos en el servicio de consultas de la Wikidata nos devuelve como serían las tripletas en una nueva estructura RDF que vamos a manejar.
+    - Si usamos el contenido del archivo `onlineQuerySELECT.rq` copiaremos la información y la usaremos en el servicio de consultas de la Wikidata nos devuelve la tabla que hemos construido mediante las consultas que hemos hecho.
+    - Si usamos el contenido del archivo `onlineQueryCONSTRUCT.rq` copiaremos la información y la usaremos en el servicio de consultas de la Wikidata nos devuelve como serían las tripletas en una nueva estructura RDF que vamos a manejar.
 3. Descargamos el archivo TSV detallado que se genera al usar el archivo `onlineQueryCONSTRUCT.rq` y lo modificamos para que tenga el formato Turtle a usar en el presente proyecto.
 4. El archivo RDF en formato turtle una vez generado y se encuentra en el siguiente en el directorio [RDF](https://github.com/wguadalupeq/practicaSparQL/tree/main/RDF) con el siguiente nombre `RDF.ttl`.
 
