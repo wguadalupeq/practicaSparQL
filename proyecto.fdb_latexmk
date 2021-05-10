@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1620641886 "/home/bryan/Documentos/PROYECTOS_GITHUB/PRACTICA1_oficial2/practicaSparQL/proyecto.tex" "/home/bryan/Documentos/PROYECTOS_GITHUB/PRACTICA1_oficial2/practicaSparQL/proyecto.pdf" "proyecto" 1620641997
+["pdflatex"] 1620644037 "/home/bryan/Documentos/PROYECTOS_GITHUB/PRACTICA1_oficial2/practicaSparQL/proyecto.tex" "/home/bryan/Documentos/PROYECTOS_GITHUB/PRACTICA1_oficial2/practicaSparQL/proyecto.pdf" "proyecto" 1620644037
   "/etc/texmf/web2c/texmf.cnf" 1605113623 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/bryan/Documentos/PROYECTOS_GITHUB/PRACTICA1_oficial2/practicaSparQL/proyecto.aux" 1620641887 4317 b7b7e13d0ff2ebe51a7a8bdf63fcb32b ""
-  "/home/bryan/Documentos/PROYECTOS_GITHUB/PRACTICA1_oficial2/practicaSparQL/proyecto.tex" 1620641997 21377 976251576f5495815414312c4dd31eec ""
+  "/home/bryan/Documentos/PROYECTOS_GITHUB/PRACTICA1_oficial2/practicaSparQL/proyecto.aux" 1620644037 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/home/bryan/Documentos/PROYECTOS_GITHUB/PRACTICA1_oficial2/practicaSparQL/proyecto.tex" 1620644034 22957 12dd184bc001d2f6d371443788795b42 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm" 1136768653 1292 bd42be2f344128bff6d35d98474adfe3 ""
@@ -124,13 +124,14 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1605113781 8255942 8fcf0d1b64099bab037b3ff07e44d1a9 ""
   "IEEEtran.cls" 1620609490 281961 d74e7bcbeb5bf76a5d759a555bbd4c24 ""
   "imagenes/grafo_rdf_30.jpeg" 1620641348 239759 ed70146c8c241251eae71e4871218bad ""
-  "proyecto.aux" 1620641887 4317 b7b7e13d0ff2ebe51a7a8bdf63fcb32b "pdflatex"
-  "proyecto.out" 1620641887 1011 7f312c81e4d128759f185f719bc504e2 "pdflatex"
-  "proyecto.tex" 1620641997 21377 976251576f5495815414312c4dd31eec ""
+  "imagenes/imagen1.jpeg" 1620644034 44697 36cfa4efc56f67ba44e10b58eb1e7801 ""
+  "proyecto.aux" 0 -1 0 "pdflatex"
+  "proyecto.out" 0 -1 0 "pdflatex"
+  "proyecto.tex" 1620644034 22957 12dd184bc001d2f6d371443788795b42 ""
   (generated)
-  "proyecto.aux"
-  "proyecto.log"
   "/home/bryan/Documentos/PROYECTOS_GITHUB/PRACTICA1_oficial2/practicaSparQL/proyecto.log"
-  "proyecto.out"
   "/home/bryan/Documentos/PROYECTOS_GITHUB/PRACTICA1_oficial2/practicaSparQL/proyecto.pdf"
+  "proyecto.aux"
   "proyecto.pdf"
+  "proyecto.out"
+  "proyecto.log"
