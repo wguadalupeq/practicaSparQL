@@ -4,7 +4,7 @@ Este repositorio abarca las consultas SparQL a estructuras RDF, además la de cr
 Integrantes: 
 
 - William Guadalupe 
-- Danilo Blas
+- Danilo Blas Salas
 - Victor Chavez Bruno
 - Bryan Asmat 
 
@@ -17,13 +17,16 @@ Para iniciar el presente proyecto se ha usado la base de conocimiento de la Wiki
 3. Descargamos el archivo TSV detallado que se genera al usar el archivo `onlineQueryCONSTRUCT.rq` y lo modificamos para que tenga el formato Turtle a usar en el presente proyecto.
 4. El archivo RDF en formato turtle una vez generado y se encuentra en el siguiente en el directorio [RDF](https://github.com/wguadalupeq/practicaSparQL/tree/main/RDF) con el siguiente nombre `RDF.ttl`.
 
-Hasta ahora los pasos que hemos hecho es para extraer una estructura RDF nueva de Wikidata realizado consultas SparQL para obtener datos de investigaciones y trabajos científicos, digamos que sean obras, que se basen sobre el tema de Ciencias de la Computación. De estos datos hemos extraído las siguiente características:
--Obra
--Titulo
--Descripción
--Autor
--Tema
--Idioma
--Revista
--Fecha de Publicación
--URL
+Hasta ahora los pasos que hemos hecho es para extraer una estructura RDF nueva de Wikidata realizado consultas SparQL para obtener datos de investigaciones y trabajos científicos, digamos obras, que se basen sobre el tema de Ciencias de la Computación. De estos datos hemos extraído las siguiente características:
+
+- Titulo
+- Descripción
+- Autor
+- Tema
+- Idioma
+- Revista
+- Fecha de Publicación
+- URL
+
+
+
