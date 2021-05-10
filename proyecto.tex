@@ -36,7 +36,7 @@
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
     
 \begin{document}
-\title{\bf{Creación y manipulación de una estructura RDF sobre investigaciones de Ciencias de la Computación usando la Wikidata y Twinkle}}
+\title{\bf{Consultas SparQL para el filtrado de información mediante Twinkle sobre una estructura RDF extraída de la Wikidata. }}
 
 \begin{comment}
 \author{\IEEEauthorblockN{Asmat Franco, Bryan}
@@ -83,7 +83,7 @@ En el presente trabajo se implementaron consultas de tipos SparQL que permiten h
 
 Para iniciar el proyecto se usó la base de conocimiento de la Wikidata realizando consultas online \textbf{https://query.wikidata.org/} con lo cual seguiremos los siguientes pasos para que se entienda como se ha creado la estructura RDF.
 \vspace{0.2cm}
-Accedemos al enlace mencionado anteriormente.Podemos usar las consultas con extensión .rq que estan almacenadas en el repositorio de este proyecto:
+Accedemos al enlace mencionado anteriormente.Podemos usar las consultas con extensión .rq que están almacenadas en el repositorio de este proyecto:
 \vspace{0.2cm}
 Si usamos el contenido del archivo onlineQuerySELECT.rq copiaremos la información y la usaremos en el servicio de consultas de la Wikidata nos devuelve la tabla que hemos construido mediante las consultas que hemos hecho.
 Si usamos el contenido del archivo onlineQueryCONSTRUCT.rq copiaremos la información y la usaremos en el servicio de consultas de la Wikidata nos devuelve como serían las tripletas en una nueva estructura RDF que vamos a manejar.
@@ -144,7 +144,7 @@ La web Semántica ha sido impulsada, entre otros, por el creador de la web, Tim 
 \begin{figure}[h]
 	\centering
 	\includegraphics[scale=0.40]{imagenes/imagen1.jpeg} 
-	\caption{Web semántica \cite{b7}}
+	\caption{Web semántica \cite{b4}}
 \end{figure}
 \section{URLs, URIs, IRIs}
 \subsection{URLs}
@@ -160,27 +160,19 @@ Es un estándar de protocolo de Internet que se basa en el protocolo Identificad
 \section{Estructura RDF}
 RDF es un método general para descomponer cualquier tipo de conocimiento en trozos pequeños, con algunas reglas acerca de la semántica o significado, de esas piezas.
 
-El punto es tener un método tan simple que puede expresar cualquier hecho, y a la vez tan estructurada que las aplicaciones informáticas pueden hacer cosas útiles con él.  \cite{b1}
+El punto es tener un método tan simple que puede expresar cualquier hecho, y a la vez tan estructurada que las aplicaciones informáticas pueden hacer cosas útiles con él.  \cite{b5}
 
-RDF representa la información en una declaración triple -también llamada tripleta- que sigue la estructura sujeto-predicado-objeto \textcolor{orange}{Aqui citaremos las paginas} \cite{b1}
+RDF representa la información en una declaración triple -también llamada tripleta- que sigue la estructura sujeto-predicado-objeto \cite{b5}
 
 \vspace{0.2cm}
 \textbf{Ejemplo}
 
 <La ronda de noche> <fue creada por> <Rembrandt>
 \vspace{0.2cm}
-En este ejemplo\textbf{<La ronda de noche>} y el objeto \textbf{<Rembrandt>} se pueden considerar como dos nodos en un grafo donde el predicado \textbf{<fue creada por>} define una arista o la relación entre estos .
+En este ejemplo\textbf{<La ronda de noche>} y el objeto \textbf{<Rembrandt>} se pueden considerar como dos nodos en un grafo donde el predicado \textbf{<fue creada por>} define una arista o la relación entre estos . \cite{b5}
 
 \vspace{0.2cm}
 
-
-
-\vspace{0.2cm}
-
-
-
-
-\vspace{0.2cm}
 
 \section{Buscando RDF con SPARQL}
 SPARQL nos permite traducir datos en grafo, intensamente enlazados, en datos normalizados en formato tabular, esto es, distribuidos en filas y columnas, que se pueden abrir  en formato como .csv .json .ttl ,etc o también se pueden ver en programas de visualización
@@ -204,7 +196,7 @@ SPARQL, acrónimo de SPARQL \textit{Protocol and RDF Query Language}, es un leng
 \begin{itemize}
 	\item SPARQL como lenguaje de consultas para RDF, cubre la sintaxis de las consultas (QL).
 	\item SPARQL como protocolo para RDF especifica cómo un programa debe pasar consultas SPARQL a un servicio de procesamiento de consultas SPARQL y cómo este servicio las retorna. 
-	\item Formato XML de resultados de consultas SPARQL, describe un formato simple XML para que los procesadores de consultas lo utilizen al devolver resultados.
+	\item Formato XML de resultados de consultas SPARQL, describe un formato simple XML para que los procesadores de consultas lo utilicen al devolver resultados.
 	
 \end{itemize}
 
@@ -215,7 +207,7 @@ SPARQL, acrónimo de SPARQL \textit{Protocol and RDF Query Language}, es un leng
 	\item La especificación de Descripción del servicio describe cómo un programa cliente puede preguntarle a un motor SPARQL exactamente qué características admite.
 	\item La especificación del formato JSON de los resultados de la consulta describe un equivalente JSON del formato XML de los resultados de la consulta.
 	\item La especificación de los formatos CSV y TSV de los resultados de la consulta describe los equivalentes de valores separados por comas y tabuladores del formato XML de los resultados de la consulta.
-	\item La especificación del Protocolo HTTP de Graph Store amplía el Protocolo SPARQL con una API similar a REST para la comunicación entre un cliente y un procesador SPARQL sobre gráficos o conjuntos de tripletas. 
+	\item La especificación del Protocolo HTTP de Graph Store amplía el Protocolo SPARQL con una API similar a REST para la comunicación entre un cliente y un procesador SPARQL sobre gráficos o conjuntos de tripletas.  \cite{b4}
 	
 \end{itemize}
 
@@ -232,7 +224,7 @@ WHERE {
 \end{lstlisting}
 
 
-En esta consulta, seleccionamos todas las variables del patrón para poder representarlas con un *carácter. Además, las variables se pueden llamar de cualquier manera
+En esta consulta, seleccionamos todas las variables del patrón para poder representarlas con un *carácter. Además, las variables se pueden llamar de cualquier manera.
 
 Obviamente, para obtener consultas mas útiles, se deberá corregir las variables . Cambiando el predicado podemos obtener veinte entidades con sus etiquetas:
 
@@ -261,13 +253,15 @@ LIMIT 10
 
 \vspace{0.2cm}
 
-
+\newpage
 
 \section{Conclusiones}
 
 \begin{itemize}
-\item Se ha realizado clasificaci\'on multiclase utilizando la librer\'ia simpletransformers y modelos pre-entrenados, basados en BERT, obteniendo buenos resultados en m\'etricas de clasificaci\'on, especialmente del modelo distilBERT, que tiene un menor n\'umero de param\'etros que BERT y que utiliza el aprendizaje \texttt{teacher-students}, donde se entrena a una red de \texttt{students} para imitar la distribuci\'on de salida completa de la red del \texttt{teacher} (su conocimiento) y retiene el rendimiento de BERT.
-\item En la tarea de traducci\'on, se realizaron comparaciones entre distintos modelos seq2seq y los modelos transformers, donde estos \'ultimos obtuvieron mejores resultados. Sin embargo el modelo Transformer XL modificado no logr\'o superar al Transformer original.
+\item  SPARQL es un lenguaje bastante flexible e intuitivo de aprender , dando nos la facilidad de poder realizar consultas complejas. 
+\item Después extracción de datos en WikiData, estos deben ser limpiados y dar formato \textit{turtle} para así poder realizar consultas en Twinkle.
+\item Es mejor trabajar con los servicios  de consultas en linea por la mayor capacidad de data que tienen y por la mayor funcionalidad que tienen para realizar consultas.
+
 \end{itemize}
 
 %\section{Referencias}
@@ -275,9 +269,12 @@ LIMIT 10
 \bibitem{b1}\href{https://arxiv.org/abs/1502.03167}{https://www.w3.org/TR/rdf-sparql-query/}. 
 \bibitem{b2}Página web para generar grafos a partir de una estructura RDF: \href{https://www.ldf.fi/service/rdf-grapher}.
 \bibitem{b3} Jimmy Lei Ba, Jamie Ryan Kiros, Geoffrey E.Hinton. Layer Normalization (2016). Disponible en \href{https://arxiv.org/abs/1607.06450}{https://arxiv.org/abs/1607.06450}.
-\bibitem{b4}Kishore Papineni , Salim Roukos , Todd Ward , Wei-jing Zhu (2002). BLEU: a Method for Automatic Evaluation of Machine Translation,  pp. 311-318. Proceedings of the 40th Annual Meeting of the Association for Computational Linguistics (ACL). 
-\bibitem{b5}Mostafa Dehghani, Stephan Gouws, Oriol Vinyals, Jakob Uszkoreit, Łukasz Kaiser. Universal Transformers (2018). ICLR 2019. Disponible en \href{https://arxiv.org/abs/1807.03819}{https://arxiv.org/abs/1807.03819}
+\bibitem{b4}Learning SPARQL
+Querying and Updating with SPARQL 1.1
+\bibitem{b5}Uso de SPARQL para acceder a datos abiertos enlazados \href{https://programminghistorian.org/es/lecciones/retirada/sparql-datos-abiertos-enlazados}{https://programminghistorian.org/es/lecciones/retirada/sparql-datos-abiertos-enlazados}
 
+\bibitem{b6}{SPARQL query}
+\href{https://medium.com/wallscope/constructing-sparql-queries-ca63b8b9ac02}{https://medium.com/wallscope/constructing-sparql-queries-ca63b8b9ac02}
 
 \end{thebibliography}
 
