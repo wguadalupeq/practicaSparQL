@@ -36,15 +36,7 @@
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
     
 \begin{document}
-<<<<<<< HEAD
-<<<<<<< HEAD
-\title{\bf{Creación y manipulación de una estructura RDF sobre investigaciones de Ciencias de la Computación usando la Wikidata y Twinkle}}
-=======
-\title{\bf{Creación y manipulación de una estructura RDF sobre investigaciones de Ciencias de la computación usando la Wikidata y Twinkle}}
->>>>>>> 4b1eb5613ebb576858ce112e9a6f8d950ee4833f
-=======
 \title{\bf{Consultas SparQL para el filtrado de información mediante Twinkle sobre una estructura RDF extraída de la Wikidata. }}
->>>>>>> modify
 
 \begin{comment}
 \author{\IEEEauthorblockN{Asmat Franco, Bryan}
@@ -181,26 +173,7 @@ En este ejemplo\textbf{<La ronda de noche>} y el objeto \textbf{<Rembrandt>} se 
 
 \vspace{0.2cm}
 
-<<<<<<< HEAD
 
-<<<<<<< HEAD
-=======
-\begin{figure}[h]
-    \centering
-	\includegraphics[scale=0.40]{imagenes/imagen1.jpeg} 
-	\caption{Web semántica \cite{b7}}
-\end{figure}
->>>>>>> 4b1eb5613ebb576858ce112e9a6f8d950ee4833f
-
-\vspace{0.2cm}
-
-
-
-
-\vspace{0.2cm}
-
-=======
->>>>>>> modify
 \section{Buscando RDF con SPARQL}
 SPARQL nos permite traducir datos en grafo, intensamente enlazados, en datos normalizados en formato tabular, esto es, distribuidos en filas y columnas, que se pueden abrir  en formato como .csv .json .ttl ,etc o también se pueden ver en programas de visualización
 
@@ -226,7 +199,7 @@ SPARQL, acrónimo de SPARQL \textit{Protocol and RDF Query Language}, es un leng
 	\item Formato XML de resultados de consultas SPARQL, describe un formato simple XML para que los procesadores de consultas lo utilicen al devolver resultados.
 	
 \end{itemize}
-
+\newpage
 \textbf{Sparql 1.1:}
 \begin{itemize}
 	\item La especificación de consulta federada describe como una simple consulta puede traer data de multiples fuentes, esto hace más fácil construir aplicaciones que toman ventaja de entornos distribuidos.
@@ -240,37 +213,6 @@ SPARQL, acrónimo de SPARQL \textit{Protocol and RDF Query Language}, es un leng
 
 \subsection{Ejemplos de Consultas}
 Veamos algunas consultas que son comunes y así poder entenderlas.
-\subsection{Estructura RDF a utilizar}
-
-\begin{figure}[H]
-\includegraphics[scale=0.2]{imagenes/estruc_rdf_30.png} 
-\caption{30 tripletas de la estructura RDF utilizada (ver archivo RDF.ttl) }
-\end{figure} 
-
-\begin{figure}[H]
-\includegraphics[scale=0.25]{imagenes/grafo_rdf_30.jpeg} 
-\caption{Grafo generado con 30 tripletas de la estructura RDF utilizada \cite{b2}}
-\end{figure} 
-
-\subsection{Consultas SPARQL hechas en la esctructura RDF.}
-
-Las siguientes imágenes muestran las capturas de algunas de las consultas hechas a la estructura RDF elegida, en el programa Twinkle. 
-
-\begin{figure}[H]
-\includegraphics[scale=0.24]{imagenes/consulta1.jpeg} 
-\caption{Mostrar 50 primeras tripletas alamacenadas en la tabla.}
-\end{figure} 
-
-\begin{figure}[H]
-\includegraphics[scale=0.23]{imagenes/consulta2.jpeg} 
-\caption{Mostrar el título, tema y autor si es que tiene 50 obras.}
-\end{figure} 
-
-Las capturas de las consultas en su totalidad, se encuentran en la carpeta ./CAPTURAS DE CONSULTAS SPARQL.
-
-\vspace{0.2cm}
-
-De acuerdo al art\'iculo, las principales diferencias entre el Transformer y el Transformer Universal consistn en que el Transformer Universal aplica el encoder para un n\'umero variable de pasos para cada token de entrada/salida (T pasos), mientras que el Transformador aplica exactamente $6$ capas de encoder/decoder, respectivamente. As\'i mismo, el Transformer Universal utiliza una representaci\'on de entrada ligeramente diferente: incluye un embedding de paso de tiempo adem\'as de la codificaci\'on posicional.
 
 \textbf{Ejemplo}
 \begin{lstlisting}[captionpos=b, caption=SPARQL query, label=lst:sparql,
@@ -297,6 +239,9 @@ WHERE {
 }
 LIMIT 10
 \end{lstlisting}
+Si se desea revisar mas ejemplos de consultas revisar el siguiente enlace
+\cite{b7}
+\newpage
 \subsection{Estructura RDF a utilizar}
 
 \begin{figure}[h]
@@ -304,12 +249,20 @@ LIMIT 10
 \caption{30 tripletas de la estructura RDF utilizada (ver archivo RDF.ttl) }
 \end{figure} 
 
-\begin{figure}[H]
+\begin{figure}[h]
 \includegraphics[scale=0.25]{imagenes/grafo_rdf_30.jpeg} 
 \caption{Grafo generado con 30 tripletas de la estructura RDF utilizada \cite{b2}}
 \end{figure} 
 
 \vspace{0.2cm}
+
+Como podemos Apreciar en la figura anterior es muestra la data ya lista para usarse y pasare a explicar algunas lineas y sea mas fácil para los usuarios que vienen a ser abreviaturas de prefijos para WikiData que es donde hemos bajado la información
+\begin{itemize}
+	\item \textbf{wd: } Una entidad de WikiData como se puede apreciar en el URL  <http://www.wikidata.org/entity/>
+	\item \textbf{wdt: } Propiedades de una entidad de WikiData  <http://www.wikidata.org/prop/direct/>
+	\item \textbf{@en:} Nos dice en que idioma esta  en este caso \textit{English} y así sucesivamente si en caso fuera \textbf{@es} el idioma español
+	\item\textbf{type:}Es una instancia de una clase
+\end{itemize}
 
 \newpage
 
@@ -325,7 +278,7 @@ LIMIT 10
 %\section{Referencias}
 \begin{thebibliography}{00}
 \bibitem{b1}\href{https://arxiv.org/abs/1502.03167}{https://www.w3.org/TR/rdf-sparql-query/}. 
-\bibitem{b2}Página web para generar grafos a partir de una estructura RDF: \href{https://www.ldf.fi/service/rdf-grapher}.
+\bibitem{b2}Página web para generar grafos a partir de una estructura RDF: \href{https://www.ldf.fi/service/rdf-grapher}{https://www.ldf.fi/service/rdf-grapher}.
 \bibitem{b3} Jimmy Lei Ba, Jamie Ryan Kiros, Geoffrey E.Hinton. Layer Normalization (2016). Disponible en \href{https://arxiv.org/abs/1607.06450}{https://arxiv.org/abs/1607.06450}.
 \bibitem{b4}Learning SPARQL
 Querying and Updating with SPARQL 1.1
@@ -333,6 +286,10 @@ Querying and Updating with SPARQL 1.1
 
 \bibitem{b6}{SPARQL query}
 \href{https://medium.com/wallscope/constructing-sparql-queries-ca63b8b9ac02}{https://medium.com/wallscope/constructing-sparql-queries-ca63b8b9ac02}
+
+\bibitem{b7}{Consultas SparQL Github}
+
+\href{https://github.com/wguadalupeq/practicaSparQL/tree/main/RDF}{https://github.com/wguadalupeq/practicaSparQL/tree/main/RDF}
 
 \end{thebibliography}
 
