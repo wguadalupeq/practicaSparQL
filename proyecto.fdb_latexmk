@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1620644286 "d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.tex" "d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.pdf" "proyecto" 1620644286
+["pdflatex"] 1620645307 "d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.tex" "d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.pdf" "proyecto" 1620645309
   "IEEEtran.cls" 1620608728 288308 d74e7bcbeb5bf76a5d759a555bbd4c24 ""
   "c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc" 1565754492 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1565754702 3332 103109f5612ad95229751940c61aada0 ""
@@ -113,17 +113,15 @@
   "c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1565756702 3265705 1c47a36e1854fca80ccfb74d1dfbdde3 ""
   "c:/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1565756787 4254431 0965e63c7dee1bf244625e17c8b057bf ""
   "c:/texlive/2019/texmf.cnf" 1565756666 673 4ae7b2f49cee444c5343a45b5d0f169c ""
-  "d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.aux" 1620644286 9 a94a2480d3289e625eea47cd1b285758 ""
-  "d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.tex" 1620644282 19655 32e0ed67819055133c1feb037d0dfb8c ""
-  "imagenes/grafo_rdf_30.jpeg" 1620643174 239759 2a95b7fec80631528b74ab7b4157abf5 ""
-  "imagenes/imagen1.jpeg" 1620643174 44697 36cfa4efc56f67ba44e10b58eb1e7801 ""
-  "proyecto.aux" 0 -1 0 "pdflatex"
-  "proyecto.out" 0 -1 0 "pdflatex"
-  "proyecto.tex" 1620644282 19655 32e0ed67819055133c1feb037d0dfb8c ""
+  "d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.aux" 1620645308 4113 524ee96f393a7989d13103f88388df27 ""
+  "d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.tex" 1620645303 20176 fe70b29deb4521216f2590456309361f ""
+  "proyecto.aux" 1620645308 4113 524ee96f393a7989d13103f88388df27 "pdflatex"
+  "proyecto.out" 1620645308 941 3ab37b761cc2b419ce7a9dd4d1b995c6 "pdflatex"
+  "proyecto.tex" 1620645303 20176 fe70b29deb4521216f2590456309361f ""
   (generated)
-  "d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.log"
-  "proyecto.log"
+  "proyecto.out"
   "proyecto.aux"
   "d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.pdf"
-  "proyecto.out"
+  "d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.log"
+  "proyecto.log"
   "proyecto.pdf"

@@ -77,60 +77,29 @@ Lima, Perú \\
 \maketitle
 
 \begin{abstract}
-En el presente trabajo se implementaron consultas de tipos SparQL que permiten hacer la búsqueda en distintas fuentes de datos como estructuras RDF,la creación de esta estructura, asi como un resumen de los pasos que realizamos para la ejecución del proyecto.
+La información en la web se puede representar bajo un formato de datos llamado RDF
 
-Para iniciar el proyecto se usó la base de conocimiento de la Wikidata realizando consultas online \textbf{https://query.wikidata.org/} con lo cual seguiremos los siguientes pasos para que se entienda como se ha creado la estructura RDF.
-\vspace{0.2cm}
-Accedemos al enlace mencionado anteriormente.Podemos usar las consultas con extensión .rq que estan almacenadas en el repositorio de este proyecto:
-\vspace{0.2cm}
-Si usamos el contenido del archivo onlineQuerySELECT.rq copiaremos la información y la usaremos en el servicio de consultas de la Wikidata nos devuelve la tabla que hemos construido mediante las consultas que hemos hecho.
-Si usamos el contenido del archivo onlineQueryCONSTRUCT.rq copiaremos la información y la usaremos en el servicio de consultas de la Wikidata nos devuelve como serían las tripletas en una nueva estructura RDF que vamos a manejar.
-\vspace{0.2cm}
-Descargamos el archivo TSV detallado que se genera al usar el archivo onlineQueryCONSTRUCT.rq y lo modificamos para que tenga el formato Turtle a usar en el presente proyecto.
-El archivo RDF en formato turtle una vez generado y se encuentra en el siguiente en el directorio RDF con el siguiente nombre RDF.ttl.
-\vspace{0.2cm}
-Hasta ahora los pasos que hemos hecho es para extraer una estructura RDF nueva de Wikidata realizado consultas SparQL para obtener datos de investigaciones y trabajos científicos, digamos obras, que se basen sobre el tema de Ciencias de la Computación. De estos datos hemos extraído las siguiente características:
-
-Titulo,Autor,Tema, Idioma, Revista,  Fecha de Publicación, URL.
+En el presente trabajo se implementaron consultas de tipos SPARQL que permiten hacer la busqueda en distintas fuentes de datos.
 
 \vspace{0.2cm}
 
 
+\'Indice de T\'erminos— RNN, modelos seq2seq, mecanismos de atenci\'on, transformers.
+    
 \end{abstract}
 
 \section{Introducci\'on}
-\vspace{0.2cm}
-La información en la web se puede representar bajo un formato de datos llamado RDF.
-El consorcio World Wide Web (W3C) propuso una especificación llamada SparQL(lenguaje de consultas) para manipular grafos compuesstos por tripletas RDF en la web y en repositorios de datos, asi como extraer datos mediante consultas a relaciones desconocidas  y relaizar búsquedas con combinaciones complejas de base de datos.
-
-\vspace{0.5cm}
-La estructura de los resultados de una consulta SPARQL es una tabla donde cada fila es un resultado y cada columna se corresponde con una de las variables de la consulta.
-
-Una consulta SparQL consta de tres partes:
-\begin{itemize}
-    \item  Coincidencia de patrones: optional, union, nesting,filtering.
-    \item  Modificadores de solución: projection, distinct, order, límit, offset.
-    \item  Parte de salida: construcción de nuevas tripletas.
-\end{itemize}
-
-\vspace{0.5cm}
-Las búsquedas se realizan a través de un SparQL Endpoint, que es la interfaz de entrada y salida de estas bases de datos y que permitirá nuestras consultas. Dicho de otra forma, los Endpoints de SparQL no son más que una dirección web (URL) que acepta peticiones de búsqueda SparQL y devuelve resultados, las formas de consulta SparQL son select, construct, ask y describe.
-
-\vspace{0.5cm}
-\textbf{¿Cuáles son los desafíos de diseño en SparQL?}
-\vspace{0.5cm}
-
-SparQL debe tener en cuenta las características distintivas de RDF:
-\begin{itemize}
-    \item Debería poder extraer información de grafos RDF interconectados.
-    \item Debe ser coherente con la semántica de mundo abierto de RDF.
-    \item Debe ofrecer la posibilidad de agregar información opcional si está presente. 
-    \item Debería ser capaz de interpretar correctamente grafos RDF con un vocabulario con semántica predefinida.
-    \item Debería ofrecer algunas funcionalidades para navegar en un grafo RDF.
-\end{itemize}
+Una tendencia dada en el ICRL \footnote{International Conference on Learning Representations } y en el NAACL- HLT \footnote{Annual Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies.} celebrados en el 2019,  muestra que las RNN presentan un declive en el n\'umero de publicaciones realizadas. Dicha tendencia era de esperarse, aunque las RNN son intuitivas para los datos secuenciales tienen como principal incoveniente la parelización en su procesamiento, por lo tanto, no pueden aprovechar el factor m\'as importante que ha impulsado el progreso en la investigaci\'on desde $2012$: la potencia de c\'alculo. Los RNN nunca han sido populares en visi\'on computacional y aprendizaje por refuerzo y para NLP, est\'an siendo reemplazados por arquitecturas basadas en la atenci\'on.
 
 \vspace{0.2cm}
 
+Los Transformers, presentados en 2017, introdujeron un nuevo enfoque: m\'odulos de atenci\'on. Este modelo ha conllevado a una enorme cantidad de variantes que mejoran el desempe\~no de tareas del NLP, como el Transformer Universal, BERT (google) o el Transformer-XL; la mayor\'ia de modelos de vanguardia que requieren gran cantidad de datos de entrenamiento y d\'ias de entrenamiento en hardware haci\'endolo costoso. Sin embargo, con el lanzamiento de librer\'ias especializadas en NLP y arquitecturas Transformer, ahora pueden ser utilizados en datos reducidos.
+
+\vspace{0.2cm}
+
+De esta manera, el presente trabajo busca explorar la aplicación de estos modelos sobre el conjunto de datos reducido AG News y Multi30k. En primer lugar se realizar\'a la definici\'on del modelo Transformer. A continuaci\'on, se describir\'a el estado del arte de modelos basados en el Transformer, para diferentes tareas del NLP. Posteriomente, se explica la metodolog\'ia a utilizar en los experimentos con diferentes arquitecturas. Las secciones siguientes tratar\'an los resultados experimentales, las conclusiones y discusiones, y los trabajos futuros que se pueden realizar con esta nueva familia de t\'ecnicas del NLP.
+
+\vspace{0.2cm}
 \section{¿Que es la web Semántica?}
 
 La Web Semántica vendría a ser una extensión de la Web actual dotada de significado, esto es, un espacio donde la información tendría un significado bien definido, de manera que pudiera ser interpretada tanto por agentes humanos como por agentes computarizados.
@@ -171,10 +140,11 @@ En este ejemplo\textbf{<La ronda de noche>} y el objeto \textbf{<Rembrandt>} se 
 
 \vspace{0.2cm}
 
-begin{figure}[h]
-    \centering
-	\includegraphics[scale=0.40]{imagenes/imagen1.jpeg} 
-	\caption{Web semántica \cite{b7}}
+
+\begin{figure}[h]
+%\includegraphics[scale=0.3]{imagenes/Encoder-decoder.png} 
+\caption{Encoder-Decoder del Transformer. Fuente The Transformer:
+Attention Is All You Need. \cite{b1}}
 \end{figure}
 
 \vspace{0.2cm}
@@ -195,39 +165,11 @@ Resulta útil pensar las consultas SPARQL como un conjunto de oraciones con espa
 
 
 \section{Consultas SPARQL}
+Con la aparici\'on del Transformer, han surgido diversas variantes y mejoras del modelo para  mejorar las limitaciones  y el desempe\~no en diversas tareas del NLP. En esta secci\'on describiremos algunas relacionadas a este trabajo.
 
+\subsection{Transformer Universal}
 
-SPARQL, acrónimo de SPARQL \textit{Protocol and RDF Query Language}, es un lenguaje estandarizado para hacer consultas en estructuras RDF.  Es una tecnología clave en el desarrollo de la web semántica que se constituyó como recomendación oficial del W3C el 15 de enero de 2008, siendo actualizado a la versión 1.1 en 2013\cite{b1}. En un principio SPARQL únicamente incorpora funciones para la recuperación sentencias RDF. Sin embargo, algunas propuestas también incluyen operaciones para el mantenimiento (creación, modificación y borrado) de datos.
-
-\subsection{Especificaciones}
-
-SPARQL 1.0:
-
-\begin{itemize}
-	\item SPARQL como lenguaje de consultas para RDF, cubre la sintaxis de las consultas (QL).
-	\item SPARQL como protocolo para RDF especifica cómo un programa debe pasar consultas SPARQL a un servicio de procesamiento de consultas SPARQL y cómo este servicio las retorna. 
-	\item Formato XML de resultados de consultas SPARQL, describe un formato simple XML para que los procesadores de consultas lo utilizen al devolver resultados.
-	
-\end{itemize}
-
-Sparql 1.1: 
-
-\begin{itemize}
-	\item La especificación de consulta federada describe como una simple consulta puede traer data de multiples fuentes, esto hace más fácil construir aplicaciones que toman ventaja de entornos distribuidos.
-	\item La especificación de actualización es la diferencia clave entre SPARQL 1.0 y 1.1 porque lleva a SPARQL de ser un lenguaje de consulta a algo que puede agregar datos a un conjunto de datos, reemplazarlos y eliminarlos también.
-	\item La especificación de Descripción del servicio describe cómo un programa cliente puede preguntarle a un motor SPARQL exactamente qué características admite.
-	\item La especificación del formato JSON de los resultados de la consulta describe un equivalente JSON del formato XML de los resultados de la consulta.
-	\item La especificación de los formatos CSV y TSV de los resultados de la consulta describe los equivalentes de valores separados por comas y tabuladores del formato XML de los resultados de la consulta.
-	\item La especificación del Protocolo HTTP de Graph Store amplía el Protocolo SPARQL con una API similar a REST para la comunicación entre un cliente y un procesador SPARQL sobre gráficos o conjuntos de tripletas. 
-	
-\end{itemize}
-
-\subsection{Estructura RDF a utilizar}
-
-\begin{figure}[h]
-\includegraphics[scale=0.25]{imagenes/grafo_rdf_30.jpeg} 
-\caption{Transformer XL: EGrafo generado, con 30 tripletas de la estructura RDF utilizada \cite{b2}}
-\end{figure} 
+El Transformer Universal, propuesto en el art\'iculo del mismo nombre \textcolor{orange}{Universal Transformers} \cite{b5}, es una variante del modelo Transformer que tiene como objetivo lograr un buen rendimiento tanto en traducci\'on de lenguaje como en tareas algor\'itmicas con un solo modelo. Los autores del Transformer Universal se\~nalan que es un modelo completo de Turing. 
 
 \vspace{0.2cm}
 
@@ -259,6 +201,40 @@ Para reutilizar adecuadamente los estados ocultos, los autores proponen un mecan
 
 \vspace{0.2cm}
 
+
+El transformer-XL reduce el puntaje de perplejidad SoTA anterior en varios conjuntos de datos como text8, enwiki8, One Billion Word y WikiText-103. Los autores afirman que el m\'etodo es m\'as flexible, m\'as r\'apido durante la evaluaci\'on (aceleraci\'on de $1874$ veces), se generaliza bien en conjuntos de datos peque\~nos y es eficaz para modelar secuencias cortas y largas.
+
+\vspace{0.2cm}
+
+As\'i mismo, los autores proponen una nueva m\'etrica llamada Relative Effective Context Length que proporciona una manera justa de comparar modelos que se prueban con mayores longitudes de contexto.
+
+\subsection{XLNet}
+
+XLNet es un modelo presentado en el art\'iculo \textcolor{green}{XLNet: Generalized Autoregressive Pretraining for Language Understanding} \cite{b8} que es un lenguaje autoregresivo que genera la probabilidad conjunta de una secuencia de tokens basada en la arquitectura del Transformer con recurrencia. Este modelo introduce una variante de modelado de lenguaje llamada modelado de lenguaje de permutaci\'on. Los modelos de lenguaje de permutaci\'on est\'an entrenados para predecir un token dado el contexto anterior como el modelo de lenguaje tradicional, pero en lugar de predecir los tokens en orden secuencial, predice los tokens en un orden aleatorio.
+
+\vspace{0.2cm}
+
+Adem\'as de usar el modelado de lenguaje de permutaci\'on, XLNet mejora BERT  al usar el Transformer XL como su arquitectura base. XLNet utiliza las dos ideas clave de Transformer XL: embeddings posicionales relativas y el mecanismo de recurrencia. Los estados ocultos del segmento anterior se almacenan en cach\'e y se congelan mientras se realiza el modelado del lenguaje de permutaci\'on para el segmento actual. Como todas las palabras del segmento anterior se usan como entrada, no es necesario conocer el orden de permutaci\'on del segmento anterior.
+	
+\subsection{BERT}
+
+Este modelo \cite{b9},publicado el 2018, esta conformado por una pila de bloques Transformers, la cual esta pre-entrenada en un corpus de dominio general con 800 millones de palabras. 
+Este modelo obtiene un mejor rendimiento que modelos anteriores a su publicación debido a su naturaleza bidireccional donde la atención se centra en toda la secuencia. 
+
+\subsection{RoBERTa}
+
+Es un modelo introducido en Facebook. El enfoque BERT robustamente optimizado RoBERTa \cite{b10}, es un reentrenamiento de BERT con una metodolog\'ia de entrenamiento mejorada, un $1000\%$ más de datos y potencia de cálculo. Para mejorar el procedimiento de entrenamiento, RoBERTa elimina tareas como Next Sentence Prediction (NSP) del entrenamiento previo de BERT e introduce el enmascaramiento dinámico para que el token enmascarado cambie durante las \'epocas de entrenamiento. 
+
+\vspace{0.2cm}
+
+RoBERTa supera a BERT y XLNet en los resultados de referencia de \href{https://gluebenchmark.com/}{GLUE}.
+
+\subsection{DistilBERT}
+
+Este modelo aprende una versión destilada (aproximada) de BERT, que retiene el $95\%$ de rendimiento pero utiliza solo la mitad del n\'umero de par\'ametros. Espec'ificamente, no tiene embeddings de tipo token, pooler y retiene solo la mitad de las capas del BERT de Google.
+
+DistilBERT \cite{b11}, utiliza una técnica llamada destilation, que se aproxima a BERT de Google. La idea es que una vez que se ha entrenado una gran red neuronal, sus distribuciones de salidas completas se pueden aproximar usando una red más pequeña. Una de las funciones clave de optimización utilizadas para la aproximación posterior en las estadísticas bayesianas es la divergencia de Kulback-Leiber.
+
 \section{Conclusiones}
 
 \begin{itemize}
@@ -266,10 +242,11 @@ Para reutilizar adecuadamente los estados ocultos, los autores proponen un mecan
 \item En la tarea de traducci\'on, se realizaron comparaciones entre distintos modelos seq2seq y los modelos transformers, donde estos \'ultimos obtuvieron mejores resultados. Sin embargo el modelo Transformer XL modificado no logr\'o superar al Transformer original.
 \end{itemize}
 
-
+%\section{Referencias}
 \begin{thebibliography}{00}
-\bibitem{b1}\href{https://arxiv.org/abs/1502.03167}{https://www.w3.org/TR/rdf-sparql-query/}. 
-\bibitem{b2}Página web para generar grafos a partir de una estructura RDF: \href{https://www.ldf.fi/service/rdf-grapher}.
+
+\bibitem{b1} Vaswani, Ashish, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, and Illia Polosukhin. Attention is all you need. In 
+\bibitem{b2}Sergey Ioffe, Christian Szegedy. Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift (2015). Disponible en \href{https://arxiv.org/abs/1502.03167}{https://arxiv.org/abs/1502.03167}.
 \bibitem{b3} Jimmy Lei Ba, Jamie Ryan Kiros, Geoffrey E.Hinton. Layer Normalization (2016). Disponible en \href{https://arxiv.org/abs/1607.06450}{https://arxiv.org/abs/1607.06450}.
 \bibitem{b4}Kishore Papineni , Salim Roukos , Todd Ward , Wei-jing Zhu (2002). BLEU: a Method for Automatic Evaluation of Machine Translation,  pp. 311-318. Proceedings of the 40th Annual Meeting of the Association for Computational Linguistics (ACL). 
 \bibitem{b5}Mostafa Dehghani, Stephan Gouws, Oriol Vinyals, Jakob Uszkoreit, Łukasz Kaiser. Universal Transformers (2018). ICLR 2019. Disponible en \href{https://arxiv.org/abs/1807.03819}{https://arxiv.org/abs/1807.03819}

@@ -217,10 +217,63 @@ INPUT c:/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT c:/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT c:/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 INPUT c:/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-OUTPUT d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.out
+INPUT d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.out
+INPUT d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.out
+INPUT d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.out
+INPUT d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.out
 OUTPUT d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.pdf
+INPUT d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.out
+INPUT d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.out
+OUTPUT d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.out
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplrc8t.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplrc8t.tfm
+INPUT c:/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+INPUT c:/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
+INPUT c:/texlive/2019/texmf-dist/tex/latex/psnfss/omlzplm.fd
+INPUT c:/texlive/2019/texmf-dist/tex/latex/psnfss/omlzplm.fd
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7m.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7m.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7m.tfm
+INPUT c:/texlive/2019/texmf-dist/tex/latex/psnfss/omszplm.fd
+INPUT c:/texlive/2019/texmf-dist/tex/latex/psnfss/omszplm.fd
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm
+INPUT c:/texlive/2019/texmf-dist/tex/latex/psnfss/omxzplm.fd
+INPUT c:/texlive/2019/texmf-dist/tex/latex/psnfss/omxzplm.fd
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT c:/texlive/2019/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+INPUT c:/texlive/2019/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplr8t.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7m.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7m.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplr8t.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
@@ -235,54 +288,19 @@ INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/palatino/pplrc8t.vf
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
-INPUT d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/imagenes/imagen1.jpeg
-INPUT d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/imagenes/imagen1.jpeg
-INPUT d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/imagenes/imagen1.jpeg
 INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/palatino/pplr8t.vf
-INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/palatino/pplr7t.vf
+INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/palatino/pplr8t.vf
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/palatino/pplr8t.vf
 INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/palatino/pplri8t.vf
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm
-INPUT d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/imagenes/grafo_rdf_30.jpeg
-INPUT d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/imagenes/grafo_rdf_30.jpeg
-INPUT d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/imagenes/grafo_rdf_30.jpeg
-INPUT c:/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ppl.fd
-INPUT c:/texlive/2019/texmf-dist/tex/latex/psnfss/ot1ppl.fd
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplr7t.tfm
-INPUT c:/texlive/2019/texmf-dist/tex/latex/psnfss/omlzplm.fd
-INPUT c:/texlive/2019/texmf-dist/tex/latex/psnfss/omlzplm.fd
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7m.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7m.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7m.tfm
-INPUT c:/texlive/2019/texmf-dist/tex/latex/psnfss/omszplm.fd
-INPUT c:/texlive/2019/texmf-dist/tex/latex/psnfss/omszplm.fd
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7y.tfm
-INPUT c:/texlive/2019/texmf-dist/tex/latex/psnfss/omxzplm.fd
-INPUT c:/texlive/2019/texmf-dist/tex/latex/psnfss/omxzplm.fd
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7v.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT c:/texlive/2019/texmf-dist/tex/latex/psnfss/ot1zplm.fd
-INPUT c:/texlive/2019/texmf-dist/tex/latex/psnfss/ot1zplm.fd
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/zplmr7t.tfm
+INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
 INPUT c:/texlive/2019/texmf-dist/tex/latex/psnfss/t1pcr.fd
 INPUT c:/texlive/2019/texmf-dist/tex/latex/psnfss/t1pcr.fd
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/courier/pcrr8t.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/palatino/pplr7t.vf
 INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/courier/pcrr8t.vf
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
 INPUT d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.aux
