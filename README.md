@@ -5,5 +5,5 @@ Integrantes:
 
 - William Guadalupe 
 - Danilo Blas
-- Victor Chavez bruno
+- Victor Chavez Bruno
 - Bryan Asmat 
