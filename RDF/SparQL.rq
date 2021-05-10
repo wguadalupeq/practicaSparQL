@@ -12,7 +12,7 @@ WHERE{
 
 LIMIT 50
 
-# 2. Mostrar las 25 primeras tripletas almacenadas en la tabla pero mostrando prefijos (usaremos wdt:titulo)
+# 2. Mostrar de las 25 primeras tripletas almacenadas en la tabla el sujeto y objeto (usaremos wdt:titulo)
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX wd: <http://www.wikidata.org/entity/> 
@@ -71,25 +71,27 @@ WHERE{
 	FILTER (langMatches( lang(?titulo), "es" )) . # Filtra los titulos que estén en español usando el literal
 }
 
-# 5. Mostrar las obras que tengan titulo, autor y como tema principal Inteligencia Artificial además que muestra la cantidad de autores 
+# 5. Mostrar las obras que tengan titulo, autor y como uno de sus temas principales Inteligencia Artificials.
+# Ordene la tabla por el nombre del titulo devuelva los valores que están del quinto al décimo elemento
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX wd: <http://www.wikidata.org/entity/> 
 PREFIX wdt: <http://www.wikidata.org/prop/direct/> 
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-SELECT ?titulo ?tema ?cantidadAutores
-
+SELECT DISTINCT ?titulo ?tema ?autor
 WHERE{
 
 	?obra wdt:titulo ?titulo .  # Buscamos obras que tengan propiedad titulo
 	?obra wdt:autor ?autor .  # Buscamos obras que tengan propiedad autor
-	?obra wdt:tema "inteligencia artificial"@es .  # Buscamos obras que tengan propiedad tema y que este sea inteligencia artificial
 	?obra wdt:tema ?tema .  # Buscamos obras que tengan propiedad tema
-
+	?obra wdt:tema "inteligencia artificial"@es .  # Buscamos obras que tengan propiedad tema y que este sea inteligencia artificial
 
 	
 }
+ORDER BY ?titulo
+OFFSET 5 # Te indica el inicio a contar de las tripletas
+LIMIT 5 # Solo muestra cinco elementos
 
 # 6. Realizar una busqueda que te muestre títulos, tema  y opcionalmente autores, la url a la pagina de estos 
 # y si es que alguna revista los ha públicado. Además mostrara la fecha de publicación
