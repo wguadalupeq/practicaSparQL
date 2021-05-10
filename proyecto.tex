@@ -199,7 +199,7 @@ SPARQL, acrónimo de SPARQL \textit{Protocol and RDF Query Language}, es un leng
 	\item Formato XML de resultados de consultas SPARQL, describe un formato simple XML para que los procesadores de consultas lo utilicen al devolver resultados.
 	
 \end{itemize}
-
+\newpage
 \textbf{Sparql 1.1:}
 \begin{itemize}
 	\item La especificación de consulta federada describe como una simple consulta puede traer data de multiples fuentes, esto hace más fácil construir aplicaciones que toman ventaja de entornos distribuidos.
@@ -239,6 +239,9 @@ WHERE {
 }
 LIMIT 10
 \end{lstlisting}
+Si se desea revisar mas ejemplos de consultas revisar el siguiente enlace
+\cite{b7}
+\newpage
 \subsection{Estructura RDF a utilizar}
 
 \begin{figure}[h]
@@ -246,12 +249,20 @@ LIMIT 10
 \caption{30 tripletas de la estructura RDF utilizada (ver archivo RDF.ttl) }
 \end{figure} 
 
-\begin{figure}[H]
+\begin{figure}[h]
 \includegraphics[scale=0.25]{imagenes/grafo_rdf_30.jpeg} 
 \caption{Grafo generado con 30 tripletas de la estructura RDF utilizada \cite{b2}}
 \end{figure} 
 
 \vspace{0.2cm}
+
+Como podemos Apreciar en la figura anterior es muestra la data ya lista para usarse y pasare a explicar algunas lineas y sea mas fácil para los usuarios que vienen a ser abreviaturas de prefijos para WikiData que es donde hemos bajado la información
+\begin{itemize}
+	\item \textbf{wd: } Una entidad de WikiData como se puede apreciar en el URL  <http://www.wikidata.org/entity/>
+	\item \textbf{wdt: } Propiedades de una entidad de WikiData  <http://www.wikidata.org/prop/direct/>
+	\item \textbf{@en:} Nos dice en que idioma esta  en este caso \textit{English} y así sucesivamente si en caso fuera \textbf{@es} el idioma español
+	\item\textbf{type:}Es una instancia de una clase
+\end{itemize}
 
 \newpage
 
@@ -267,7 +278,7 @@ LIMIT 10
 %\section{Referencias}
 \begin{thebibliography}{00}
 \bibitem{b1}\href{https://arxiv.org/abs/1502.03167}{https://www.w3.org/TR/rdf-sparql-query/}. 
-\bibitem{b2}Página web para generar grafos a partir de una estructura RDF: \href{https://www.ldf.fi/service/rdf-grapher}.
+\bibitem{b2}Página web para generar grafos a partir de una estructura RDF: \href{https://www.ldf.fi/service/rdf-grapher}{https://www.ldf.fi/service/rdf-grapher}.
 \bibitem{b3} Jimmy Lei Ba, Jamie Ryan Kiros, Geoffrey E.Hinton. Layer Normalization (2016). Disponible en \href{https://arxiv.org/abs/1607.06450}{https://arxiv.org/abs/1607.06450}.
 \bibitem{b4}Learning SPARQL
 Querying and Updating with SPARQL 1.1
@@ -275,6 +286,10 @@ Querying and Updating with SPARQL 1.1
 
 \bibitem{b6}{SPARQL query}
 \href{https://medium.com/wallscope/constructing-sparql-queries-ca63b8b9ac02}{https://medium.com/wallscope/constructing-sparql-queries-ca63b8b9ac02}
+
+\bibitem{b7}{Consultas SparQL Github}
+
+\href{https://github.com/wguadalupeq/practicaSparQL/tree/main/RDF}{https://github.com/wguadalupeq/practicaSparQL/tree/main/RDF}
 
 \end{thebibliography}
 

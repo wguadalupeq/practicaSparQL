@@ -1,5 +1,9 @@
 # Fdb version 3
+<<<<<<< HEAD
 ["pdflatex"] 1620687823 "d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.tex" "d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.pdf" "proyecto" 1620687826
+=======
+["pdflatex"] 1620687462 "d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.tex" "d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.pdf" "proyecto" 1620687464
+>>>>>>> main
   "IEEEtran.cls" 1620608728 288308 d74e7bcbeb5bf76a5d759a555bbd4c24 ""
   "c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc" 1565754492 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1565754702 3332 103109f5612ad95229751940c61aada0 ""
@@ -108,6 +112,7 @@
   "c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1565756702 3265705 1c47a36e1854fca80ccfb74d1dfbdde3 ""
   "c:/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt" 1565756787 4254431 0965e63c7dee1bf244625e17c8b057bf ""
   "c:/texlive/2019/texmf.cnf" 1565756666 673 4ae7b2f49cee444c5343a45b5d0f169c ""
+<<<<<<< HEAD
   "d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.aux" 1620687826 3678 34daffdaef819cac50422ddf4aeabfbf ""
   "d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.tex" 1620687818 14982 d412a2cf24c952cb0907a8502d130736 ""
   "imagenes/estruc_rdf_30.png" 1620663961 273741 610237b404bc8dff63151d802819e2a5 ""
@@ -123,3 +128,20 @@
   "d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.log"
   "proyecto.aux"
   "proyecto.pdf"
+=======
+  "d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.aux" 1620687464 3708 b5109bd9da2334fa0a0e55a418783676 ""
+  "d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.tex" 1620687457 16003 8451af4d606a4f0e31d8290fb9c2d0eb ""
+  "imagenes/estruc_rdf_30.png" 1620663961 273741 610237b404bc8dff63151d802819e2a5 ""
+  "imagenes/grafo_rdf_30.jpeg" 1620646102 239759 2a95b7fec80631528b74ab7b4157abf5 ""
+  "imagenes/imagen1.jpeg" 1620646102 44697 36cfa4efc56f67ba44e10b58eb1e7801 ""
+  "proyecto.aux" 1620687464 3708 b5109bd9da2334fa0a0e55a418783676 "pdflatex"
+  "proyecto.out" 1620687464 792 4c96c5a4c38f195fbc7858cc0b1a95e1 "pdflatex"
+  "proyecto.tex" 1620687457 16003 8451af4d606a4f0e31d8290fb9c2d0eb ""
+  (generated)
+  "d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.pdf"
+  "proyecto.log"
+  "proyecto.out"
+  "d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.log"
+  "proyecto.pdf"
+  "proyecto.aux"
+>>>>>>> main
