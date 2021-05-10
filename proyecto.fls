@@ -299,21 +299,14 @@ INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplr8r.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/palatino/pplr8t.vf
 INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/palatino/pplb8t.vf
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplb8r.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/vf/public/mathpazo/zplmr7m.vf
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/fplmri.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/vf/public/mathpazo/zplmr7t.vf
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/mathpazo/fplmr.tfm
-INPUT c:/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/courier/pcrr8t.vf
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/vf/adobe/palatino/pplri8t.vf
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/adobe/palatino/pplri8r.tfm
 INPUT d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.aux
 INPUT d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.out
 INPUT d:/Nueva carpeta (4)/UNI-21-I/IA/PC1/PC1/practicaSparQL/proyecto.out
 INPUT c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc
-INPUT c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb
 INPUT c:/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb
