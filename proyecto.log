@@ -1,4 +1,16 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.11)  10 MAY 2021 16:30
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.11.11)  10 MAY 2021 06:18
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.13)  10 MAY 2021 12:06
+>>>>>>> modify
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.8.13)  10 MAY 2021 15:13
+>>>>>>> modify
+>>>>>>> 579a09ce7a216fc9793ba11c854f7284538e8405
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -9,12 +21,12 @@ L3 programming layer <2020-02-14> (./IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
-\@IEEEtrantmpdimenA=\dimen134
-\@IEEEtrantmpdimenB=\dimen135
-\@IEEEtrantmpdimenC=\dimen136
-\@IEEEtrantmpcountA=\count167
-\@IEEEtrantmpcountB=\count168
-\@IEEEtrantmpcountC=\count169
+\@IEEEtrantmpdimenA=\dimen102
+\@IEEEtrantmpdimenB=\dimen103
+\@IEEEtrantmpdimenC=\dimen104
+\@IEEEtrantmpcountA=\count80
+\@IEEEtrantmpcountB=\count81
+\@IEEEtrantmpcountC=\count82
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
 03.
@@ -23,11 +35,11 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
 -- Using PDF output.
-\@IEEEnormalsizeunitybaselineskip=\dimen137
+\@IEEEnormalsizeunitybaselineskip=\dimen105
 -- This is a 10 point document.
-\CLASSINFOnormalsizebaselineskip=\dimen138
-\CLASSINFOnormalsizeunitybaselineskip=\dimen139
-\IEEEnormaljot=\dimen140
+\CLASSINFOnormalsizebaselineskip=\dimen106
+\CLASSINFOnormalsizeunitybaselineskip=\dimen107
+\IEEEnormaljot=\dimen108
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1090.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <5> not available
@@ -114,19 +126,37 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \@IEEEtranrubishbin=\box46
 )
 ** ATTENTION: Overriding command lockouts (line 2).
-(/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
+(c:/texlive/2019/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
+<<<<<<< HEAD
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip44
+=======
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
 \@mathmargin=\skip50
+>>>>>>> 4b1eb5613ebb576858ce112e9a6f8d950ee4833f
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
+<<<<<<< HEAD
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen126
+))
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen127
+)
+(c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+=======
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks15
@@ -137,43 +167,53 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen159
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+>>>>>>> 4b1eb5613ebb576858ce112e9a6f8d950ee4833f
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count182
-LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count183
-\leftroot@=\count184
-LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count185
-\DOTSCASE@=\count186
-LaTeX Info: Redefining \ldots on input line 486.
-LaTeX Info: Redefining \dots on input line 489.
-LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box47
-\strutbox@=\box48
-\big@size=\dimen160
-LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count187
-\c@MaxMatrixCols=\count188
-\dotsspace@=\muskip16
-\c@parentequation=\count189
-\dspbrk@lvl=\count190
+\inf@bad=\count95
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count96
+\leftroot@=\count97
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count98
+\DOTSCASE@=\count99
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
+\big@size=\dimen128
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
+\dotsspace@=\muskip10
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
 \tag@help=\toks16
-\row@=\count191
-\column@=\count192
-\maxfields@=\count193
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
 \andhelp@=\toks17
-\eqnshift@=\dimen161
-\alignsep@=\dimen162
-\tagshift@=\dimen163
-\tagwidth@=\dimen164
-\totwidth@=\dimen165
-\lineht@=\dimen166
+\eqnshift@=\dimen129
+\alignsep@=\dimen130
+\tagshift@=\dimen131
+\tagwidth@=\dimen132
+\totwidth@=\dimen133
+\lineht@=\dimen134
 \@envbody=\toks18
-\multlinegap=\skip51
-\multlinetaggap=\skip52
+\multlinegap=\skip45
+\multlinetaggap=\skip46
 \mathdisplay@stack=\toks19
+<<<<<<< HEAD
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(c:/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+=======
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
@@ -181,13 +221,52 @@ LaTeX Info: Redefining \] on input line 2860.
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+>>>>>>> 4b1eb5613ebb576858ce112e9a6f8d950ee4833f
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
+<<<<<<< HEAD
+(c:/texlive/2019/texmf-dist/tex/latex/algorithms/algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+
+(c:/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+\c@ALC@unique=\count107
+\c@ALC@line=\count108
+\c@ALC@rem=\count109
+\c@ALC@depth=\count110
+\ALC@tlm=\skip47
+\algorithmicindent=\skip48
+)
+(c:/texlive/2019/texmf-dist/tex/latex/psnfss/mathpazo.sty
+Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup6
+)
+(c:/texlive/2019/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2019/04/03 3.29 The Babel package
+
+(c:/texlive/2019/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2019/04/03 3.29 Babel switching mechanism
+)
+(c:/texlive/2019/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+
+(c:/texlive/2019/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2019/04/03 3.29 Babel common definitions
+\babel@savecnt=\count111
+\U@D=\dimen135
+
+(c:/texlive/2019/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count112
+=======
 (/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 
@@ -226,19 +305,219 @@ File: babel.def 2020/02/14 3.40 Babel common definitions
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count199
+>>>>>>> 4b1eb5613ebb576858ce112e9a6f8d950ee4833f
 )
 \es@quottoks=\toks21
-\es@quotdepth=\count266
+\es@quotdepth=\count113
 Package babel Info: Making " an active character on input line 561.
 Package babel Info: Making . an active character on input line 662.
 Package babel Info: Making < an active character on input line 707.
 Package babel Info: Making > an active character on input line 707.
 ))
+<<<<<<< HEAD
+(c:/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty
+=======
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+>>>>>>> 4b1eb5613ebb576858ce112e9a6f8d950ee4833f
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks22
 \inpenc@posthook=\toks23
 )
+<<<<<<< HEAD
+(c:/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+(c:/texlive/2019/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 105.
+
+(c:/texlive/2019/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+))
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen136
+\Gin@req@width=\dimen137
+)
+(c:/texlive/2019/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(c:/texlive/2019/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(c:/texlive/2019/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+FEFF (decimal 65279)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(c:/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(c:/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+=======
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+ppl on input line 11
@@ -274,6 +553,7 @@ Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+>>>>>>> 4b1eb5613ebb576858ce112e9a6f8d950ee4833f
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -287,6 +567,58 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
+<<<<<<< HEAD
+(c:/texlive/2019/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count114
+\lst@gtempboxa=\box31
+\lst@token=\toks24
+\lst@length=\count115
+\lst@currlwidth=\dimen138
+\lst@column=\count116
+\lst@pos=\count117
+\lst@lostspace=\dimen139
+\lst@width=\dimen140
+\lst@newlines=\count118
+\lst@lineno=\count119
+\lst@maxwidth=\dimen141
+
+(c:/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\c@lstnumber=\count120
+\lst@skipnumbers=\count121
+\lst@framebox=\box32
+)
+(c:/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/02/27 1.8b listings configuration
+))
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
+
+(c:/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+)
+(c:/texlive/2019/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(c:/texlive/2019/texmf-dist/tex/latex/ctable/ctable.sty
+Package: ctable 2015/10/17 v1.31 ctable package for flexible typesetting of tab
+le and figure floats using key/value directives
+
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+(c:/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count122
+)
+(c:/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(c:/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(c:/texlive/2019/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks25
+\XKV@tempa@toks=\toks26
+=======
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -312,10 +644,102 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks24
 \XKV@tempa@toks=\toks25
+>>>>>>> 4b1eb5613ebb576858ce112e9a6f8d950ee4833f
 )
-\XKV@depth=\count268
+\XKV@depth=\count123
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
+<<<<<<< HEAD
+(c:/texlive/2019/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen142
+\ar@mcellbox=\box33
+\extrarowheight=\dimen143
+\NC@list=\toks27
+\extratabsurround=\skip49
+\backup@length=\skip50
+\ar@cellbox=\box34
+)
+(c:/texlive/2019/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+\TX@col@width=\dimen144
+\TX@old@table=\dimen145
+\TX@old@col=\dimen146
+\TX@target=\dimen147
+\TX@delta=\dimen148
+\TX@cols=\count124
+\TX@ftn=\toks28
+)
+(c:/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen149
+\lightrulewidth=\dimen150
+\cmidrulewidth=\dimen151
+\belowrulesep=\dimen152
+\belowbottomsep=\dimen153
+\aboverulesep=\dimen154
+\abovetopsep=\dimen155
+\cmidrulesep=\dimen156
+\cmidrulekern=\dimen157
+\defaultaddspace=\dimen158
+\@cmidla=\count125
+\@cmidlb=\count126
+\@aboverulesep=\dimen159
+\@belowrulesep=\dimen160
+\@thisruleclass=\count127
+\@lastruleclass=\count128
+\@thisrulewidth=\dimen161
+)
+(c:/texlive/2019/texmf-dist/tex/latex/graphics/rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count129
+\rotFPtop=\skip51
+\rotFPbot=\skip52
+\rot@float@box=\box35
+\rot@mess@toks=\toks29
+)
+(c:/texlive/2019/texmf-dist/tex/latex/oberdiek/transparent.sty
+Package: transparent 2018/11/18 v1.3 Transparency via pdfTeX's color stack (HO)
+
+
+(c:/texlive/2019/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+))
+\@CTframesep=\dimen162
+\@dfltCTframesep=\dimen163
+\@CTframerule=\dimen164
+\@dfltCTframerule=\dimen165
+\@CTwidth=\dimen166
+\@dfltCTwidth=\dimen167
+\@CTcaptionskip=\dimen168
+\@dfltCTcaptionskip=\dimen169
+\@CTmaxwidth=\dimen170
+\@dfltCTmaxwidth=\dimen171
+\@CTmincapwidth=\dimen172
+\@dfltCTmincapwidth=\dimen173
+\@CTfooterwidth=\dimen174
+\@dfltCTfooterwidth=\dimen175
+\@CTw=\dimen176
+\@CTfloatwidth=\dimen177
+\@CToldsep=\dimen178
+\@CToldrule=\dimen179
+\CT@t=\box36
+\@CTcurftwidth=\dimen180
+)
+(c:/texlive/2019/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count130
+\float@exts=\toks30
+\float@box=\box37
+\@float@everytoks=\toks31
+\@floatcapt=\box38
+)
+(c:/texlive/2019/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen181
+\c@nlinenum=\count131
+\TeXr@lab=\toks32
+=======
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \col@sep=\dimen170
@@ -418,10 +842,99 @@ Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
 
 (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+>>>>>>> 4b1eb5613ebb576858ce112e9a6f8d950ee4833f
 )
+(c:/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
+<<<<<<< HEAD
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(c:/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(c:/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen182
+\Hy@linkcounter=\count132
+\Hy@pagecounter=\count133
+
+(c:/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count134
+
+(c:/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count135
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen183
+\Fld@menulength=\count136
+\Field@Width=\dimen184
+\Fld@charsize=\dimen185
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count137
+\c@Item=\count138
+\c@Hfootnote=\count139
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+=======
 )
 (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
@@ -534,24 +1047,24 @@ LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
 \openout1 = `proyecto.aux'.
+>>>>>>> 4b1eb5613ebb576858ce112e9a6f8d950ee4833f
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+(c:/texlive/2019/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+\Fld@listcount=\count140
+\c@bookmark@seq@number=\count141
 
+<<<<<<< HEAD
+(c:/texlive/2019/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip53
+)
+(c:/texlive/2019/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+=======
 -- Lines per column: 56 (exact).
 LaTeX Info: Redefining \. on input line 36.
 LaTeX Info: Redefining \% on input line 36.
@@ -601,7 +1114,7 @@ LaTeX Info: Redefining \nameref on input line 36.
 
  Excluding 'comment' comment.
 Underfull \hbox (badness 2717) in paragraph at lines 82--93
-[]\T1/ppl/b/n/9 Para ini-ciar el pro-yec-to se usó la ba-se de co-no-
+[]\T1/ppl/b/n/9 Para ini-ciar el pro-yec-to se usï¿½ la ba-se de co-no-
  []
 
 
@@ -615,8 +1128,43 @@ Underfull \hbox (badness 1755) in paragraph at lines 107--108
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+>>>>>>> 4b1eb5613ebb576858ce112e9a6f8d950ee4833f
 
+Excluding comment 'comment')
+Package hyperref Info: Option `colorlinks' set `true' on input line 29.
+ (./proyecto.aux
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
 
+<<<<<<< HEAD
+
+LaTeX Warning: Label `lst:sparql' multiply defined.
+
+)
+\openout1 = `proyecto.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 38.
+ (c:/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 38.
+=======
 ]
 <imagenes/imagen1.jpeg, id=104, 597.23125pt x 394.47375pt>
 File: imagenes/imagen1.jpeg Graphic file (type jpg)
@@ -710,19 +1258,145 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 Underfull \hbox (badness 10000) in paragraph at lines 328--329
 []\T1/ppl/m/n/8 Jimmy Lei Ba, Ja-mie Ryan Ki-ros, Geof-frey
  []
+>>>>>>> 4b1eb5613ebb576858ce112e9a6f8d950ee4833f
 
+(c:/texlive/2019/texmf-dist/tex/latex/psnfss/t1ppl.fd
+File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
+)
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <5> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 38.
+LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <5> not available
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 38.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <7> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 38.
+LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <7> not available
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 38.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <8> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 38.
+LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <8> not available
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 38.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 38.
+LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <9> not available
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 38.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 38.
+LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <10> not available
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 38.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <11> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 38.
+LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <11> not available
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 38.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 38.
+LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <12> not available
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 38.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 38.
+LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <17> not available
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 38.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 38.
+LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <20> not available
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 38.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 38.
+LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <24> not available
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 38.
 
+<<<<<<< HEAD
+-- Lines per column: 56 (exact).
+LaTeX Info: Redefining \. on input line 38.
+LaTeX Info: Redefining \% on input line 38.
+(c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count142
+\scratchdimen=\dimen186
+\scratchbox=\box39
+\nofMPsegments=\count143
+\nofMParguments=\count144
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count145
+\MPscratchDim=\dimen187
+\MPnumerator=\count146
+\makeMPintoPDFobject=\count147
+\everyMPtoPDFconversion=\toks34
+) (c:/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(c:/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 328--329
+=======
+(c:/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count148
+\AtBeginShipoutBox=\box40
+Package hyperref Info: Link coloring ON on input line 38.
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
+>>>>>>> 579a09ce7a216fc9793ba11c854f7284538e8405
 \T1/ppl/m/n/8 E.Hinton. La-yer Nor-ma-li-za-tion (2016). Dis-po-ni-ble en
  []
+>>>>>>> 4b1eb5613ebb576858ce112e9a6f8d950ee4833f
 
+(c:/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 331--332
+=======
+<<<<<<< HEAD
+(c:/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count149
+)
+LaTeX Info: Redefining \ref on input line 38.
+LaTeX Info: Redefining \pageref on input line 38.
+LaTeX Info: Redefining \nameref on input line 38.
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
+>>>>>>> 579a09ce7a216fc9793ba11c854f7284538e8405
 []\T1/ppl/m/n/8 Alex Gra-ves. Adap-ti-ve Compu-tation Ti-me for
+ []
+>>>>>>> 4b1eb5613ebb576858ce112e9a6f8d950ee4833f
+
+(./proyecto.out) (./proyecto.out)
+\@outlinefile=\write4
+\openout4 = `proyecto.out'.
+
+<<<<<<< HEAD
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
+=======
+<<<<<<< HEAD
+ Excluding 'comment' comment.
+Underfull \hbox (badness 2717) in paragraph at lines 84--95
+[]\T1/ppl/b/n/9 Para ini-ciar el pro-yec-to se usï¿½ la ba-se de co-no-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--332
+Underfull \hbox (badness 3919) in paragraph at lines 84--95
+\T1/ppl/b/n/9 ci-mien-to de la Wi-ki-da-ta rea-li-zan-do con-sul-tas on-li-ne
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 109--110
+[]\T1/ppl/m/n/10 La es-truc-tu-ra de los re-sul-ta-dos de una con-sul-ta
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
+>>>>>>> 579a09ce7a216fc9793ba11c854f7284538e8405
 \T1/ppl/m/n/8 Re-cu-rrent Neu-ral Net-works (2017). Dis-po-ni-ble en
  []
 
@@ -735,37 +1409,135 @@ Underfull \hbox (badness 2302) in paragraph at lines 334--335
 Underfull \hbox (badness 3690) in paragraph at lines 334--335
 \T1/ppl/m/n/8 ta-no-va. BERT: Pre-training of Deep Bi-di-rec-tio-nal Trans-for-
 
+>>>>>>> 4b1eb5613ebb576858ce112e9a6f8d950ee4833f
  []
 
+[1{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
+<<<<<<< HEAD
 Underfull \hbox (badness 7168) in paragraph at lines 334--335
+=======
+<<<<<<< HEAD
+=======
+Underfull \hbox (badness 7168) in paragraph at lines 318--319
+>>>>>>> 579a09ce7a216fc9793ba11c854f7284538e8405
 \T1/ppl/m/n/8 mers for Lan-gua-ge Un-ders-tan-ding (2018). Dis-po-ni-ble en
  []
+>>>>>>> 4b1eb5613ebb576858ce112e9a6f8d950ee4833f
 
+]
+<imagenes/imagen1.jpeg, id=80, 597.23125pt x 394.47375pt>
+File: imagenes/imagen1.jpeg Graphic file (type jpg)
+<use imagenes/imagen1.jpeg>
+Package pdftex.def Info: imagenes/imagen1.jpeg  used on input line 146.
+(pdftex.def)             Requested size: 238.88826pt x 157.7867pt.
+<<<<<<< HEAD
 
+<<<<<<< HEAD
 Underfull \hbox (badness 6063) in paragraph at lines 336--337
+=======
+<<<<<<< HEAD
+=======
+Underfull \hbox (badness 6063) in paragraph at lines 320--321
+>>>>>>> 579a09ce7a216fc9793ba11c854f7284538e8405
 []\T1/ppl/m/n/8 Victor Sanh, Ly-san-dre De-but, Ju-lien Chau-mond, Tho-mas
  []
+>>>>>>> 4b1eb5613ebb576858ce112e9a6f8d950ee4833f
 
+LaTeX Warning: Citation `b7' on page 2 undefined on input line 147.
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 336--337
+=======
+<<<<<<< HEAD
+[2 <./imagenes/imagen1.jpeg>]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 227.
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 320--321
+>>>>>>> 579a09ce7a216fc9793ba11c854f7284538e8405
 \T1/ppl/m/n/8 Wolf. Dis-til-BERT, a dis-ti-lled ver-sion of BERT: sma-ller,
  []
+>>>>>>> 4b1eb5613ebb576858ce112e9a6f8d950ee4833f
 
+(c:/texlive/2019/texmf-dist/tex/latex/psnfss/t1pcr.fd
+=======
+ [2 <./imagenes/imagen1.jpeg>]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 219.
+ (c:/texlive/2019/texmf-dist/tex/latex/psnfss/t1pcr.fd
+>>>>>>> modify
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <10> not available
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 220.
+<imagenes/estruc_rdf_30.png, id=96, 1220.56pt x 852.18375pt>
+File: imagenes/estruc_rdf_30.png Graphic file (type png)
+<use imagenes/estruc_rdf_30.png>
+Package pdftex.def Info: imagenes/estruc_rdf_30.png  used on input line 245.
+(pdftex.def)             Requested size: 244.10767pt x 170.43372pt.
+
+<<<<<<< HEAD
 
 Underfull \hbox (badness 10000) in paragraph at lines 336--337
+=======
+<<<<<<< HEAD
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 320--321
+>>>>>>> 579a09ce7a216fc9793ba11c854f7284538e8405
 \T1/ppl/m/n/8 fas-ter, chea-per and ligh-ter (2019). Dis-po-ni-ble en
+ []
+>>>>>>> 4b1eb5613ebb576858ce112e9a6f8d950ee4833f
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+<imagenes/grafo_rdf_30.jpeg, id=93, 970.62625pt x 1284.8pt>
+=======
+<imagenes/grafo_rdf_30.jpeg, id=98, 970.62625pt x 1284.8pt>
+>>>>>>> modify
+File: imagenes/grafo_rdf_30.jpeg Graphic file (type jpg)
+<use imagenes/grafo_rdf_30.jpeg>
+Package pdftex.def Info: imagenes/grafo_rdf_30.jpeg  used on input line 250.
+(pdftex.def)             Requested size: 242.65596pt x 321.19922pt.
+[3 <./imagenes/estruc_rdf_30.png> <./imagenes/grafo_rdf_30.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+[]\T1/ppl/m/n/8 Jimmy Lei Ba, Ja-mie Ryan Ki-ros, Geof-frey
  []
 
 
+<<<<<<< HEAD
 Underfull \hbox (badness 1484) in paragraph at lines 337--338
 []\T1/ppl/m/n/8 Pytorch-Transform:Implementación de trans-for-mer pa-ra NLP.
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+\T1/ppl/m/n/8 E.Hinton. La-yer Nor-ma-li-za-tion (2016). Dis-po-ni-ble en
+=======
+Underfull \hbox (badness 1484) in paragraph at lines 321--322
+[]\T1/ppl/m/n/8 Pytorch-Transform:Implementaciï¿½n de trans-for-mer pa-ra NLP.
+>>>>>>> 579a09ce7a216fc9793ba11c854f7284538e8405
  []
 
 
 Overfull \hbox (9.55707pt too wide) in paragraph at lines 342--343
 []\T1/ppl/m/n/8 SimpleTransformers [][]https://pypi.org/project/simpletransform
 ers/[][]. 
+>>>>>>> 4b1eb5613ebb576858ce112e9a6f8d950ee4833f
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 274--275
+[]\T1/ppl/m/n/8 Uso de SPARQL pa-ra ac-ce-der a da-tos abier-tos en-la-za-dos
+ []
+
+
+Overfull \hbox (1.75734pt too wide) in paragraph at lines 274--275
+[][]\T1/ppl/m/n/8 https://programminghistorian.org/es/lecciones/retirada/sparql
+-
+ []
+
+
+Underfull \hbox (badness 3449) in paragraph at lines 276--278
+[]\T1/ppl/m/n/8 SPARQL query [][]https://medium.com/wallscope/constructing-
  []
 
 
@@ -779,13 +1551,40 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
+<<<<<<< HEAD
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 350.
 [5]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 350.
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 284.
+=======
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 281.
+>>>>>>> modify
+[4
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 281.
+ (./proyecto.aux
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
+)
+<<<<<<< HEAD
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 284.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 284.
+=======
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 334.
+[5
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 334.
+>>>>>>> 579a09ce7a216fc9793ba11c854f7284538e8405
  (./proyecto.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
+<<<<<<< HEAD
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 350.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 350.
 
@@ -803,6 +1602,48 @@ Here is how much of TeX's memory you used:
  153019 string characters out of 5920376
  443223 words of memory out of 5000000
  25515 multiletter control sequences out of 15000+600000
+=======
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 334.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 334.
+>>>>>>> 4b1eb5613ebb576858ce112e9a6f8d950ee4833f
+=======
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 281.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 281.
+>>>>>>> modify
+Package rerunfilecheck Info: File `proyecto.out' has not changed.
+(rerunfilecheck)             Checksum: 4C96C5A4C38F195FBC7858CC0B1A95E1;792.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+<<<<<<< HEAD
+ 12239 strings out of 492623
+ 171799 string characters out of 6133290
+ 375604 words of memory out of 5000000
+ 15934 multiletter control sequences out of 15000+600000
+ 72512 words of font info for 110 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,8n,53p,798b,1356s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2019/texm
+f-dist/fonts/type1/urw/courier/ucrb8a.pfb><c:/texlive/2019/texmf-dist/fonts/typ
+e1/urw/courier/ucrr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/palatino/
+uplb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb><c:
+/texlive/2019/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2019/t
+exmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on proyecto.pdf (4 pages, 604448 bytes).
+PDF statistics:
+ 171 PDF objects out of 1000 (max. 8388607)
+ 144 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+ 10509 strings out of 481239
+ 152679 string characters out of 5920376
+ 444223 words of memory out of 5000000
+ 25504 multiletter control sequences out of 15000+600000
+>>>>>>> 579a09ce7a216fc9793ba11c854f7284538e8405
  605839 words of font info for 138 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,8n,55p,798b,425s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -814,8 +1655,16 @@ o/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pf
 b>
 Output written on proyecto.pdf (5 pages, 903802 bytes).
 PDF statistics:
+<<<<<<< HEAD
  215 PDF objects out of 1000 (max. 8388607)
  184 compressed objects within 2 object streams
  49 named destinations out of 1000 (max. 500000)
  178 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+ 206 PDF objects out of 1000 (max. 8388607)
+ 177 compressed objects within 2 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 160 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> 4b1eb5613ebb576858ce112e9a6f8d950ee4833f
+>>>>>>> 579a09ce7a216fc9793ba11c854f7284538e8405
 
